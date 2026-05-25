@@ -1,0 +1,145 @@
+month,department,kpi_id,kpi_name,actual_value,target_value,unit
+2024-01,Logistics,on_time_delivery_pct,On-Time Delivery %,101.78,95.0,%
+2024-02,Logistics,on_time_delivery_pct,On-Time Delivery %,79.88,95.0,%
+2024-03,Logistics,on_time_delivery_pct,On-Time Delivery %,101.18,95.0,%
+2024-04,Logistics,on_time_delivery_pct,On-Time Delivery %,102.38,95.0,%
+2024-05,Logistics,on_time_delivery_pct,On-Time Delivery %,112.99,95.0,%
+2024-06,Logistics,on_time_delivery_pct,On-Time Delivery %,108.15,95.0,%
+2024-07,Logistics,on_time_delivery_pct,On-Time Delivery %,114.29,95.0,%
+2024-08,Logistics,on_time_delivery_pct,On-Time Delivery %,148.37,95.0,%
+2024-09,Logistics,on_time_delivery_pct,On-Time Delivery %,114.64,95.0,%
+2024-10,Logistics,on_time_delivery_pct,On-Time Delivery %,111.45,95.0,%
+2024-11,Logistics,on_time_delivery_pct,On-Time Delivery %,118.72,95.0,%
+2024-12,Logistics,on_time_delivery_pct,On-Time Delivery %,119.45,95.0,%
+2024-01,Logistics,shipment_delay_days,Avg Shipment Delay (d),1.55,1.5,days
+2024-02,Logistics,shipment_delay_days,Avg Shipment Delay (d),1.43,1.5,days
+2024-03,Logistics,shipment_delay_days,Avg Shipment Delay (d),1.36,1.5,days
+2024-04,Logistics,shipment_delay_days,Avg Shipment Delay (d),1.54,1.5,days
+2024-05,Logistics,shipment_delay_days,Avg Shipment Delay (d),1.3,1.5,days
+2024-06,Logistics,shipment_delay_days,Avg Shipment Delay (d),1.44,1.5,days
+2024-07,Logistics,shipment_delay_days,Avg Shipment Delay (d),1.4,1.5,days
+2024-08,Logistics,shipment_delay_days,Avg Shipment Delay (d),1.34,1.5,days
+2024-09,Logistics,shipment_delay_days,Avg Shipment Delay (d),1.32,1.5,days
+2024-10,Logistics,shipment_delay_days,Avg Shipment Delay (d),1.29,1.5,days
+2024-11,Logistics,shipment_delay_days,Avg Shipment Delay (d),1.25,1.5,days
+2024-12,Logistics,shipment_delay_days,Avg Shipment Delay (d),1.28,1.5,days
+2024-01,Logistics,freight_cost_per_unit,Freight Cost/Unit,7.51,8.0,USD
+2024-02,Logistics,freight_cost_per_unit,Freight Cost/Unit,9.37,8.0,USD
+2024-03,Logistics,freight_cost_per_unit,Freight Cost/Unit,9.18,8.0,USD
+2024-04,Logistics,freight_cost_per_unit,Freight Cost/Unit,8.39,8.0,USD
+2024-05,Logistics,freight_cost_per_unit,Freight Cost/Unit,9.31,8.0,USD
+2024-06,Logistics,freight_cost_per_unit,Freight Cost/Unit,12.4,8.0,USD
+2024-07,Logistics,freight_cost_per_unit,Freight Cost/Unit,8.93,8.0,USD
+2024-08,Logistics,freight_cost_per_unit,Freight Cost/Unit,9.36,8.0,USD
+2024-09,Logistics,freight_cost_per_unit,Freight Cost/Unit,11.32,8.0,USD
+2024-10,Logistics,freight_cost_per_unit,Freight Cost/Unit,10.04,8.0,USD
+2024-11,Logistics,freight_cost_per_unit,Freight Cost/Unit,9.82,8.0,USD
+2024-12,Logistics,freight_cost_per_unit,Freight Cost/Unit,10.85,8.0,USD
+2024-01,Logistics,orders_processed,Orders Processed,3796.13,5000.0,units
+2024-02,Logistics,orders_processed,Orders Processed,4705.59,5000.0,units
+2024-03,Logistics,orders_processed,Orders Processed,5116.24,5000.0,units
+2024-04,Logistics,orders_processed,Orders Processed,5608.95,5000.0,units
+2024-05,Logistics,orders_processed,Orders Processed,5820.88,5000.0,units
+2024-06,Logistics,orders_processed,Orders Processed,5565.77,5000.0,units
+2024-07,Logistics,orders_processed,Orders Processed,4092.15,5000.0,units
+2024-08,Logistics,orders_processed,Orders Processed,5643.66,5000.0,units
+2024-09,Logistics,orders_processed,Orders Processed,5821.53,5000.0,units
+2024-10,Logistics,orders_processed,Orders Processed,6774.4,5000.0,units
+2024-11,Logistics,orders_processed,Orders Processed,6712.57,5000.0,units
+2024-12,Logistics,orders_processed,Orders Processed,5078.51,5000.0,units
+2024-01,Sales,revenue,Revenue,416689.52,500000.0,USD
+2024-02,Sales,revenue,Revenue,528544.31,500000.0,USD
+2024-03,Sales,revenue,Revenue,464411.25,500000.0,USD
+2024-04,Sales,revenue,Revenue,525696.23,500000.0,USD
+2024-05,Sales,revenue,Revenue,569366.24,500000.0,USD
+2024-06,Sales,revenue,Revenue,734522.86,500000.0,USD
+2024-07,Sales,revenue,Revenue,613079.1,500000.0,USD
+2024-08,Sales,revenue,Revenue,659824.8,500000.0,USD
+2024-09,Sales,revenue,Revenue,707201.21,500000.0,USD
+2024-10,Sales,revenue,Revenue,622846.76,500000.0,USD
+2024-11,Sales,revenue,Revenue,651979.78,500000.0,USD
+2024-12,Sales,revenue,Revenue,560424.38,500000.0,USD
+2024-01,Sales,conversion_rate,Conversion Rate,9.65,12.0,%
+2024-02,Sales,conversion_rate,Conversion Rate,15.9,12.0,%
+2024-03,Sales,conversion_rate,Conversion Rate,11.73,12.0,%
+2024-04,Sales,conversion_rate,Conversion Rate,13.67,12.0,%
+2024-05,Sales,conversion_rate,Conversion Rate,13.31,12.0,%
+2024-06,Sales,conversion_rate,Conversion Rate,14.08,12.0,%
+2024-07,Sales,conversion_rate,Conversion Rate,14.89,12.0,%
+2024-08,Sales,conversion_rate,Conversion Rate,10.86,12.0,%
+2024-09,Sales,conversion_rate,Conversion Rate,15.03,12.0,%
+2024-10,Sales,conversion_rate,Conversion Rate,16.38,12.0,%
+2024-11,Sales,conversion_rate,Conversion Rate,21.32,12.0,%
+2024-12,Sales,conversion_rate,Conversion Rate,19.9,12.0,%
+2024-01,Sales,new_customers,New Customers,185.27,200.0,count
+2024-02,Sales,new_customers,New Customers,186.46,200.0,count
+2024-03,Sales,new_customers,New Customers,212.22,200.0,count
+2024-04,Sales,new_customers,New Customers,207.24,200.0,count
+2024-05,Sales,new_customers,New Customers,170.53,200.0,count
+2024-06,Sales,new_customers,New Customers,190.37,200.0,count
+2024-07,Sales,new_customers,New Customers,244.27,200.0,count
+2024-08,Sales,new_customers,New Customers,216.48,200.0,count
+2024-09,Sales,new_customers,New Customers,244.69,200.0,count
+2024-10,Sales,new_customers,New Customers,216.55,200.0,count
+2024-11,Sales,new_customers,New Customers,234.27,200.0,count
+2024-12,Sales,new_customers,New Customers,232.53,200.0,count
+2024-01,Sales,avg_deal_size,Avg Deal Size,2800.87,2500.0,USD
+2024-02,Sales,avg_deal_size,Avg Deal Size,2419.26,2500.0,USD
+2024-03,Sales,avg_deal_size,Avg Deal Size,2279.05,2500.0,USD
+2024-04,Sales,avg_deal_size,Avg Deal Size,2570.73,2500.0,USD
+2024-05,Sales,avg_deal_size,Avg Deal Size,2443.69,2500.0,USD
+2024-06,Sales,avg_deal_size,Avg Deal Size,2489.65,2500.0,USD
+2024-07,Sales,avg_deal_size,Avg Deal Size,2432.69,2500.0,USD
+2024-08,Sales,avg_deal_size,Avg Deal Size,2045.16,2500.0,USD
+2024-09,Sales,avg_deal_size,Avg Deal Size,2241.98,2500.0,USD
+2024-10,Sales,avg_deal_size,Avg Deal Size,2222.03,2500.0,USD
+2024-11,Sales,avg_deal_size,Avg Deal Size,2521.33,2500.0,USD
+2024-12,Sales,avg_deal_size,Avg Deal Size,2352.95,2500.0,USD
+2024-01,Operations,process_efficiency_pct,Process Efficiency %,87.29,90.0,%
+2024-02,Operations,process_efficiency_pct,Process Efficiency %,97.66,90.0,%
+2024-03,Operations,process_efficiency_pct,Process Efficiency %,95.14,90.0,%
+2024-04,Operations,process_efficiency_pct,Process Efficiency %,97.78,90.0,%
+2024-05,Operations,process_efficiency_pct,Process Efficiency %,81.35,90.0,%
+2024-06,Operations,process_efficiency_pct,Process Efficiency %,106.79,90.0,%
+2024-07,Operations,process_efficiency_pct,Process Efficiency %,130.05,90.0,%
+2024-08,Operations,process_efficiency_pct,Process Efficiency %,105.41,90.0,%
+2024-09,Operations,process_efficiency_pct,Process Efficiency %,103.58,90.0,%
+2024-10,Operations,process_efficiency_pct,Process Efficiency %,94.76,90.0,%
+2024-11,Operations,process_efficiency_pct,Process Efficiency %,116.68,90.0,%
+2024-12,Operations,process_efficiency_pct,Process Efficiency %,123.95,90.0,%
+2024-01,Operations,error_rate_pct,Error Rate %,1.89,2.0,%
+2024-02,Operations,error_rate_pct,Error Rate %,2.31,2.0,%
+2024-03,Operations,error_rate_pct,Error Rate %,1.75,2.0,%
+2024-04,Operations,error_rate_pct,Error Rate %,2.65,2.0,%
+2024-05,Operations,error_rate_pct,Error Rate %,2.02,2.0,%
+2024-06,Operations,error_rate_pct,Error Rate %,3.78,2.0,%
+2024-07,Operations,error_rate_pct,Error Rate %,2.31,2.0,%
+2024-08,Operations,error_rate_pct,Error Rate %,2.82,2.0,%
+2024-09,Operations,error_rate_pct,Error Rate %,2.46,2.0,%
+2024-10,Operations,error_rate_pct,Error Rate %,2.67,2.0,%
+2024-11,Operations,error_rate_pct,Error Rate %,3.34,2.0,%
+2024-12,Operations,error_rate_pct,Error Rate %,2.65,2.0,%
+2024-01,Operations,sla_compliance_pct,SLA Compliance %,108.65,98.0,%
+2024-02,Operations,sla_compliance_pct,SLA Compliance %,100.05,98.0,%
+2024-03,Operations,sla_compliance_pct,SLA Compliance %,94.71,98.0,%
+2024-04,Operations,sla_compliance_pct,SLA Compliance %,96.39,98.0,%
+2024-05,Operations,sla_compliance_pct,SLA Compliance %,121.0,98.0,%
+2024-06,Operations,sla_compliance_pct,SLA Compliance %,106.31,98.0,%
+2024-07,Operations,sla_compliance_pct,SLA Compliance %,80.1,98.0,%
+2024-08,Operations,sla_compliance_pct,SLA Compliance %,69.59,98.0,%
+2024-09,Operations,sla_compliance_pct,SLA Compliance %,75.94,98.0,%
+2024-10,Operations,sla_compliance_pct,SLA Compliance %,64.84,98.0,%
+2024-11,Operations,sla_compliance_pct,SLA Compliance %,86.32,98.0,%
+2024-12,Operations,sla_compliance_pct,SLA Compliance %,74.93,98.0,%
+2024-01,Operations,downtime_hours,Downtime (hours),4.94,5.0,hours
+2024-02,Operations,downtime_hours,Downtime (hours),5.19,5.0,hours
+2024-03,Operations,downtime_hours,Downtime (hours),3.62,5.0,hours
+2024-04,Operations,downtime_hours,Downtime (hours),5.39,5.0,hours
+2024-05,Operations,downtime_hours,Downtime (hours),5.14,5.0,hours
+2024-06,Operations,downtime_hours,Downtime (hours),5.66,5.0,hours
+2024-07,Operations,downtime_hours,Downtime (hours),4.62,5.0,hours
+2024-08,Operations,downtime_hours,Downtime (hours),5.45,5.0,hours
+2024-09,Operations,downtime_hours,Downtime (hours),5.1,5.0,hours
+2024-10,Operations,downtime_hours,Downtime (hours),6.63,5.0,hours
+2024-11,Operations,downtime_hours,Downtime (hours),6.99,5.0,hours
+2024-12,Operations,downtime_hours,Downtime (hours),6.29,5.0,hours

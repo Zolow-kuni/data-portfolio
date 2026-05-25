@@ -1,0 +1,649 @@
+date,product_id,product_name,category,region,units_sold,revenue,stock_level,reorder_point
+2023-01-01,P001,Laptop,Electronics,North,406,485105.04,122,50
+2023-01-01,P001,Laptop,Electronics,South,115,137406.6,195,50
+2023-01-01,P001,Laptop,Electronics,East,337,402661.08,273,50
+2023-01-01,P002,Smartphone,Electronics,North,295,357301.05,35,80
+2023-01-01,P002,Smartphone,Electronics,South,346,419071.74,103,80
+2023-01-01,P002,Smartphone,Electronics,East,455,551091.45,180,80
+2023-01-01,P003,Tablet,Electronics,North,282,211108.02,63,60
+2023-01-01,P003,Tablet,Electronics,South,502,375802.22,17,60
+2023-01-01,P003,Tablet,Electronics,East,232,173677.52,176,60
+2023-01-01,P004,Jacket,Clothing,North,150,11604.0,271,100
+2023-01-01,P004,Jacket,Clothing,South,319,24677.84,217,100
+2023-01-01,P004,Jacket,Clothing,East,199,15394.64,130,100
+2023-01-01,P005,Sneakers,Clothing,North,426,16750.32,191,90
+2023-01-01,P005,Sneakers,Clothing,South,227,8925.64,270,90
+2023-01-01,P005,Sneakers,Clothing,East,446,17536.72,103,90
+2023-01-01,P006,T-Shirt,Clothing,North,278,12788.0,36,150
+2023-01-01,P006,T-Shirt,Clothing,South,246,11316.0,63,150
+2023-01-01,P006,T-Shirt,Clothing,East,526,24196.0,122,150
+2023-01-01,P007,Coffee Maker,Home & Garden,North,160,34571.2,87,70
+2023-01-01,P007,Coffee Maker,Home & Garden,South,258,55746.06,225,70
+2023-01-01,P007,Coffee Maker,Home & Garden,East,480,103713.6,80,70
+2023-01-01,P008,Blender,Home & Garden,North,340,20104.2,55,60
+2023-01-01,P008,Blender,Home & Garden,South,436,25780.68,220,60
+2023-01-01,P008,Blender,Home & Garden,East,317,18744.21,197,60
+2023-01-01,P009,Garden Hose,Home & Garden,North,255,37867.5,159,120
+2023-01-01,P009,Garden Hose,Home & Garden,South,211,31333.5,32,120
+2023-01-01,P009,Garden Hose,Home & Garden,East,363,53905.5,131,120
+2023-02-01,P001,Laptop,Electronics,North,392,463638.0,177,50
+2023-02-01,P001,Laptop,Electronics,South,151,178595.25,156,50
+2023-02-01,P001,Laptop,Electronics,East,386,456541.5,8,50
+2023-02-01,P002,Smartphone,Electronics,North,284,124871.96,114,80
+2023-02-01,P002,Smartphone,Electronics,South,114,50124.66,65,80
+2023-02-01,P002,Smartphone,Electronics,East,469,206214.61,78,80
+2023-02-01,P003,Tablet,Electronics,North,201,209761.59,155,60
+2023-02-01,P003,Tablet,Electronics,South,553,577105.27,186,60
+2023-02-01,P003,Tablet,Electronics,East,271,282812.89,227,60
+2023-02-01,P004,Jacket,Clothing,North,186,2663.52,25,100
+2023-02-01,P004,Jacket,Clothing,South,380,5441.6,129,100
+2023-02-01,P004,Jacket,Clothing,East,458,6558.56,140,100
+2023-02-01,P005,Sneakers,Clothing,North,331,47101.3,124,90
+2023-02-01,P005,Sneakers,Clothing,South,243,34578.9,84,90
+2023-02-01,P005,Sneakers,Clothing,East,332,47243.6,101,90
+2023-02-01,P006,T-Shirt,Clothing,North,322,10439.24,269,150
+2023-02-01,P006,T-Shirt,Clothing,South,315,10212.3,195,150
+2023-02-01,P006,T-Shirt,Clothing,East,522,16923.24,271,150
+2023-02-01,P007,Coffee Maker,Home & Garden,North,437,96459.01,125,70
+2023-02-01,P007,Coffee Maker,Home & Garden,South,184,40614.32,26,70
+2023-02-01,P007,Coffee Maker,Home & Garden,East,159,35096.07,127,70
+2023-02-01,P008,Blender,Home & Garden,North,426,45015.42,162,60
+2023-02-01,P008,Blender,Home & Garden,South,367,38780.89,239,60
+2023-02-01,P008,Blender,Home & Garden,East,337,35610.79,201,60
+2023-02-01,P009,Garden Hose,Home & Garden,North,198,38738.7,163,120
+2023-02-01,P009,Garden Hose,Home & Garden,South,394,77086.1,23,120
+2023-02-01,P009,Garden Hose,Home & Garden,East,478,93520.7,11,120
+2023-03-01,P001,Laptop,Electronics,North,431,256578.61,40,50
+2023-03-01,P001,Laptop,Electronics,South,213,126801.03,164,50
+2023-03-01,P001,Laptop,Electronics,East,324,192880.44,259,50
+2023-03-01,P002,Smartphone,Electronics,North,393,242980.11,165,80
+2023-03-01,P002,Smartphone,Electronics,South,231,142820.37,268,80
+2023-03-01,P002,Smartphone,Electronics,East,338,208975.26,219,80
+2023-03-01,P003,Tablet,Electronics,North,609,491456.91,137,60
+2023-03-01,P003,Tablet,Electronics,South,235,189642.65,160,60
+2023-03-01,P003,Tablet,Electronics,East,553,446265.47,74,60
+2023-03-01,P004,Jacket,Clothing,North,498,54247.14,122,100
+2023-03-01,P004,Jacket,Clothing,South,405,44116.65,231,100
+2023-03-01,P004,Jacket,Clothing,East,457,49781.01,39,100
+2023-03-01,P005,Sneakers,Clothing,North,470,14396.1,188,90
+2023-03-01,P005,Sneakers,Clothing,South,309,9464.67,184,90
+2023-03-01,P005,Sneakers,Clothing,East,561,17183.43,215,90
+2023-03-01,P006,T-Shirt,Clothing,North,559,102878.36,64,150
+2023-03-01,P006,T-Shirt,Clothing,South,215,39568.6,155,150
+2023-03-01,P006,T-Shirt,Clothing,East,359,66070.36,232,150
+2023-03-01,P007,Coffee Maker,Home & Garden,North,239,26003.2,266,70
+2023-03-01,P007,Coffee Maker,Home & Garden,South,443,48198.4,144,70
+2023-03-01,P007,Coffee Maker,Home & Garden,East,601,65388.8,262,70
+2023-03-01,P008,Blender,Home & Garden,North,375,12213.75,121,60
+2023-03-01,P008,Blender,Home & Garden,South,256,8337.92,249,60
+2023-03-01,P008,Blender,Home & Garden,East,711,23157.27,249,60
+2023-03-01,P009,Garden Hose,Home & Garden,North,452,74706.56,88,120
+2023-03-01,P009,Garden Hose,Home & Garden,South,317,52393.76,185,120
+2023-03-01,P009,Garden Hose,Home & Garden,East,699,115530.72,26,120
+2023-04-01,P001,Laptop,Electronics,North,160,80691.2,262,50
+2023-04-01,P001,Laptop,Electronics,South,222,111959.04,34,50
+2023-04-01,P001,Laptop,Electronics,East,655,330329.6,42,50
+2023-04-01,P002,Smartphone,Electronics,North,562,539053.54,244,80
+2023-04-01,P002,Smartphone,Electronics,South,396,379831.32,86,80
+2023-04-01,P002,Smartphone,Electronics,East,383,367362.11,272,80
+2023-04-01,P003,Tablet,Electronics,North,694,238916.44,3,60
+2023-04-01,P003,Tablet,Electronics,South,381,131163.06,36,60
+2023-04-01,P003,Tablet,Electronics,East,804,276785.04,34,60
+2023-04-01,P004,Jacket,Clothing,North,590,83726.9,162,100
+2023-04-01,P004,Jacket,Clothing,South,797,113102.27,225,100
+2023-04-01,P004,Jacket,Clothing,East,196,27814.36,206,100
+2023-04-01,P005,Sneakers,Clothing,North,520,17425.2,259,90
+2023-04-01,P005,Sneakers,Clothing,South,801,26841.51,84,90
+2023-04-01,P005,Sneakers,Clothing,East,595,19938.45,185,90
+2023-04-01,P006,T-Shirt,Clothing,North,645,41550.9,258,150
+2023-04-01,P006,T-Shirt,Clothing,South,591,38072.22,155,150
+2023-04-01,P006,T-Shirt,Clothing,East,615,39618.3,29,150
+2023-04-01,P007,Coffee Maker,Home & Garden,North,186,25547.1,270,70
+2023-04-01,P007,Coffee Maker,Home & Garden,South,328,45050.8,261,70
+2023-04-01,P007,Coffee Maker,Home & Garden,East,506,69499.1,130,70
+2023-04-01,P008,Blender,Home & Garden,North,683,17068.17,30,60
+2023-04-01,P008,Blender,Home & Garden,South,301,7521.99,223,60
+2023-04-01,P008,Blender,Home & Garden,East,407,10170.93,148,60
+2023-04-01,P009,Garden Hose,Home & Garden,North,639,168037.83,168,120
+2023-04-01,P009,Garden Hose,Home & Garden,South,245,64427.65,104,120
+2023-04-01,P009,Garden Hose,Home & Garden,East,285,74946.45,182,120
+2023-05-01,P001,Laptop,Electronics,North,515,392821.4,69,50
+2023-05-01,P001,Laptop,Electronics,South,1023,780303.48,208,50
+2023-05-01,P001,Laptop,Electronics,East,729,556052.04,29,50
+2023-05-01,P002,Smartphone,Electronics,North,509,484817.41,40,80
+2023-05-01,P002,Smartphone,Electronics,South,363,345753.87,86,80
+2023-05-01,P002,Smartphone,Electronics,East,737,701985.13,257,80
+2023-05-01,P003,Tablet,Electronics,North,514,274666.18,43,60
+2023-05-01,P003,Tablet,Electronics,South,478,255428.86,5,60
+2023-05-01,P003,Tablet,Electronics,East,275,146951.75,48,60
+2023-05-01,P004,Jacket,Clothing,North,540,66052.8,190,100
+2023-05-01,P004,Jacket,Clothing,South,789,96510.48,89,100
+2023-05-01,P004,Jacket,Clothing,East,823,100669.36,245,100
+2023-05-01,P005,Sneakers,Clothing,North,490,8947.4,50,90
+2023-05-01,P005,Sneakers,Clothing,South,368,6719.68,69,90
+2023-05-01,P005,Sneakers,Clothing,East,716,13074.16,116,90
+2023-05-01,P006,T-Shirt,Clothing,North,721,58393.79,146,150
+2023-05-01,P006,T-Shirt,Clothing,South,214,17331.86,233,150
+2023-05-01,P006,T-Shirt,Clothing,East,407,32962.93,258,150
+2023-05-01,P007,Coffee Maker,Home & Garden,North,916,234679.2,252,70
+2023-05-01,P007,Coffee Maker,Home & Garden,South,472,120926.4,224,70
+2023-05-01,P007,Coffee Maker,Home & Garden,East,717,183695.4,179,70
+2023-05-01,P008,Blender,Home & Garden,North,791,45616.97,150,60
+2023-05-01,P008,Blender,Home & Garden,South,874,50403.58,240,60
+2023-05-01,P008,Blender,Home & Garden,East,799,46078.33,107,60
+2023-05-01,P009,Garden Hose,Home & Garden,North,236,22327.96,39,120
+2023-05-01,P009,Garden Hose,Home & Garden,South,279,26396.19,116,120
+2023-05-01,P009,Garden Hose,Home & Garden,East,414,39168.54,102,120
+2023-06-01,P001,Laptop,Electronics,North,562,332771.44,106,50
+2023-06-01,P001,Laptop,Electronics,South,444,262901.28,83,50
+2023-06-01,P001,Laptop,Electronics,East,693,410339.16,256,50
+2023-06-01,P002,Smartphone,Electronics,North,619,367246.51,149,80
+2023-06-01,P002,Smartphone,Electronics,South,634,376145.86,182,80
+2023-06-01,P002,Smartphone,Electronics,East,645,382672.05,149,80
+2023-06-01,P003,Tablet,Electronics,North,293,157929.93,205,60
+2023-06-01,P003,Tablet,Electronics,South,738,397789.38,194,60
+2023-06-01,P003,Tablet,Electronics,East,924,498045.24,36,60
+2023-06-01,P004,Jacket,Clothing,North,553,15522.71,203,100
+2023-06-01,P004,Jacket,Clothing,South,504,14147.28,262,100
+2023-06-01,P004,Jacket,Clothing,East,1023,28715.61,268,100
+2023-06-01,P005,Sneakers,Clothing,North,594,72943.2,219,90
+2023-06-01,P005,Sneakers,Clothing,South,805,98854.0,264,90
+2023-06-01,P005,Sneakers,Clothing,East,618,75890.4,165,90
+2023-06-01,P006,T-Shirt,Clothing,North,335,42568.45,47,150
+2023-06-01,P006,T-Shirt,Clothing,South,205,26049.35,160,150
+2023-06-01,P006,T-Shirt,Clothing,East,780,99114.6,146,150
+2023-06-01,P007,Coffee Maker,Home & Garden,North,609,148468.11,137,70
+2023-06-01,P007,Coffee Maker,Home & Garden,South,258,62897.82,260,70
+2023-06-01,P007,Coffee Maker,Home & Garden,East,656,159926.24,32,70
+2023-06-01,P008,Blender,Home & Garden,North,823,168056.6,117,60
+2023-06-01,P008,Blender,Home & Garden,South,332,67794.4,187,60
+2023-06-01,P008,Blender,Home & Garden,East,829,169281.8,251,60
+2023-06-01,P009,Garden Hose,Home & Garden,North,733,70184.75,101,120
+2023-06-01,P009,Garden Hose,Home & Garden,South,373,35714.75,44,120
+2023-06-01,P009,Garden Hose,Home & Garden,East,259,24799.25,262,120
+2023-07-01,P001,Laptop,Electronics,North,292,194904.16,204,50
+2023-07-01,P001,Laptop,Electronics,South,972,648790.56,262,50
+2023-07-01,P001,Laptop,Electronics,East,601,401155.48,134,50
+2023-07-01,P002,Smartphone,Electronics,North,233,345294.35,200,80
+2023-07-01,P002,Smartphone,Electronics,South,569,843229.55,33,80
+2023-07-01,P002,Smartphone,Electronics,East,699,1035883.05,178,80
+2023-07-01,P003,Tablet,Electronics,North,175,165226.25,192,60
+2023-07-01,P003,Tablet,Electronics,South,297,280412.55,127,60
+2023-07-01,P003,Tablet,Electronics,East,495,467354.25,82,60
+2023-07-01,P004,Jacket,Clothing,North,237,22287.48,84,100
+2023-07-01,P004,Jacket,Clothing,South,611,57458.44,218,100
+2023-07-01,P004,Jacket,Clothing,East,547,51439.88,279,100
+2023-07-01,P005,Sneakers,Clothing,North,633,40474.02,234,90
+2023-07-01,P005,Sneakers,Clothing,South,716,45781.04,279,90
+2023-07-01,P005,Sneakers,Clothing,East,245,15665.3,182,90
+2023-07-01,P006,T-Shirt,Clothing,North,728,131360.32,8,150
+2023-07-01,P006,T-Shirt,Clothing,South,577,104113.88,40,150
+2023-07-01,P006,T-Shirt,Clothing,East,901,162576.44,55,150
+2023-07-01,P007,Coffee Maker,Home & Garden,North,679,138353.04,10,70
+2023-07-01,P007,Coffee Maker,Home & Garden,South,319,64999.44,14,70
+2023-07-01,P007,Coffee Maker,Home & Garden,East,803,163619.28,224,70
+2023-07-01,P008,Blender,Home & Garden,North,414,106741.62,16,60
+2023-07-01,P008,Blender,Home & Garden,South,985,253962.55,259,60
+2023-07-01,P008,Blender,Home & Garden,East,909,234367.47,195,60
+2023-07-01,P009,Garden Hose,Home & Garden,North,443,13839.32,56,120
+2023-07-01,P009,Garden Hose,Home & Garden,South,762,23804.88,141,120
+2023-07-01,P009,Garden Hose,Home & Garden,East,670,20930.8,176,120
+2023-08-01,P001,Laptop,Electronics,North,615,221117.1,205,50
+2023-08-01,P001,Laptop,Electronics,South,201,72267.54,75,50
+2023-08-01,P001,Laptop,Electronics,East,536,192713.44,274,50
+2023-08-01,P002,Smartphone,Electronics,North,180,40244.4,172,80
+2023-08-01,P002,Smartphone,Electronics,South,343,76687.94,247,80
+2023-08-01,P002,Smartphone,Electronics,East,369,82501.02,48,80
+2023-08-01,P003,Tablet,Electronics,North,412,163881.24,274,60
+2023-08-01,P003,Tablet,Electronics,South,555,220762.35,219,60
+2023-08-01,P003,Tablet,Electronics,East,634,252186.18,160,60
+2023-08-01,P004,Jacket,Clothing,North,541,102649.34,84,100
+2023-08-01,P004,Jacket,Clothing,South,554,105115.96,195,100
+2023-08-01,P004,Jacket,Clothing,East,396,75137.04,263,100
+2023-08-01,P005,Sneakers,Clothing,North,615,65552.85,113,90
+2023-08-01,P005,Sneakers,Clothing,South,221,23556.39,33,90
+2023-08-01,P005,Sneakers,Clothing,East,726,77384.34,77,90
+2023-08-01,P006,T-Shirt,Clothing,North,720,65736.0,171,150
+2023-08-01,P006,T-Shirt,Clothing,South,774,70666.2,115,150
+2023-08-01,P006,T-Shirt,Clothing,East,744,67927.2,60,150
+2023-08-01,P007,Coffee Maker,Home & Garden,North,745,81033.65,10,70
+2023-08-01,P007,Coffee Maker,Home & Garden,South,430,46771.1,132,70
+2023-08-01,P007,Coffee Maker,Home & Garden,East,243,26431.11,160,70
+2023-08-01,P008,Blender,Home & Garden,North,560,121273.6,181,60
+2023-08-01,P008,Blender,Home & Garden,South,640,138598.4,88,60
+2023-08-01,P008,Blender,Home & Garden,East,386,83592.16,153,60
+2023-08-01,P009,Garden Hose,Home & Garden,North,518,101155.04,100,120
+2023-08-01,P009,Garden Hose,Home & Garden,South,805,157200.4,206,120
+2023-08-01,P009,Garden Hose,Home & Garden,East,258,50382.24,257,120
+2023-09-01,P001,Laptop,Electronics,North,274,233549.38,223,50
+2023-09-01,P001,Laptop,Electronics,South,433,369076.21,234,50
+2023-09-01,P001,Laptop,Electronics,East,142,121036.54,32,50
+2023-09-01,P002,Smartphone,Electronics,North,549,706392.81,15,80
+2023-09-01,P002,Smartphone,Electronics,South,399,513389.31,93,80
+2023-09-01,P002,Smartphone,Electronics,East,604,777160.76,87,80
+2023-09-01,P003,Tablet,Electronics,North,445,75569.9,231,60
+2023-09-01,P003,Tablet,Electronics,South,325,55191.5,104,60
+2023-09-01,P003,Tablet,Electronics,East,238,40417.16,168,60
+2023-09-01,P004,Jacket,Clothing,North,509,40378.97,268,100
+2023-09-01,P004,Jacket,Clothing,South,366,29034.78,216,100
+2023-09-01,P004,Jacket,Clothing,East,620,49184.6,192,100
+2023-09-01,P005,Sneakers,Clothing,North,530,44355.7,179,90
+2023-09-01,P005,Sneakers,Clothing,South,526,44020.94,58,90
+2023-09-01,P005,Sneakers,Clothing,East,351,29375.19,45,90
+2023-09-01,P006,T-Shirt,Clothing,North,670,113163.0,276,150
+2023-09-01,P006,T-Shirt,Clothing,South,310,52359.0,234,150
+2023-09-01,P006,T-Shirt,Clothing,East,497,83943.3,39,150
+2023-09-01,P007,Coffee Maker,Home & Garden,North,363,47160.96,22,70
+2023-09-01,P007,Coffee Maker,Home & Garden,South,169,21956.48,121,70
+2023-09-01,P007,Coffee Maker,Home & Garden,East,571,74184.32,42,70
+2023-09-01,P008,Blender,Home & Garden,North,595,163024.05,12,60
+2023-09-01,P008,Blender,Home & Garden,South,254,69593.46,81,60
+2023-09-01,P008,Blender,Home & Garden,East,695,190423.05,164,60
+2023-09-01,P009,Garden Hose,Home & Garden,North,337,14676.35,68,120
+2023-09-01,P009,Garden Hose,Home & Garden,South,655,28525.25,178,120
+2023-09-01,P009,Garden Hose,Home & Garden,East,412,17942.6,187,120
+2023-10-01,P001,Laptop,Electronics,North,459,104858.55,102,50
+2023-10-01,P001,Laptop,Electronics,South,595,135927.75,94,50
+2023-10-01,P001,Laptop,Electronics,East,303,69220.35,135,50
+2023-10-01,P002,Smartphone,Electronics,North,338,439474.36,141,80
+2023-10-01,P002,Smartphone,Electronics,South,298,387465.56,164,80
+2023-10-01,P002,Smartphone,Electronics,East,297,386165.34,95,80
+2023-10-01,P003,Tablet,Electronics,North,343,297518.2,29,60
+2023-10-01,P003,Tablet,Electronics,South,606,525644.4,256,60
+2023-10-01,P003,Tablet,Electronics,East,281,243739.4,49,60
+2023-10-01,P004,Jacket,Clothing,North,282,13084.8,6,100
+2023-10-01,P004,Jacket,Clothing,South,402,18652.8,125,100
+2023-10-01,P004,Jacket,Clothing,East,151,7006.4,167,100
+2023-10-01,P005,Sneakers,Clothing,North,211,13255.02,196,90
+2023-10-01,P005,Sneakers,Clothing,South,468,29399.76,274,90
+2023-10-01,P005,Sneakers,Clothing,East,576,36184.32,133,90
+2023-10-01,P006,T-Shirt,Clothing,North,423,76829.49,201,150
+2023-10-01,P006,T-Shirt,Clothing,South,465,84457.95,218,150
+2023-10-01,P006,T-Shirt,Clothing,East,171,31058.73,31,150
+2023-10-01,P007,Coffee Maker,Home & Garden,North,444,63589.68,154,70
+2023-10-01,P007,Coffee Maker,Home & Garden,South,373,53421.06,271,70
+2023-10-01,P007,Coffee Maker,Home & Garden,East,211,30219.42,80,70
+2023-10-01,P008,Blender,Home & Garden,North,350,80500.0,97,60
+2023-10-01,P008,Blender,Home & Garden,South,286,65780.0,11,60
+2023-10-01,P008,Blender,Home & Garden,East,668,153640.0,137,60
+2023-10-01,P009,Garden Hose,Home & Garden,North,261,39199.59,273,120
+2023-10-01,P009,Garden Hose,Home & Garden,South,130,19524.7,222,120
+2023-10-01,P009,Garden Hose,Home & Garden,East,251,37697.69,155,120
+2023-11-01,P001,Laptop,Electronics,North,223,311832.05,230,50
+2023-11-01,P001,Laptop,Electronics,South,102,142631.7,104,50
+2023-11-01,P001,Laptop,Electronics,East,262,366367.7,30,50
+2023-11-01,P002,Smartphone,Electronics,North,408,454063.2,216,80
+2023-11-01,P002,Smartphone,Electronics,South,434,482998.6,207,80
+2023-11-01,P002,Smartphone,Electronics,East,224,249289.6,13,80
+2023-11-01,P003,Tablet,Electronics,North,155,153381.8,240,60
+2023-11-01,P003,Tablet,Electronics,South,502,496759.12,144,60
+2023-11-01,P003,Tablet,Electronics,East,295,291920.2,8,60
+2023-11-01,P004,Jacket,Clothing,North,302,54411.34,188,100
+2023-11-01,P004,Jacket,Clothing,South,247,44501.99,238,100
+2023-11-01,P004,Jacket,Clothing,East,370,66662.9,238,100
+2023-11-01,P005,Sneakers,Clothing,North,251,30662.16,111,90
+2023-11-01,P005,Sneakers,Clothing,South,275,33594.0,248,90
+2023-11-01,P005,Sneakers,Clothing,East,341,41656.56,23,90
+2023-11-01,P006,T-Shirt,Clothing,North,320,46832.0,226,150
+2023-11-01,P006,T-Shirt,Clothing,South,336,49173.6,82,150
+2023-11-01,P006,T-Shirt,Clothing,East,317,46392.95,38,150
+2023-11-01,P007,Coffee Maker,Home & Garden,North,448,134095.36,196,70
+2023-11-01,P007,Coffee Maker,Home & Garden,South,148,44299.36,109,70
+2023-11-01,P007,Coffee Maker,Home & Garden,East,160,47891.2,139,70
+2023-11-01,P008,Blender,Home & Garden,North,119,14554.89,18,60
+2023-11-01,P008,Blender,Home & Garden,South,311,38038.41,4,60
+2023-11-01,P008,Blender,Home & Garden,East,443,54183.33,177,60
+2023-11-01,P009,Garden Hose,Home & Garden,North,489,67340.19,268,120
+2023-11-01,P009,Garden Hose,Home & Garden,South,271,37319.41,151,120
+2023-11-01,P009,Garden Hose,Home & Garden,East,211,29056.81,251,120
+2023-12-01,P001,Laptop,Electronics,North,420,247468.2,254,50
+2023-12-01,P001,Laptop,Electronics,South,465,273982.65,207,50
+2023-12-01,P001,Laptop,Electronics,East,292,172049.32,182,50
+2023-12-01,P002,Smartphone,Electronics,North,175,83273.75,90,80
+2023-12-01,P002,Smartphone,Electronics,South,201,95645.85,244,80
+2023-12-01,P002,Smartphone,Electronics,East,132,62812.2,157,80
+2023-12-01,P003,Tablet,Electronics,North,321,387819.36,122,60
+2023-12-01,P003,Tablet,Electronics,South,467,564210.72,278,60
+2023-12-01,P003,Tablet,Electronics,East,218,263378.88,228,60
+2023-12-01,P004,Jacket,Clothing,North,271,43262.44,51,100
+2023-12-01,P004,Jacket,Clothing,South,224,35759.36,28,100
+2023-12-01,P004,Jacket,Clothing,East,212,33843.68,267,100
+2023-12-01,P005,Sneakers,Clothing,North,173,15960.98,10,90
+2023-12-01,P005,Sneakers,Clothing,South,295,27216.7,28,90
+2023-12-01,P005,Sneakers,Clothing,East,95,8764.7,68,90
+2023-12-01,P006,T-Shirt,Clothing,North,177,17075.19,144,150
+2023-12-01,P006,T-Shirt,Clothing,South,96,9261.12,14,150
+2023-12-01,P006,T-Shirt,Clothing,East,267,25757.49,107,150
+2023-12-01,P007,Coffee Maker,Home & Garden,North,237,51071.13,57,70
+2023-12-01,P007,Coffee Maker,Home & Garden,South,263,56673.87,110,70
+2023-12-01,P007,Coffee Maker,Home & Garden,East,127,27367.23,0,70
+2023-12-01,P008,Blender,Home & Garden,North,155,40543.35,0,60
+2023-12-01,P008,Blender,Home & Garden,South,182,47605.74,137,60
+2023-12-01,P008,Blender,Home & Garden,East,271,70885.47,120,60
+2023-12-01,P009,Garden Hose,Home & Garden,North,266,67973.64,72,120
+2023-12-01,P009,Garden Hose,Home & Garden,South,308,78706.32,67,120
+2023-12-01,P009,Garden Hose,Home & Garden,East,361,92249.94,191,120
+2024-01-01,P001,Laptop,Electronics,North,162,96631.38,260,50
+2024-01-01,P001,Laptop,Electronics,South,318,189683.82,129,50
+2024-01-01,P001,Laptop,Electronics,East,145,86491.05,42,50
+2024-01-01,P002,Smartphone,Electronics,North,90,30292.2,257,80
+2024-01-01,P002,Smartphone,Electronics,South,375,126217.5,52,80
+2024-01-01,P002,Smartphone,Electronics,East,170,57218.6,30,80
+2024-01-01,P003,Tablet,Electronics,North,142,67621.82,159,60
+2024-01-01,P003,Tablet,Electronics,South,295,140481.95,237,60
+2024-01-01,P003,Tablet,Electronics,East,221,105242.41,238,60
+2024-01-01,P004,Jacket,Clothing,North,511,20910.12,216,100
+2024-01-01,P004,Jacket,Clothing,South,252,10311.84,71,100
+2024-01-01,P004,Jacket,Clothing,East,330,13503.6,127,100
+2024-01-01,P005,Sneakers,Clothing,North,151,29759.08,101,90
+2024-01-01,P005,Sneakers,Clothing,South,180,35474.4,89,90
+2024-01-01,P005,Sneakers,Clothing,East,130,25620.4,168,90
+2024-01-01,P006,T-Shirt,Clothing,North,289,25622.74,88,150
+2024-01-01,P006,T-Shirt,Clothing,South,408,36173.28,8,150
+2024-01-01,P006,T-Shirt,Clothing,East,217,19239.22,5,150
+2024-01-01,P007,Coffee Maker,Home & Garden,North,468,104387.4,198,70
+2024-01-01,P007,Coffee Maker,Home & Garden,South,486,108402.3,88,70
+2024-01-01,P007,Coffee Maker,Home & Garden,East,136,30334.8,166,70
+2024-01-01,P008,Blender,Home & Garden,North,313,18855.12,194,60
+2024-01-01,P008,Blender,Home & Garden,South,488,29397.12,142,60
+2024-01-01,P008,Blender,Home & Garden,East,165,9939.6,1,60
+2024-01-01,P009,Garden Hose,Home & Garden,North,276,82264.56,163,120
+2024-01-01,P009,Garden Hose,Home & Garden,South,372,110878.32,251,120
+2024-01-01,P009,Garden Hose,Home & Garden,East,276,82264.56,150,120
+2024-02-01,P001,Laptop,Electronics,North,467,242279.6,14,50
+2024-02-01,P001,Laptop,Electronics,South,195,101166.0,82,50
+2024-02-01,P001,Laptop,Electronics,East,457,237091.6,234,50
+2024-02-01,P002,Smartphone,Electronics,North,222,211834.62,64,80
+2024-02-01,P002,Smartphone,Electronics,South,526,501914.46,71,80
+2024-02-01,P002,Smartphone,Electronics,East,198,188933.58,154,80
+2024-02-01,P003,Tablet,Electronics,North,374,398231.46,203,60
+2024-02-01,P003,Tablet,Electronics,South,292,310918.68,212,60
+2024-02-01,P003,Tablet,Electronics,East,192,204439.68,117,60
+2024-02-01,P004,Jacket,Clothing,North,140,1731.8,222,100
+2024-02-01,P004,Jacket,Clothing,South,266,3290.42,114,100
+2024-02-01,P004,Jacket,Clothing,East,453,5603.61,249,100
+2024-02-01,P005,Sneakers,Clothing,North,397,55456.93,41,90
+2024-02-01,P005,Sneakers,Clothing,South,214,29893.66,49,90
+2024-02-01,P005,Sneakers,Clothing,East,629,87865.01,240,90
+2024-02-01,P006,T-Shirt,Clothing,North,304,15294.24,131,150
+2024-02-01,P006,T-Shirt,Clothing,South,395,19872.45,245,150
+2024-02-01,P006,T-Shirt,Clothing,East,341,17155.71,144,150
+2024-02-01,P007,Coffee Maker,Home & Garden,North,375,84270.0,219,70
+2024-02-01,P007,Coffee Maker,Home & Garden,South,377,84719.44,29,70
+2024-02-01,P007,Coffee Maker,Home & Garden,East,493,110786.96,242,70
+2024-02-01,P008,Blender,Home & Garden,North,136,6522.56,57,60
+2024-02-01,P008,Blender,Home & Garden,South,393,18848.28,6,60
+2024-02-01,P008,Blender,Home & Garden,East,621,29783.16,105,60
+2024-02-01,P009,Garden Hose,Home & Garden,North,378,101500.56,110,120
+2024-02-01,P009,Garden Hose,Home & Garden,South,290,77870.8,170,120
+2024-02-01,P009,Garden Hose,Home & Garden,East,309,82972.68,114,120
+2024-03-01,P001,Laptop,Electronics,North,375,529785.0,130,50
+2024-03-01,P001,Laptop,Electronics,South,320,452083.2,105,50
+2024-03-01,P001,Laptop,Electronics,East,494,697903.44,36,50
+2024-03-01,P002,Smartphone,Electronics,North,206,221276.96,95,80
+2024-03-01,P002,Smartphone,Electronics,South,460,494113.6,68,80
+2024-03-01,P002,Smartphone,Electronics,East,472,507003.52,210,80
+2024-03-01,P003,Tablet,Electronics,North,360,189162.0,56,60
+2024-03-01,P003,Tablet,Electronics,South,407,213858.15,146,60
+2024-03-01,P003,Tablet,Electronics,East,327,171822.15,72,60
+2024-03-01,P004,Jacket,Clothing,North,211,21412.28,268,100
+2024-03-01,P004,Jacket,Clothing,South,439,44549.72,138,100
+2024-03-01,P004,Jacket,Clothing,East,255,25877.4,70,100
+2024-03-01,P005,Sneakers,Clothing,North,365,56688.15,245,90
+2024-03-01,P005,Sneakers,Clothing,South,246,38206.26,275,90
+2024-03-01,P005,Sneakers,Clothing,East,285,44263.35,266,90
+2024-03-01,P006,T-Shirt,Clothing,North,681,24638.58,85,150
+2024-03-01,P006,T-Shirt,Clothing,South,435,15738.3,27,150
+2024-03-01,P006,T-Shirt,Clothing,East,567,20514.06,172,150
+2024-03-01,P007,Coffee Maker,Home & Garden,North,167,11070.43,70,70
+2024-03-01,P007,Coffee Maker,Home & Garden,South,215,14252.35,238,70
+2024-03-01,P007,Coffee Maker,Home & Garden,East,402,26648.58,205,70
+2024-03-01,P008,Blender,Home & Garden,North,672,83294.4,113,60
+2024-03-01,P008,Blender,Home & Garden,South,146,18096.7,216,60
+2024-03-01,P008,Blender,Home & Garden,East,408,50571.6,263,60
+2024-03-01,P009,Garden Hose,Home & Garden,North,497,134642.27,28,120
+2024-03-01,P009,Garden Hose,Home & Garden,South,215,58245.65,237,120
+2024-03-01,P009,Garden Hose,Home & Garden,East,496,134371.36,115,120
+2024-04-01,P001,Laptop,Electronics,North,848,407972.8,198,50
+2024-04-01,P001,Laptop,Electronics,South,511,245842.1,244,50
+2024-04-01,P001,Laptop,Electronics,East,469,225635.9,148,50
+2024-04-01,P002,Smartphone,Electronics,North,431,207086.88,45,80
+2024-04-01,P002,Smartphone,Electronics,South,248,119159.04,248,80
+2024-04-01,P002,Smartphone,Electronics,East,386,185465.28,144,80
+2024-04-01,P003,Tablet,Electronics,North,418,361636.88,150,60
+2024-04-01,P003,Tablet,Electronics,South,347,300210.52,36,60
+2024-04-01,P003,Tablet,Electronics,East,291,251761.56,266,60
+2024-04-01,P004,Jacket,Clothing,North,276,52746.36,45,100
+2024-04-01,P004,Jacket,Clothing,South,716,136834.76,58,100
+2024-04-01,P004,Jacket,Clothing,East,627,119825.97,8,100
+2024-04-01,P005,Sneakers,Clothing,North,183,33708.6,90,90
+2024-04-01,P005,Sneakers,Clothing,South,213,39234.6,130,90
+2024-04-01,P005,Sneakers,Clothing,East,452,83258.4,148,90
+2024-04-01,P006,T-Shirt,Clothing,North,293,57964.19,229,150
+2024-04-01,P006,T-Shirt,Clothing,South,357,70625.31,131,150
+2024-04-01,P006,T-Shirt,Clothing,East,665,131556.95,257,150
+2024-04-01,P007,Coffee Maker,Home & Garden,North,869,29572.07,95,70
+2024-04-01,P007,Coffee Maker,Home & Garden,South,660,22459.8,174,70
+2024-04-01,P007,Coffee Maker,Home & Garden,East,519,17661.57,222,70
+2024-04-01,P008,Blender,Home & Garden,North,548,152705.68,122,60
+2024-04-01,P008,Blender,Home & Garden,South,793,220977.38,0,60
+2024-04-01,P008,Blender,Home & Garden,East,294,81926.04,78,60
+2024-04-01,P009,Garden Hose,Home & Garden,North,594,88096.14,36,120
+2024-04-01,P009,Garden Hose,Home & Garden,South,655,97143.05,177,120
+2024-04-01,P009,Garden Hose,Home & Garden,East,255,37819.05,258,120
+2024-05-01,P001,Laptop,Electronics,North,755,853406.7,129,50
+2024-05-01,P001,Laptop,Electronics,South,659,744894.06,167,50
+2024-05-01,P001,Laptop,Electronics,East,594,671421.96,266,50
+2024-05-01,P002,Smartphone,Electronics,North,295,114834.65,189,80
+2024-05-01,P002,Smartphone,Electronics,South,601,233951.27,11,80
+2024-05-01,P002,Smartphone,Electronics,East,442,172057.34,249,80
+2024-05-01,P003,Tablet,Electronics,North,553,823383.82,148,60
+2024-05-01,P003,Tablet,Electronics,South,374,556863.56,84,60
+2024-05-01,P003,Tablet,Electronics,East,773,1150950.62,102,60
+2024-05-01,P004,Jacket,Clothing,North,908,78632.8,157,100
+2024-05-01,P004,Jacket,Clothing,South,718,62178.8,142,100
+2024-05-01,P004,Jacket,Clothing,East,456,39489.6,117,100
+2024-05-01,P005,Sneakers,Clothing,North,677,50808.85,114,90
+2024-05-01,P005,Sneakers,Clothing,South,318,23865.9,35,90
+2024-05-01,P005,Sneakers,Clothing,East,454,34072.7,186,90
+2024-05-01,P006,T-Shirt,Clothing,North,384,52204.8,5,150
+2024-05-01,P006,T-Shirt,Clothing,South,857,116509.15,55,150
+2024-05-01,P006,T-Shirt,Clothing,East,779,105905.05,240,150
+2024-05-01,P007,Coffee Maker,Home & Garden,North,289,59823.0,36,70
+2024-05-01,P007,Coffee Maker,Home & Garden,South,679,140553.0,38,70
+2024-05-01,P007,Coffee Maker,Home & Garden,East,461,95427.0,188,70
+2024-05-01,P008,Blender,Home & Garden,North,954,73181.34,151,60
+2024-05-01,P008,Blender,Home & Garden,South,779,59757.09,266,60
+2024-05-01,P008,Blender,Home & Garden,East,766,58759.86,71,60
+2024-05-01,P009,Garden Hose,Home & Garden,North,680,74623.2,273,120
+2024-05-01,P009,Garden Hose,Home & Garden,South,413,45322.62,191,120
+2024-05-01,P009,Garden Hose,Home & Garden,East,668,73306.32,112,120
+2024-06-01,P001,Laptop,Electronics,North,553,538516.93,124,50
+2024-06-01,P001,Laptop,Electronics,South,772,751781.32,239,50
+2024-06-01,P001,Laptop,Electronics,East,834,812157.54,152,50
+2024-06-01,P002,Smartphone,Electronics,North,723,725508.81,93,80
+2024-06-01,P002,Smartphone,Electronics,South,585,587029.95,255,80
+2024-06-01,P002,Smartphone,Electronics,East,519,520800.93,236,80
+2024-06-01,P003,Tablet,Electronics,North,1041,1203125.34,214,60
+2024-06-01,P003,Tablet,Electronics,South,274,316672.76,134,60
+2024-06-01,P003,Tablet,Electronics,East,762,880673.88,67,60
+2024-06-01,P004,Jacket,Clothing,North,442,28716.74,72,100
+2024-06-01,P004,Jacket,Clothing,South,418,27157.46,114,100
+2024-06-01,P004,Jacket,Clothing,East,789,51261.33,228,100
+2024-06-01,P005,Sneakers,Clothing,North,442,18502.12,2,90
+2024-06-01,P005,Sneakers,Clothing,South,611,25576.46,223,90
+2024-06-01,P005,Sneakers,Clothing,East,416,17413.76,38,90
+2024-06-01,P006,T-Shirt,Clothing,North,344,11001.12,109,150
+2024-06-01,P006,T-Shirt,Clothing,South,357,11416.86,53,150
+2024-06-01,P006,T-Shirt,Clothing,East,231,7387.38,118,150
+2024-06-01,P007,Coffee Maker,Home & Garden,North,345,97017.45,274,70
+2024-06-01,P007,Coffee Maker,Home & Garden,South,1003,282053.63,38,70
+2024-06-01,P007,Coffee Maker,Home & Garden,East,447,125700.87,75,70
+2024-06-01,P008,Blender,Home & Garden,North,608,125108.16,31,60
+2024-06-01,P008,Blender,Home & Garden,South,609,125313.93,49,60
+2024-06-01,P008,Blender,Home & Garden,East,577,118729.29,154,60
+2024-06-01,P009,Garden Hose,Home & Garden,North,950,201523.5,182,120
+2024-06-01,P009,Garden Hose,Home & Garden,South,221,46880.73,279,120
+2024-06-01,P009,Garden Hose,Home & Garden,East,306,64911.78,26,120
+2024-07-01,P001,Laptop,Electronics,North,418,613833.0,89,50
+2024-07-01,P001,Laptop,Electronics,South,264,387684.0,118,50
+2024-07-01,P001,Laptop,Electronics,East,431,632923.5,188,50
+2024-07-01,P002,Smartphone,Electronics,North,770,934071.6,232,80
+2024-07-01,P002,Smartphone,Electronics,South,804,975316.32,116,80
+2024-07-01,P002,Smartphone,Electronics,East,407,493723.56,209,80
+2024-07-01,P003,Tablet,Electronics,North,303,246399.6,250,60
+2024-07-01,P003,Tablet,Electronics,South,505,410666.0,246,60
+2024-07-01,P003,Tablet,Electronics,East,434,352928.8,42,60
+2024-07-01,P004,Jacket,Clothing,North,448,10227.84,14,100
+2024-07-01,P004,Jacket,Clothing,South,284,6483.72,122,100
+2024-07-01,P004,Jacket,Clothing,East,282,6438.06,9,100
+2024-07-01,P005,Sneakers,Clothing,North,378,62895.42,47,90
+2024-07-01,P005,Sneakers,Clothing,South,272,45258.08,241,90
+2024-07-01,P005,Sneakers,Clothing,East,667,110982.13,150,90
+2024-07-01,P006,T-Shirt,Clothing,North,545,15052.9,110,150
+2024-07-01,P006,T-Shirt,Clothing,South,678,18726.36,72,150
+2024-07-01,P006,T-Shirt,Clothing,East,372,10274.64,141,150
+2024-07-01,P007,Coffee Maker,Home & Garden,North,370,55540.7,103,70
+2024-07-01,P007,Coffee Maker,Home & Garden,South,707,106127.77,58,70
+2024-07-01,P007,Coffee Maker,Home & Garden,East,738,110781.18,33,70
+2024-07-01,P008,Blender,Home & Garden,North,351,24345.36,49,60
+2024-07-01,P008,Blender,Home & Garden,South,285,19767.6,111,60
+2024-07-01,P008,Blender,Home & Garden,East,856,59372.16,38,60
+2024-07-01,P009,Garden Hose,Home & Garden,North,980,142727.2,110,120
+2024-07-01,P009,Garden Hose,Home & Garden,South,1009,146950.76,273,120
+2024-07-01,P009,Garden Hose,Home & Garden,East,461,67140.04,53,120
+2024-08-01,P001,Laptop,Electronics,North,861,891737.7,80,50
+2024-08-01,P001,Laptop,Electronics,South,183,189533.1,158,50
+2024-08-01,P001,Laptop,Electronics,East,459,475386.3,231,50
+2024-08-01,P002,Smartphone,Electronics,North,539,100189.32,13,80
+2024-08-01,P002,Smartphone,Electronics,South,376,69890.88,136,80
+2024-08-01,P002,Smartphone,Electronics,East,399,74166.12,117,80
+2024-08-01,P003,Tablet,Electronics,North,382,483585.26,157,60
+2024-08-01,P003,Tablet,Electronics,South,669,846907.17,75,60
+2024-08-01,P003,Tablet,Electronics,East,288,364587.84,88,60
+2024-08-01,P004,Jacket,Clothing,North,577,79949.12,18,100
+2024-08-01,P004,Jacket,Clothing,South,210,29097.6,59,100
+2024-08-01,P004,Jacket,Clothing,East,586,81196.16,180,100
+2024-08-01,P005,Sneakers,Clothing,North,235,42100.25,131,90
+2024-08-01,P005,Sneakers,Clothing,South,592,106056.8,261,90
+2024-08-01,P005,Sneakers,Clothing,East,409,73272.35,60,90
+2024-08-01,P006,T-Shirt,Clothing,North,327,15414.78,190,150
+2024-08-01,P006,T-Shirt,Clothing,South,663,31253.82,27,150
+2024-08-01,P006,T-Shirt,Clothing,East,211,9946.54,118,150
+2024-08-01,P007,Coffee Maker,Home & Garden,North,554,31971.34,240,70
+2024-08-01,P007,Coffee Maker,Home & Garden,South,327,18871.17,101,70
+2024-08-01,P007,Coffee Maker,Home & Garden,East,466,26892.86,100,70
+2024-08-01,P008,Blender,Home & Garden,North,515,98334.1,57,60
+2024-08-01,P008,Blender,Home & Garden,South,164,31314.16,260,60
+2024-08-01,P008,Blender,Home & Garden,East,560,106926.4,30,60
+2024-08-01,P009,Garden Hose,Home & Garden,North,501,96933.48,34,120
+2024-08-01,P009,Garden Hose,Home & Garden,South,899,173938.52,211,120
+2024-08-01,P009,Garden Hose,Home & Garden,East,746,144336.08,147,120
+2024-09-01,P001,Laptop,Electronics,North,246,51571.44,112,50
+2024-09-01,P001,Laptop,Electronics,South,419,87839.16,265,50
+2024-09-01,P001,Laptop,Electronics,East,566,118656.24,225,50
+2024-09-01,P002,Smartphone,Electronics,North,328,482540.48,139,80
+2024-09-01,P002,Smartphone,Electronics,South,294,432521.04,271,80
+2024-09-01,P002,Smartphone,Electronics,East,612,900349.92,111,80
+2024-09-01,P003,Tablet,Electronics,North,447,144322.89,89,60
+2024-09-01,P003,Tablet,Electronics,South,791,255390.17,28,60
+2024-09-01,P003,Tablet,Electronics,East,157,50690.59,165,60
+2024-09-01,P004,Jacket,Clothing,North,411,36024.15,120,100
+2024-09-01,P004,Jacket,Clothing,South,419,36725.35,259,100
+2024-09-01,P004,Jacket,Clothing,East,513,44964.45,109,100
+2024-09-01,P005,Sneakers,Clothing,North,672,64310.4,159,90
+2024-09-01,P005,Sneakers,Clothing,South,316,30241.2,184,90
+2024-09-01,P005,Sneakers,Clothing,East,331,31676.7,89,90
+2024-09-01,P006,T-Shirt,Clothing,North,382,31297.26,26,150
+2024-09-01,P006,T-Shirt,Clothing,South,406,33263.58,202,150
+2024-09-01,P006,T-Shirt,Clothing,East,639,52353.27,60,150
+2024-09-01,P007,Coffee Maker,Home & Garden,North,499,115543.45,72,70
+2024-09-01,P007,Coffee Maker,Home & Garden,South,709,164168.95,259,70
+2024-09-01,P007,Coffee Maker,Home & Garden,East,169,39131.95,187,70
+2024-09-01,P008,Blender,Home & Garden,North,719,204735.25,109,60
+2024-09-01,P008,Blender,Home & Garden,South,526,149778.5,162,60
+2024-09-01,P008,Blender,Home & Garden,East,524,149209.0,10,60
+2024-09-01,P009,Garden Hose,Home & Garden,North,213,37818.15,7,120
+2024-09-01,P009,Garden Hose,Home & Garden,South,232,41191.6,238,120
+2024-09-01,P009,Garden Hose,Home & Garden,East,209,37107.95,130,120
+2024-10-01,P001,Laptop,Electronics,North,630,763547.4,92,50
+2024-10-01,P001,Laptop,Electronics,South,586,710220.28,104,50
+2024-10-01,P001,Laptop,Electronics,East,129,156345.42,75,50
+2024-10-01,P002,Smartphone,Electronics,North,194,232049.22,139,80
+2024-10-01,P002,Smartphone,Electronics,South,275,328935.75,270,80
+2024-10-01,P002,Smartphone,Electronics,East,422,504766.86,239,80
+2024-10-01,P003,Tablet,Electronics,North,532,506607.64,245,60
+2024-10-01,P003,Tablet,Electronics,South,198,188549.46,28,60
+2024-10-01,P003,Tablet,Electronics,East,361,343769.47,134,60
+2024-10-01,P004,Jacket,Clothing,North,440,86508.4,170,100
+2024-10-01,P004,Jacket,Clothing,South,529,104006.69,103,100
+2024-10-01,P004,Jacket,Clothing,East,202,39715.22,33,100
+2024-10-01,P005,Sneakers,Clothing,North,142,24022.14,79,90
+2024-10-01,P005,Sneakers,Clothing,South,368,62254.56,244,90
+2024-10-01,P005,Sneakers,Clothing,East,542,91690.14,145,90
+2024-10-01,P006,T-Shirt,Clothing,North,412,58141.44,45,150
+2024-10-01,P006,T-Shirt,Clothing,South,183,25824.96,105,150
+2024-10-01,P006,T-Shirt,Clothing,East,182,25683.84,11,150
+2024-10-01,P007,Coffee Maker,Home & Garden,North,467,77629.41,60,70
+2024-10-01,P007,Coffee Maker,Home & Garden,South,359,59676.57,52,70
+2024-10-01,P007,Coffee Maker,Home & Garden,East,245,40726.35,27,70
+2024-10-01,P008,Blender,Home & Garden,North,267,35617.8,226,60
+2024-10-01,P008,Blender,Home & Garden,South,248,33083.2,22,60
+2024-10-01,P008,Blender,Home & Garden,East,603,80440.2,243,60
+2024-10-01,P009,Garden Hose,Home & Garden,North,149,20879.37,120,120
+2024-10-01,P009,Garden Hose,Home & Garden,South,258,36153.54,149,120
+2024-10-01,P009,Garden Hose,Home & Garden,East,278,38956.14,268,120
+2024-11-01,P001,Laptop,Electronics,North,363,400327.29,84,50
+2024-11-01,P001,Laptop,Electronics,South,297,327540.51,12,50
+2024-11-01,P001,Laptop,Electronics,East,335,369448.05,234,50
+2024-11-01,P002,Smartphone,Electronics,North,91,20999.16,233,80
+2024-11-01,P002,Smartphone,Electronics,South,444,102457.44,149,80
+2024-11-01,P002,Smartphone,Electronics,East,420,96919.2,158,80
+2024-11-01,P003,Tablet,Electronics,North,574,430941.98,17,60
+2024-11-01,P003,Tablet,Electronics,South,187,140393.99,86,60
+2024-11-01,P003,Tablet,Electronics,East,356,267274.12,80,60
+2024-11-01,P004,Jacket,Clothing,North,392,10940.72,242,100
+2024-11-01,P004,Jacket,Clothing,South,370,10326.7,232,100
+2024-11-01,P004,Jacket,Clothing,East,402,11219.82,235,100
+2024-11-01,P005,Sneakers,Clothing,North,466,15899.92,222,90
+2024-11-01,P005,Sneakers,Clothing,South,293,9997.16,152,90
+2024-11-01,P005,Sneakers,Clothing,East,202,6892.24,272,90
+2024-11-01,P006,T-Shirt,Clothing,North,266,27068.16,127,150
+2024-11-01,P006,T-Shirt,Clothing,South,201,20453.76,101,150
+2024-11-01,P006,T-Shirt,Clothing,East,122,12414.72,25,150
+2024-11-01,P007,Coffee Maker,Home & Garden,North,447,106546.92,124,70
+2024-11-01,P007,Coffee Maker,Home & Garden,South,345,82234.2,171,70
+2024-11-01,P007,Coffee Maker,Home & Garden,East,198,47195.28,44,70
+2024-11-01,P008,Blender,Home & Garden,North,420,123148.2,61,60
+2024-11-01,P008,Blender,Home & Garden,South,427,125200.67,262,60
+2024-11-01,P008,Blender,Home & Garden,East,98,28734.58,66,60
+2024-11-01,P009,Garden Hose,Home & Garden,North,405,25519.05,17,120
+2024-11-01,P009,Garden Hose,Home & Garden,South,187,11782.87,159,120
+2024-11-01,P009,Garden Hose,Home & Garden,East,214,13484.14,150,120
+2024-12-01,P001,Laptop,Electronics,North,291,122953.32,224,50
+2024-12-01,P001,Laptop,Electronics,South,389,164360.28,241,50
+2024-12-01,P001,Laptop,Electronics,East,119,50279.88,97,50
+2024-12-01,P002,Smartphone,Electronics,North,285,129675.0,122,80
+2024-12-01,P002,Smartphone,Electronics,South,444,202020.0,105,80
+2024-12-01,P002,Smartphone,Electronics,East,123,55965.0,151,80
+2024-12-01,P003,Tablet,Electronics,North,175,102023.25,182,60
+2024-12-01,P003,Tablet,Electronics,South,138,80452.62,121,60
+2024-12-01,P003,Tablet,Electronics,East,322,187722.78,202,60
+2024-12-01,P004,Jacket,Clothing,North,311,58458.67,52,100
+2024-12-01,P004,Jacket,Clothing,South,309,58082.73,139,100
+2024-12-01,P004,Jacket,Clothing,East,105,19736.85,142,100
+2024-12-01,P005,Sneakers,Clothing,North,131,26070.31,136,90
+2024-12-01,P005,Sneakers,Clothing,South,352,70051.52,118,90
+2024-12-01,P005,Sneakers,Clothing,East,320,63683.2,166,90
+2024-12-01,P006,T-Shirt,Clothing,North,376,49312.4,14,150
+2024-12-01,P006,T-Shirt,Clothing,South,119,15606.85,131,150
+2024-12-01,P006,T-Shirt,Clothing,East,163,21377.45,133,150
+2024-12-01,P007,Coffee Maker,Home & Garden,North,394,98586.68,181,70
+2024-12-01,P007,Coffee Maker,Home & Garden,South,443,110847.46,119,70
+2024-12-01,P007,Coffee Maker,Home & Garden,East,175,43788.5,239,70
+2024-12-01,P008,Blender,Home & Garden,North,270,31684.5,185,60
+2024-12-01,P008,Blender,Home & Garden,South,407,47761.45,268,60
+2024-12-01,P008,Blender,Home & Garden,East,350,41072.5,119,60
+2024-12-01,P009,Garden Hose,Home & Garden,North,111,17938.71,206,120
+2024-12-01,P009,Garden Hose,Home & Garden,South,315,50907.15,60,120
+2024-12-01,P009,Garden Hose,Home & Garden,East,195,31513.95,36,120
