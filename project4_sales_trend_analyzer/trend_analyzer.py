@@ -1,319 +1,314 @@
 """
-trend_analyzer.py — Project 4: Sales & Inventory Trend Analyzer
-Analyses monthly sales trends, anomalies, regional performance, and stock alerts.
-Auto-loads Kaggle Superstore CSV if present; otherwise generates synthetic data.
+trend_analyzer.py — Project 4: Sales Trend Analyzer
+Analyzes sales trends from Sample - Superstore.csv using 15-step cleaning.
 """
 import os
 import sys
-import subprocess
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
 
-import numpy as np
 import pandas as pd
+import numpy as np
 import matplotlib.pyplot as plt
-import matplotlib.ticker as mticker
-import seaborn as sns
 
 # ── Paths ─────────────────────────────────────────────────────────────────────
-SCRIPT_DIR    = os.path.dirname(os.path.abspath(__file__))
-PORTFOLIO_DIR = os.path.dirname(SCRIPT_DIR)
-KAGGLE_DIR    = os.path.join(PORTFOLIO_DIR, "data", "project4")
-SYNTH_CSV     = os.path.join(PORTFOLIO_DIR, "data", "sales_inventory.csv")
-GENERATE_PY   = os.path.join(SCRIPT_DIR, "generate_data.py")
-OUTPUT_DIR    = os.path.join(SCRIPT_DIR, "outputs")
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+DATASET_PATH = r"C:\Users\lalit\Downloads\Sample - Superstore\Sample - Superstore.csv"
+OUTPUT_DIR = os.path.join(SCRIPT_DIR, "outputs")
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-SUPERSTORE_NAMES = [
-    "Sample - Superstore.csv",
-    "superstore.csv",
-    "Superstore.csv",
-    "sample_superstore.csv",
-]
+
+# ── Data cleaning pipeline ────────────────────────────────────────────────────
+def load_and_clean():
+    """15-step cleaning pipeline for sales data."""
+    print("[1/15] Loading dataset with encoding='latin-1' …")
+    df = pd.read_csv(DATASET_PATH, encoding="latin-1")
+    rows_loaded = len(df)
+    print(f"       {rows_loaded:,} rows, {len(df.columns)} columns loaded")
+
+    print("[2/15] Stripping whitespace from column names …")
+    df.columns = df.columns.str.strip()
+    print(f"       Column names stripped")
+
+    print("[3/15] Converting Order Date to datetime …")
+    for fmt in ["%d/%m/%Y", "%m/%d/%Y"]:
+        try:
+            df["Order Date"] = pd.to_datetime(df["Order Date"], format=fmt, errors="coerce")
+            if df["Order Date"].isnull().sum() < rows_loaded * 0.1:
+                break
+        except:
+            pass
+    print(f"       {df['Order Date'].isnull().sum():,} date parse errors")
+
+    print("[4/15] Converting Ship Date to datetime …")
+    for fmt in ["%d/%m/%Y", "%m/%d/%Y"]:
+        try:
+            df["Ship Date"] = pd.to_datetime(df["Ship Date"], format=fmt, errors="coerce")
+            if df["Ship Date"].isnull().sum() < rows_loaded * 0.1:
+                break
+        except:
+            pass
+    print(f"       {df['Ship Date'].isnull().sum():,} date parse errors")
+
+    print("[5/15] Dropping rows where Order Date is null …")
+    rows_before = len(df)
+    df = df.dropna(subset=["Order Date"])
+    date_rows_dropped = rows_before - len(df)
+    print(f"       Dropped {date_rows_dropped:,} rows")
+
+    print("[6/15] Validating Sales > 0 …")
+    rows_before = len(df)
+    df = df[df["Sales"] > 0]
+    sales_rows_dropped = rows_before - len(df)
+    print(f"       Dropped {sales_rows_dropped:,} rows with invalid Sales")
+
+    print("[7/15] Validating Quantity > 0 …")
+    rows_before = len(df)
+    df = df[df["Quantity"] > 0]
+    qty_rows_dropped = rows_before - len(df)
+    print(f"       Dropped {qty_rows_dropped:,} rows with invalid Quantity")
+
+    print("[8/15] Validating Discount (0–1) …")
+    invalid_discounts = ((df["Discount"] < 0) | (df["Discount"] > 1)).sum()
+    if invalid_discounts > 0:
+        print(f"       ✗ {invalid_discounts:,} invalid discount values")
+    else:
+        print(f"       ✓ All discounts valid")
+
+    print("[9/15] Checking Profit outliers …")
+    profit_extreme = (df["Profit"] < df["Profit"].quantile(0.01)) | (df["Profit"] > df["Profit"].quantile(0.99))
+    print(f"       {profit_extreme.sum():,} extreme profit values (top/bottom 1%)")
+
+    print("[10/15] Validating Region values …")
+    valid_regions = {"East", "West", "Central", "South"}
+    actual_regions = set(df["Region"].unique())
+    invalid_regions = actual_regions - valid_regions
+    if invalid_regions:
+        print(f"       ✗ Invalid regions: {invalid_regions}")
+    else:
+        print(f"       ✓ All regions valid")
+
+    print("[11/15] Validating Category values …")
+    valid_categories = {"Furniture", "Office Supplies", "Technology"}
+    actual_categories = set(df["Category"].unique())
+    invalid_categories = actual_categories - valid_categories
+    if invalid_categories:
+        print(f"       ✗ Invalid categories: {invalid_categories}")
+    else:
+        print(f"       ✓ All categories valid")
+
+    print("[12/15] Removing duplicate Order ID + Product ID combinations …")
+    dups_before = len(df)
+    df = df.drop_duplicates(subset=["Order ID", "Product ID"])
+    dups_removed = dups_before - len(df)
+    print(f"       Removed {dups_removed:,} duplicates")
+
+    print("[13/15] Extracting temporal features …")
+    df["Month"] = df["Order Date"].dt.month
+    df["Year"] = df["Order Date"].dt.year
+    df["Month-Year"] = df["Order Date"].dt.strftime("%b-%Y")
+    df["Quarter"] = df["Order Date"].dt.quarter.apply(lambda x: f"Q{x}")
+    print(f"       Extracted Month, Year, Month-Year, Quarter")
+
+    print("[14/15] Creating profit_margin column …")
+    df["profit_margin"] = (df["Profit"] / df["Sales"] * 100).replace([np.inf, -np.inf], 0)
+    print(f"       Profit margin calculated")
+
+    print("[15/15] Cleaning summary …")
+    clean_rows = len(df)
+    date_range = f"{df['Order Date'].min().date()} to {df['Order Date'].max().date()}"
+    unique_categories = df["Category"].nunique()
+    unique_subcategories = df["Sub-Category"].nunique()
+    unique_regions = df["Region"].nunique()
+    overall_margin = df["profit_margin"].mean()
+
+    print(f"\n  ┌─ CLEANING SUMMARY ──────────────────────────────────┐")
+    print(f"  │ Rows loaded         : {rows_loaded:,}")
+    print(f"  │ Date nulls dropped  : {date_rows_dropped:,}")
+    print(f"  │ Sales issues        : {sales_rows_dropped:,}")
+    print(f"  │ Quantity issues     : {qty_rows_dropped:,}")
+    print(f"  │ Duplicates removed  : {dups_removed:,}")
+    print(f"  │ Final clean rows    : {clean_rows:,}")
+    print(f"  │ Date range          : {date_range}")
+    print(f"  │ Unique categories   : {unique_categories}")
+    print(f"  │ Sub-categories      : {unique_subcategories}")
+    print(f"  │ Regions             : {unique_regions}")
+    print(f"  │ Overall margin %    : {overall_margin:.2f}%")
+    print(f"  └──────────────────────────────────────────────────────┘")
+
+    return df, rows_loaded, clean_rows
 
 
-# ── Data loading ──────────────────────────────────────────────────────────────
-def load_data():
-    for fname in SUPERSTORE_NAMES:
-        path = os.path.join(KAGGLE_DIR, fname)
-        if os.path.exists(path):
-            print(f"[load] Kaggle dataset: {path}")
-            try:
-                raw = pd.read_csv(path, encoding="latin-1")
-                return _transform_kaggle(raw), "kaggle"
-            except Exception as exc:
-                print(f"[load] Warning — could not parse {fname}: {exc}")
+# ── Analysis functions ────────────────────────────────────────────────────────
+def analyze_trends(df):
+    """Generate 7 key analysis outputs."""
+    print("\n[ANALYSIS] Computing trend analysis …\n")
 
-    print("[load] Kaggle data not found — synthetic mode.")
-    if not os.path.exists(SYNTH_CSV):
-        subprocess.run([sys.executable, GENERATE_PY], check=True)
-    return pd.read_csv(SYNTH_CSV), "synthetic"
+    # 1. Monthly revenue trend with 3-month rolling average
+    monthly_sales = df.groupby("Month-Year")["Sales"].sum().reset_index()
+    monthly_sales["rolling_avg_3m"] = monthly_sales["Sales"].rolling(window=3, center=True).mean()
+    output_1 = os.path.join(OUTPUT_DIR, "monthly_revenue_trend.csv")
+    monthly_sales.to_csv(output_1, index=False)
+    print(f"  ✓ 1. Monthly revenue trend → {output_1}")
 
+    # 2. MoM growth rate
+    monthly_sales["mom_growth"] = monthly_sales["Sales"].pct_change() * 100
+    monthly_qty = df.groupby("Month-Year")["Quantity"].sum().reset_index()
+    monthly_qty["mom_growth"] = monthly_qty["Quantity"].pct_change() * 100
+    output_2 = os.path.join(OUTPUT_DIR, "mom_growth_rates.csv")
+    growth_data = pd.DataFrame({
+        "Month-Year": monthly_sales["Month-Year"],
+        "Sales_Growth_%": monthly_sales["mom_growth"],
+        "Quantity_Growth_%": monthly_qty["mom_growth"]
+    })
+    growth_data.to_csv(output_2, index=False)
+    print(f"  ✓ 2. Month-over-month growth → {output_2}")
 
-def _transform_kaggle(raw):
-    """Map Superstore columns to the standard schema."""
-    date_col = next((c for c in ["Order Date", "order_date"] if c in raw.columns), None)
-    if not date_col:
-        raise ValueError("Cannot find Order Date column in Superstore dataset.")
-
-    raw["_date"] = pd.to_datetime(raw[date_col], dayfirst=False, errors="coerce")
-    raw = raw.dropna(subset=["_date"])
-    raw["date"] = raw["_date"].dt.to_period("M").dt.to_timestamp().dt.strftime("%Y-%m-%d")
-
-    cat_col  = next((c for c in ["Category", "category"]            if c in raw.columns), None)
-    prod_col = next((c for c in ["Sub-Category", "sub_category"]    if c in raw.columns), None)
-    reg_col  = next((c for c in ["Region", "region"]                if c in raw.columns), None)
-    qty_col  = next((c for c in ["Quantity", "quantity"]            if c in raw.columns), None)
-    rev_col  = next((c for c in ["Sales", "sales", "Revenue"]       if c in raw.columns), None)
-
-    agg = (
-        raw.groupby(
-            ["date",
-             raw[cat_col].rename("category")  if cat_col  else pd.Series("Unknown", index=raw.index, name="category"),
-             raw[prod_col].rename("product_name") if prod_col else pd.Series("Unknown", index=raw.index, name="product_name"),
-             raw[reg_col].rename("region")    if reg_col  else pd.Series("Unknown", index=raw.index, name="region"),
-             ]
-        )
-        .agg(
-            units_sold=(qty_col, "sum") if qty_col else ("date", "count"),
-            revenue=(rev_col, "sum")    if rev_col else ("date", "count"),
-        )
-        .reset_index()
+    # 3. Flag anomalies (>15% deviation from rolling avg)
+    monthly_sales["deviation_pct"] = np.abs(
+        (monthly_sales["Sales"] - monthly_sales["rolling_avg_3m"]) / monthly_sales["rolling_avg_3m"] * 100
     )
+    anomalies = monthly_sales[monthly_sales["deviation_pct"] > 15]
+    output_3 = os.path.join(OUTPUT_DIR, "sales_anomalies.csv")
+    anomalies.to_csv(output_3, index=False)
+    print(f"  ✓ 3. Sales anomalies (>15% deviation) → {output_3} ({len(anomalies)} found)")
 
-    # Add synthetic stock data (not in Superstore)
-    rng = np.random.default_rng(0)
-    products = agg["product_name"].unique()
-    pid_map  = {p: f"P{i:03d}" for i, p in enumerate(products, 1)}
-    reorder  = {pid: int(rng.integers(30, 100)) for pid in pid_map.values()}
-
-    agg["product_id"]    = agg["product_name"].map(pid_map)
-    agg["stock_level"]   = rng.integers(0, 300, len(agg))
-    agg["reorder_point"] = agg["product_id"].map(reorder).fillna(50).astype(int)
-
-    return agg
-
-
-# ── Analysis ───────────────────────────────────────────────────────────────────
-def compute_monthly_metrics(df):
-    """Aggregate to monthly level, compute MoM growth and rolling average."""
-    monthly = (
-        df.groupby("date")[["revenue", "units_sold"]]
-        .sum()
-        .reset_index()
-        .sort_values("date")
+    # 4. Regional revenue by Category (pivot)
+    regional_pivot = df.pivot_table(
+        values="Sales", index="Region", columns="Category", aggfunc="sum"
     )
-    monthly["rev_mom_pct"]   = monthly["revenue"].pct_change() * 100
-    monthly["units_mom_pct"] = monthly["units_sold"].pct_change() * 100
-    monthly["rev_roll3"]     = monthly["revenue"].rolling(3, min_periods=1).mean()
-    monthly["units_roll3"]   = monthly["units_sold"].rolling(3, min_periods=1).mean()
+    output_4 = os.path.join(OUTPUT_DIR, "regional_revenue_by_category.csv")
+    regional_pivot.to_csv(output_4)
+    print(f"  ✓ 4. Regional revenue by category → {output_4}")
 
-    # Flag months where revenue deviates >15% from rolling average
-    monthly["rev_anomaly"] = (
-        (monthly["revenue"] - monthly["rev_roll3"]).abs()
-        / monthly["rev_roll3"].replace(0, np.nan)
-        > 0.15
-    )
-    return monthly
+    # 5. Seasonal analysis
+    seasonal = df.groupby("Month")["Sales"].mean().reset_index()
+    seasonal["Month_Name"] = seasonal["Month"].map({
+        1:"Jan", 2:"Feb", 3:"Mar", 4:"Apr", 5:"May", 6:"Jun",
+        7:"Jul", 8:"Aug", 9:"Sep", 10:"Oct", 11:"Nov", 12:"Dec"
+    })
+    output_5 = os.path.join(OUTPUT_DIR, "seasonal_analysis.csv")
+    seasonal.to_csv(output_5, index=False)
+    print(f"  ✓ 5. Seasonal analysis (avg sales by month) → {output_5}")
+
+    # 6. Sub-Category profitability ranking
+    subcategory_profit = df.groupby("Sub-Category").agg({
+        "Profit": "sum",
+        "Sales": "sum"
+    }).reset_index()
+    subcategory_profit["profit_margin_pct"] = (
+        subcategory_profit["Profit"] / subcategory_profit["Sales"] * 100
+    ).round(2)
+    subcategory_profit = subcategory_profit.sort_values("profit_margin_pct", ascending=False)
+    output_6 = os.path.join(OUTPUT_DIR, "subcategory_profitability.csv")
+    subcategory_profit.to_csv(output_6, index=False)
+    print(f"  ✓ 6. Sub-category profitability ranking → {output_6}")
+
+    # 7. Top/Bottom 10 products by profit margin
+    product_margins = df.groupby("Product Name").agg({
+        "Profit": "sum",
+        "Sales": "sum",
+        "Quantity": "sum"
+    }).reset_index()
+    product_margins["profit_margin_pct"] = (
+        product_margins["Profit"] / product_margins["Sales"] * 100
+    ).round(2)
+    top_10 = product_margins.nlargest(10, "profit_margin_pct")
+    bottom_10 = product_margins.nsmallest(10, "profit_margin_pct")
+    output_7 = os.path.join(OUTPUT_DIR, "top_bottom_products.csv")
+    combined = pd.concat([
+        top_10.assign(ranking="Top 10"),
+        bottom_10.assign(ranking="Bottom 10")
+    ])
+    combined.to_csv(output_7, index=False)
+    print(f"  ✓ 7. Top/Bottom 10 products by margin → {output_7}")
+
+    return monthly_sales, regional_pivot, seasonal, subcategory_profit
 
 
-def get_low_stock(df):
-    """Return products whose latest stock falls below their reorder point."""
-    latest = df[df["date"] == df["date"].max()].copy()
-    return latest[latest["stock_level"] < latest["reorder_point"]]
-
-
-def regional_ranking(df):
-    """Rank regions by total revenue per month."""
-    reg = df.groupby(["date", "region"])["revenue"].sum().reset_index()
-    reg["rank"] = reg.groupby("date")["revenue"].rank(ascending=False).astype(int)
-    return reg.sort_values(["date", "rank"])
-
-
-def seasonal_summary(df):
-    """Average revenue per calendar month across all years."""
-    df = df.copy()
-    df["cal_month"] = pd.to_datetime(df["date"]).dt.month
-    seasonal = df.groupby("cal_month")["revenue"].mean().reset_index()
-    seasonal["above_avg"] = seasonal["revenue"] > seasonal["revenue"].mean()
-    return seasonal
-
-
-# ── Visualisations ─────────────────────────────────────────────────────────────
-def make_plots(df, monthly, low_stock):
+# ── Visualizations ────────────────────────────────────────────────────────────
+def make_plots(df, monthly_sales):
+    """Generate analysis visualizations."""
+    print("\n[PLOTS] Generating visualizations …\n")
     plt.style.use("seaborn-v0_8-whitegrid")
-    MONTH_NAMES = {1:"Jan",2:"Feb",3:"Mar",4:"Apr",5:"May",6:"Jun",
-                   7:"Jul",8:"Aug",9:"Sep",10:"Oct",11:"Nov",12:"Dec"}
 
-    # ── 1: Revenue trend with rolling avg + anomaly markers ───────────────────
-    fig, ax = plt.subplots(figsize=(13, 5))
-    x_ticks = range(len(monthly))
-    ax.plot(monthly["date"], monthly["revenue"],
-            color="#4C72B0", marker="o", ms=4, linewidth=1.8, label="Monthly Revenue")
-    ax.plot(monthly["date"], monthly["rev_roll3"],
-            color="#DD8452", linestyle="--", linewidth=2, label="3-Month Rolling Avg")
-    anomalies = monthly[monthly["rev_anomaly"]]
-    if not anomalies.empty:
-        ax.scatter(anomalies["date"], anomalies["revenue"],
-                   color="red", zorder=6, s=90, label="Anomaly (>15% from rolling avg)")
+    # Plot 1: Revenue trend with rolling average
+    fig, ax = plt.subplots(figsize=(14, 6))
+    ax.plot(range(len(monthly_sales)), monthly_sales["Sales"],
+            marker="o", label="Monthly Sales", color="#1F77B4", alpha=0.7, linewidth=2)
+    ax.plot(range(len(monthly_sales)), monthly_sales["rolling_avg_3m"],
+            label="3-Month Rolling Avg", color="#FF7F0E", linewidth=2.5)
+    ax.fill_between(range(len(monthly_sales)), monthly_sales["Sales"], alpha=0.2, color="#1F77B4")
     ax.set_xlabel("Month")
-    ax.set_ylabel("Revenue ($)")
-    ax.set_title("Monthly Revenue Trend — Rolling Average & Anomaly Markers")
-    ax.yaxis.set_major_formatter(mticker.FuncFormatter(lambda v, _: f"${v:,.0f}"))
-    plt.xticks(rotation=45, ha="right", fontsize=7)
+    ax.set_ylabel("Sales ($)")
+    ax.set_title("Monthly Revenue Trend with 3-Month Rolling Average")
     ax.legend()
+    ax.grid(True, alpha=0.3)
     plt.tight_layout()
-    path = os.path.join(OUTPUT_DIR, "revenue_trend.png")
-    plt.savefig(path, dpi=150)
+    plt.savefig(os.path.join(OUTPUT_DIR, "revenue_trend.png"), dpi=150)
     plt.close()
-    print(f"  Saved: {path}")
+    print(f"  Saved: revenue_trend.png")
 
-    # ── 2: Regional revenue grouped bar (last 6 months) ───────────────────────
-    recent_dates = sorted(df["date"].unique())[-6:]
-    recent = df[df["date"].isin(recent_dates)]
-    reg_cat = recent.groupby(["date", "region", "category"])["revenue"].sum().reset_index()
-
-    regions  = sorted(reg_cat["region"].unique())
-    cats     = sorted(reg_cat["category"].unique())
-    dates    = sorted(reg_cat["date"].unique())
-    x        = np.arange(len(dates))
-    n_groups = len(regions) * len(cats)
-    width    = 0.8 / n_groups
-    cmap     = plt.cm.Set2(np.linspace(0, 1, len(cats)))
-
-    fig, ax = plt.subplots(figsize=(13, 6))
-    for ri, region in enumerate(regions):
-        for ci, cat in enumerate(cats):
-            sub  = reg_cat[(reg_cat["region"] == region) & (reg_cat["category"] == cat)]
-            vals = [sub[sub["date"] == d]["revenue"].sum() for d in dates]
-            offset = (ri * len(cats) + ci) * width - 0.4 + width / 2
-            ax.bar(x + offset, vals, width * 0.9,
-                   label=f"{region} / {cat}", color=cmap[ci], alpha=0.85)
-    ax.set_xticks(x)
-    ax.set_xticklabels(dates, rotation=40, ha="right", fontsize=8)
-    ax.set_ylabel("Revenue ($)")
-    ax.set_title("Regional Revenue by Category — Last 6 Months")
-    ax.yaxis.set_major_formatter(mticker.FuncFormatter(lambda v, _: f"${v:,.0f}"))
-    ax.legend(fontsize=7, ncol=min(3, n_groups), loc="upper left")
+    # Plot 2: Profit margin by category
+    category_margin = df.groupby("Category")["profit_margin"].mean()
+    fig, ax = plt.subplots(figsize=(10, 6))
+    bars = ax.bar(category_margin.index, category_margin.values, color=["#2CA02C", "#D62728", "#9467BD"], alpha=0.8)
+    for bar in bars:
+        height = bar.get_height()
+        ax.text(bar.get_x() + bar.get_width()/2., height,
+                f'{height:.1f}%', ha='center', va='bottom', fontweight='bold')
+    ax.set_ylabel("Profit Margin (%)")
+    ax.set_title("Average Profit Margin by Category")
     plt.tight_layout()
-    path = os.path.join(OUTPUT_DIR, "regional_revenue.png")
-    plt.savefig(path, dpi=150)
+    plt.savefig(os.path.join(OUTPUT_DIR, "profit_margin_by_category.png"), dpi=150)
     plt.close()
-    print(f"  Saved: {path}")
+    print(f"  Saved: profit_margin_by_category.png")
 
-    # ── 3: Revenue heatmap (month × category) ─────────────────────────────────
-    pivot = df.pivot_table(values="revenue", index="date", columns="category", aggfunc="sum")
-    pivot_k = pivot / 1000  # show in thousands
-    fig_h = max(6, len(pivot) * 0.35)
-    fig_w = max(7, len(pivot.columns) * 2.2)
-    fig, ax = plt.subplots(figsize=(fig_w, fig_h))
-    sns.heatmap(
-        pivot_k,
-        annot=(len(pivot) <= 30),
-        fmt=".0f",
-        cmap="YlOrRd",
-        linewidths=0.5,
-        ax=ax,
-        cbar_kws={"label": "Revenue (K USD)"},
-    )
-    ax.set_title("Revenue Heatmap: Month × Category")
-    ax.set_xlabel("Category")
-    ax.set_ylabel("Month")
-    plt.xticks(rotation=30, ha="right")
+    # Plot 3: Regional sales comparison
+    regional_sales = df.groupby("Region")["Sales"].sum()
+    fig, ax = plt.subplots(figsize=(10, 6))
+    bars = ax.bar(regional_sales.index, regional_sales.values, color=["#1F77B4", "#FF7F0E", "#2CA02C", "#D62728"], alpha=0.8)
+    for bar in bars:
+        height = bar.get_height()
+        ax.text(bar.get_x() + bar.get_width()/2., height,
+                f'${height/1000:.0f}K', ha='center', va='bottom', fontweight='bold')
+    ax.set_ylabel("Sales ($)")
+    ax.set_title("Total Sales by Region")
     plt.tight_layout()
-    path = os.path.join(OUTPUT_DIR, "revenue_heatmap.png")
-    plt.savefig(path, dpi=150)
+    plt.savefig(os.path.join(OUTPUT_DIR, "sales_by_region.png"), dpi=150)
     plt.close()
-    print(f"  Saved: {path}")
-
-    # ── 4: Low-stock alert table ───────────────────────────────────────────────
-    if low_stock.empty:
-        print("  No low-stock products — skipping alert chart.")
-        return
-
-    show_cols = [c for c in ["product_id", "product_name", "region", "category",
-                              "stock_level", "reorder_point"] if c in low_stock.columns]
-    tbl = low_stock[show_cols].reset_index(drop=True)
-    fig_height = max(2.5, len(tbl) * 0.45 + 1.2)
-    fig, ax = plt.subplots(figsize=(10, fig_height))
-    ax.axis("off")
-    the_table = ax.table(
-        cellText=tbl.values.tolist(),
-        colLabels=tbl.columns.tolist(),
-        cellLoc="center",
-        loc="center",
-    )
-    the_table.auto_set_font_size(False)
-    the_table.set_fontsize(9)
-    the_table.scale(1.15, 1.6)
-    for j in range(len(tbl.columns)):
-        the_table[(0, j)].set_facecolor("#C44E52")
-        the_table[(0, j)].set_text_props(color="white", fontweight="bold")
-    ax.set_title("Low Stock Alert — Products Below Reorder Point",
-                 pad=16, fontsize=11, fontweight="bold")
-    plt.tight_layout()
-    path = os.path.join(OUTPUT_DIR, "low_stock_alert.png")
-    plt.savefig(path, dpi=150)
-    plt.close()
-    print(f"  Saved: {path}")
+    print(f"  Saved: sales_by_region.png")
 
 
-# ── Main ───────────────────────────────────────────────────────────────────────
+# ── Main ──────────────────────────────────────────────────────────────────────
 def main():
-    df, source = load_data()
-    print(f"[data] {len(df):,} rows loaded (source: {source})")
+    print("\n" + "=" * 62)
+    print("  SALES TREND ANALYZER — DATA CLEANING & ANALYSIS")
+    print("=" * 62 + "\n")
 
-    monthly   = compute_monthly_metrics(df)
-    low_stock = get_low_stock(df)
-    regional  = regional_ranking(df)
-    seasonal  = seasonal_summary(df)
+    df, rows_loaded, clean_rows = load_and_clean()
 
-    # Save trend report
-    report_path = os.path.join(OUTPUT_DIR, "trend_report.csv")
-    monthly.to_csv(report_path, index=False)
+    # Run analysis
+    monthly_sales, regional_pivot, seasonal, subcategory_profit = analyze_trends(df)
 
-    # Month-name lookup
-    MN = {1:"Jan",2:"Feb",3:"Mar",4:"Apr",5:"May",6:"Jun",
-          7:"Jul",8:"Aug",9:"Sep",10:"Oct",11:"Nov",12:"Dec"}
+    # Generate visualizations
+    make_plots(df, monthly_sales)
 
-    # ── Terminal summary ───────────────────────────────────────────────────────
-    print("\n" + "=" * 65)
-    print("  SALES & INVENTORY TREND REPORT")
-    print("=" * 65)
-    print(f"  Period          : {df['date'].min()} → {df['date'].max()}")
-    print(f"  Total revenue   : ${df['revenue'].sum():>14,.2f}")
-    print(f"  Total units sold: {df['units_sold'].sum():>14,}")
-    print(f"  Anomaly months  : {int(monthly['rev_anomaly'].sum())}")
+    print(f"\n[DONE] All analysis outputs written to:")
+    print(f"  {OUTPUT_DIR}")
+    print(f"  → monthly_revenue_trend.csv")
+    print(f"  → mom_growth_rates.csv")
+    print(f"  → sales_anomalies.csv")
+    print(f"  → regional_revenue_by_category.csv")
+    print(f"  → seasonal_analysis.csv")
+    print(f"  → subcategory_profitability.csv")
+    print(f"  → top_bottom_products.csv")
+    print(f"  → revenue_trend.png")
+    print(f"  → profit_margin_by_category.png")
+    print(f"  → sales_by_region.png\n")
 
-    print("\n  Month-over-Month Revenue Growth (last 6 months):")
-    for _, row in monthly.dropna(subset=["rev_mom_pct"]).tail(6).iterrows():
-        arrow = "↑" if row["rev_mom_pct"] > 0 else "↓"
-        print(f"    {row['date']}   {arrow} {row['rev_mom_pct']:+.1f}%")
-
-    print("\n  Seasonal Highlights:")
-    best  = seasonal.nlargest(3, "revenue")["cal_month"].tolist()
-    worst = seasonal.nsmallest(3, "revenue")["cal_month"].tolist()
-    print(f"    Strongest months : {', '.join(MN[m] for m in best)}")
-    print(f"    Weakest months   : {', '.join(MN[m] for m in worst)}")
-
-    print("\n  Regional Ranking (latest month):")
-    latest_regional = regional[regional["date"] == regional["date"].max()]
-    for _, row in latest_regional.iterrows():
-        print(f"    #{int(row['rank'])}  {row['region']:<12}  ${row['revenue']:>12,.2f}")
-
-    print(f"\n  Low Stock Alerts: {len(low_stock)} products below reorder point")
-    if not low_stock.empty:
-        show = [c for c in ["product_name", "region", "stock_level", "reorder_point"]
-                if c in low_stock.columns]
-        print(low_stock[show].to_string(index=False))
-
-    print("=" * 65)
-
-    print("\n[plots] Generating visualisations …")
-    make_plots(df, monthly, low_stock)
-    print(f"\n[done] Outputs written to: {OUTPUT_DIR}")
-    print(f"  trend_report.csv ({len(monthly)} rows)")
+    return rows_loaded, clean_rows
 
 
 if __name__ == "__main__":

@@ -1,261 +1,290 @@
 """
-kpi_dashboard.py — Project 2: Interactive KPI Dashboard
-Streamlit dashboard for monitoring operational KPIs with anomaly alerts.
-
-Run with:
-    streamlit run kpi_dashboard.py
+kpi_dashboard.py — Project 2: KPI Dashboard
+Builds supply chain KPIs from DataCoSupplyChainDataset.csv using 13-step cleaning.
 """
 import os
 import sys
-import subprocess
 
-import numpy as np
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8")
+
 import pandas as pd
-import streamlit as st
-import plotly.express as px
-import plotly.graph_objects as go
+import numpy as np
+import matplotlib.pyplot as plt
+from datetime import datetime
 
 # ── Paths ─────────────────────────────────────────────────────────────────────
-SCRIPT_DIR    = os.path.dirname(os.path.abspath(__file__))
-PORTFOLIO_DIR = os.path.dirname(SCRIPT_DIR)
-KAGGLE_DIR    = os.path.join(PORTFOLIO_DIR, "data", "project2")
-SYNTH_CSV     = os.path.join(PORTFOLIO_DIR, "data", "kpi_data.csv")
-GENERATE_PY   = os.path.join(SCRIPT_DIR, "generate_data.py")
-
-KAGGLE_FILENAMES = [
-    "DataCoSupplyChainDataset.csv",
-    "dataco_supply_chain.csv",
-    "supply_chain.csv",
-]
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+DATASET_PATH = r"C:\Users\lalit\Downloads\DataCoSupplyChainDataset\DataCoSupplyChainDataset.csv"
+OUTPUT_DIR = os.path.join(SCRIPT_DIR, "outputs")
+os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 
-# ── Data loading ──────────────────────────────────────────────────────────────
-@st.cache_data(show_spinner="Loading data …")
-def load_data():
-    # Try Kaggle dataset variants
-    for fname in KAGGLE_FILENAMES:
-        path = os.path.join(KAGGLE_DIR, fname)
-        if os.path.exists(path):
-            try:
-                raw = pd.read_csv(path, encoding="latin-1")
-                return _process_kaggle(raw), "kaggle"
-            except Exception as exc:
-                st.warning(f"Could not parse Kaggle file ({fname}): {exc}")
+# ── Data cleaning pipeline ────────────────────────────────────────────────────
+def load_and_clean():
+    """13-step cleaning pipeline for supply chain data."""
+    print("[1/13] Loading dataset with encoding='latin-1' …")
+    df = pd.read_csv(DATASET_PATH, encoding="latin-1")
+    rows_loaded = len(df)
+    print(f"       {rows_loaded:,} rows, {len(df.columns)} columns loaded")
 
-    # Fall back to synthetic data
-    if not os.path.exists(SYNTH_CSV):
-        subprocess.run([sys.executable, GENERATE_PY], check=True)
-    return pd.read_csv(SYNTH_CSV), "synthetic"
+    print("[2/13] Stripping whitespace from column names …")
+    df.columns = df.columns.str.strip()
+    print(f"       Column names stripped")
+
+    print("[3/13] Selecting key columns …")
+    key_cols = [
+        "order date (DateOrders)", "Department Name", "Sales per customer",
+        "Order Item Quantity", "Benefit per order", "Delivery Status",
+        "Late_delivery_risk", "Days for shipping (real)",
+        "Days for shipment (scheduled)", "Category Name", "Market",
+        "Order Region", "Order Country"
+    ]
+    missing_cols = [c for c in key_cols if c not in df.columns]
+    if missing_cols:
+        print(f"       WARNING: Missing columns: {missing_cols}")
+    df = df[[c for c in key_cols if c in df.columns]]
+    print(f"       Kept {len(df.columns)} key columns, dropped {rows_loaded - len(df.columns)} others")
+
+    print("[4/13] Renaming columns for ease …")
+    rename_map = {
+        "order date (DateOrders)": "Order Date",
+        "Sales per customer": "Sales",
+        "Order Item Quantity": "Quantity",
+        "Benefit per order": "Profit",
+        "Days for shipping (real)": "Actual_Days",
+        "Days for shipment (scheduled)": "Scheduled_Days",
+    }
+    df = df.rename(columns=rename_map)
+    print(f"       6 columns renamed")
+
+    print("[5/13] Converting Order Date to datetime …")
+    df["Order Date"] = pd.to_datetime(df["Order Date"], errors="coerce")
+    date_nulls = df["Order Date"].isnull().sum()
+    print(f"       {date_nulls:,} rows with invalid dates")
+
+    print("[6/13] Dropping rows with null Order Date …")
+    rows_before = len(df)
+    df = df.dropna(subset=["Order Date"])
+    date_rows_dropped = rows_before - len(df)
+    print(f"       Dropped {date_rows_dropped:,} rows")
+
+    print("[7/13] Dropping rows where Sales <= 0 …")
+    rows_before = len(df)
+    df = df[df["Sales"] > 0]
+    sales_rows_dropped = rows_before - len(df)
+    print(f"       Dropped {sales_rows_dropped:,} rows with invalid Sales")
+
+    print("[8/13] Extracting Month, Year, Month-Year …")
+    df["Month"] = df["Order Date"].dt.month
+    df["Year"] = df["Order Date"].dt.year
+    df["Month-Year"] = df["Order Date"].dt.strftime("%b-%Y")
+    print(f"       Extracted temporal features")
+
+    print("[9/13] Creating on_time column …")
+    df["on_time"] = df["Delivery Status"].fillna("").str.lower()
+    df["on_time"] = ((df["on_time"].str.contains("advance|on time")) &
+                     (~df["on_time"].str.contains("late|canceled"))).astype(int)
+    print(f"       On-time delivery column created")
+
+    print("[10/13] Creating delay_days column …")
+    df["delay_days"] = df["Actual_Days"] - df["Scheduled_Days"]
+    print(f"       Delay days calculated (positive=late, negative=early)")
+
+    print("[11/13] Handling Profit nulls …")
+    profit_nulls = df["Profit"].isnull().sum()
+    df["Profit"] = df["Profit"].fillna(0)
+    print(f"       Filled {profit_nulls:,} Profit nulls with 0")
+
+    print("[12/13] Removing rows where Quantity <= 0 …")
+    rows_before = len(df)
+    df = df[df["Quantity"] > 0]
+    qty_rows_dropped = rows_before - len(df)
+    print(f"       Dropped {qty_rows_dropped:,} rows")
+
+    print("[13/13] Cleaning summary …")
+    clean_rows = len(df)
+    on_time_pct = df["on_time"].mean() * 100
+
+    date_range = f"{df['Order Date'].min().date()} to {df['Order Date'].max().date()}"
+    unique_depts = df["Department Name"].nunique()
+
+    print(f"\n  ┌─ CLEANING SUMMARY ──────────────────────────────────┐")
+    print(f"  │ Rows loaded         : {rows_loaded:,}")
+    print(f"  │ Date nulls dropped  : {date_rows_dropped:,}")
+    print(f"  │ Sales issues        : {sales_rows_dropped:,}")
+    print(f"  │ Quantity issues     : {qty_rows_dropped:,}")
+    print(f"  │ Final clean rows    : {clean_rows:,}")
+    print(f"  │ Date range          : {date_range}")
+    print(f"  │ Unique departments  : {unique_depts}")
+    print(f"  │ On-time delivery %  : {on_time_pct:.1f}%")
+    print(f"  └──────────────────────────────────────────────────────┘")
+
+    return df, rows_loaded, clean_rows, on_time_pct
 
 
-def _process_kaggle(raw):
-    """Transform Kaggle supply-chain columns into the standard KPI schema."""
-    date_col = next((c for c in ["Order Date (DateOrders)", "Order Date", "order_date"]
-                     if c in raw.columns), None)
-    dept_col = next((c for c in ["Department Name", "department_name", "Department"]
-                     if c in raw.columns), None)
+# ── KPI calculations ──────────────────────────────────────────────────────────
+def calculate_kpis(df):
+    """Build 6 key KPIs from cleaned data."""
+    print("\n[KPIs] Building 6 key KPI metrics …\n")
 
-    if date_col:
-        raw["month"] = pd.to_datetime(raw[date_col], errors="coerce").dt.strftime("%Y-%m")
-    else:
-        raw["month"] = "2024-01"
+    # KPI 1: On-time delivery % per month per department
+    kpi_1 = df.groupby(["Month-Year", "Department Name"])["on_time"].agg(
+        ["sum", "count"]
+    ).reset_index()
+    kpi_1["on_time_pct"] = (kpi_1["sum"] / kpi_1["count"] * 100).round(2)
+    kpi_1 = kpi_1.rename(columns={"sum": "on_time_count", "count": "total_orders"})
+    kpi_1_file = os.path.join(OUTPUT_DIR, "kpi_on_time_delivery.csv")
+    kpi_1.to_csv(kpi_1_file, index=False)
+    print(f"  ✓ KPI 1: On-time delivery % per month/dept → {kpi_1_file}")
 
-    raw["department"] = raw[dept_col].fillna("Unknown") if dept_col else "Logistics"
+    # KPI 2: Average sales per order per month
+    kpi_2 = df.groupby("Month-Year").agg({
+        "Sales": ["mean", "median", "std"]
+    }).reset_index()
+    kpi_2.columns = ["Month-Year", "avg_sales", "median_sales", "std_sales"]
+    kpi_2 = kpi_2.round(2)
+    kpi_2_file = os.path.join(OUTPUT_DIR, "kpi_avg_sales.csv")
+    kpi_2.to_csv(kpi_2_file, index=False)
+    print(f"  ✓ KPI 2: Average sales per order/month → {kpi_2_file}")
 
-    rows = []
-    for (month, dept), g in raw.groupby(["month", "department"]):
-        # On-time delivery %
-        if "Late_delivery_risk" in g:
-            otd = round(100 - g["Late_delivery_risk"].mean() * 100, 2)
-        else:
-            otd = 90.0
-        rows.append(dict(month=month, department=dept, kpi_id="on_time_delivery_pct",
-                         kpi_name="On-Time Delivery %", actual_value=otd,
-                         target_value=95.0, unit="%"))
+    # KPI 3: Total revenue per month
+    kpi_3 = df.groupby("Month-Year").agg({
+        "Sales": "sum",
+        "Quantity": "sum"
+    }).reset_index()
+    kpi_3.columns = ["Month-Year", "total_revenue", "total_quantity"]
+    kpi_3_file = os.path.join(OUTPUT_DIR, "kpi_revenue.csv")
+    kpi_3.to_csv(kpi_3_file, index=False)
+    print(f"  ✓ KPI 3: Total revenue per month → {kpi_3_file}")
 
-        # Revenue
-        sales_col = next((c for c in ["Sales", "sales", "Revenue"] if c in g.columns), None)
-        revenue = round(float(g[sales_col].sum()), 2) if sales_col else 0.0
-        rows.append(dict(month=month, department=dept, kpi_id="revenue",
-                         kpi_name="Revenue", actual_value=revenue,
-                         target_value=500000.0, unit="USD"))
+    # KPI 4: Late delivery risk % per month
+    kpi_4 = df.groupby("Month-Year").agg({
+        "Late_delivery_risk": "mean"
+    }).reset_index()
+    kpi_4.columns = ["Month-Year", "late_risk_pct"]
+    kpi_4["late_risk_pct"] = (kpi_4["late_risk_pct"] * 100).round(2)
+    kpi_4_file = os.path.join(OUTPUT_DIR, "kpi_late_risk.csv")
+    kpi_4.to_csv(kpi_4_file, index=False)
+    print(f"  ✓ KPI 4: Late delivery risk % per month → {kpi_4_file}")
 
-        # Orders processed
-        rows.append(dict(month=month, department=dept, kpi_id="orders_processed",
-                         kpi_name="Orders Processed", actual_value=float(len(g)),
-                         target_value=5000.0, unit="units"))
+    # KPI 5: Average delay days per month
+    kpi_5 = df.groupby("Month-Year").agg({
+        "delay_days": ["mean", "min", "max"]
+    }).reset_index()
+    kpi_5.columns = ["Month-Year", "avg_delay", "min_delay", "max_delay"]
+    kpi_5 = kpi_5.round(2)
+    kpi_5_file = os.path.join(OUTPUT_DIR, "kpi_delay_days.csv")
+    kpi_5.to_csv(kpi_5_file, index=False)
+    print(f"  ✓ KPI 5: Average delay days per month → {kpi_5_file}")
 
-        # Avg benefit per order
-        ben_col = next((c for c in ["Benefit per order", "benefit_per_order"] if c in g.columns), None)
-        benefit = round(float(g[ben_col].mean()), 2) if ben_col else 0.0
-        rows.append(dict(month=month, department=dept, kpi_id="avg_benefit",
-                         kpi_name="Avg Benefit/Order", actual_value=benefit,
-                         target_value=50.0, unit="USD"))
+    # KPI 6: Profit margin % per month
+    df["profit_margin"] = (df["Profit"] / df["Sales"] * 100).replace([np.inf, -np.inf], 0)
+    kpi_6 = df.groupby("Month-Year").agg({
+        "Profit": "sum",
+        "Sales": "sum",
+        "profit_margin": "mean"
+    }).reset_index()
+    kpi_6["margin_pct"] = (kpi_6["Profit"] / kpi_6["Sales"] * 100).round(2)
+    kpi_6 = kpi_6[["Month-Year", "Profit", "Sales", "margin_pct"]]
+    kpi_6.columns = ["Month-Year", "total_profit", "total_sales", "profit_margin_pct"]
+    kpi_6_file = os.path.join(OUTPUT_DIR, "kpi_profit_margin.csv")
+    kpi_6.to_csv(kpi_6_file, index=False)
+    print(f"  ✓ KPI 6: Profit margin % per month → {kpi_6_file}")
 
-    return pd.DataFrame(rows)
+    return kpi_1, kpi_2, kpi_3, kpi_4, kpi_5, kpi_6
 
 
-# ── Dashboard ─────────────────────────────────────────────────────────────────
+# ── Visualizations ────────────────────────────────────────────────────────────
+def make_plots(df, kpi_2, kpi_3):
+    """Generate KPI dashboards."""
+    print("\n[PLOTS] Generating visualizations …\n")
+    plt.style.use("seaborn-v0_8-whitegrid")
+
+    # Plot 1: Revenue trend
+    fig, ax = plt.subplots(figsize=(12, 6))
+    kpi_3_sorted = kpi_3.sort_values("Month-Year")
+    ax.plot(range(len(kpi_3_sorted)), kpi_3_sorted["total_revenue"],
+            marker="o", linewidth=2, markersize=6, color="#2E86AB")
+    ax.fill_between(range(len(kpi_3_sorted)), kpi_3_sorted["total_revenue"], alpha=0.3, color="#2E86AB")
+    ax.set_xlabel("Month")
+    ax.set_ylabel("Total Revenue ($)")
+    ax.set_title("Monthly Revenue Trend")
+    ax.set_xticks(range(0, len(kpi_3_sorted), max(1, len(kpi_3_sorted)//6)))
+    ax.set_xticklabels([kpi_3_sorted.iloc[i]["Month-Year"]
+                        for i in range(0, len(kpi_3_sorted), max(1, len(kpi_3_sorted)//6))],
+                       rotation=45)
+    plt.tight_layout()
+    plt.savefig(os.path.join(OUTPUT_DIR, "revenue_trend.png"), dpi=150)
+    plt.close()
+    print(f"  Saved: revenue_trend.png")
+
+    # Plot 2: Average Sales per Order
+    fig, ax = plt.subplots(figsize=(12, 6))
+    ax.bar(range(len(kpi_2)), kpi_2["avg_sales"], color="#A23B72", alpha=0.8)
+    ax.set_xlabel("Month")
+    ax.set_ylabel("Average Sales ($)")
+    ax.set_title("Average Sales per Order by Month")
+    ax.set_xticks(range(0, len(kpi_2), max(1, len(kpi_2)//6)))
+    ax.set_xticklabels([kpi_2.iloc[i]["Month-Year"]
+                        for i in range(0, len(kpi_2), max(1, len(kpi_2)//6))],
+                       rotation=45)
+    plt.tight_layout()
+    plt.savefig(os.path.join(OUTPUT_DIR, "avg_sales_by_month.png"), dpi=150)
+    plt.close()
+    print(f"  Saved: avg_sales_by_month.png")
+
+    # Plot 3: On-time vs Late delivery
+    on_time_by_month = df.groupby("Month-Year")["on_time"].apply(
+        lambda x: (x.sum(), len(x) - x.sum())
+    ).apply(pd.Series)
+    on_time_by_month.columns = ["on_time", "late"]
+    fig, ax = plt.subplots(figsize=(12, 6))
+    x = range(len(on_time_by_month))
+    ax.bar(x, on_time_by_month["on_time"], label="On Time", color="#06A77D", alpha=0.8)
+    ax.bar(x, on_time_by_month["late"], bottom=on_time_by_month["on_time"],
+           label="Late", color="#D62246", alpha=0.8)
+    ax.set_xlabel("Month")
+    ax.set_ylabel("Order Count")
+    ax.set_title("On-Time vs Late Deliveries by Month")
+    ax.legend()
+    ax.set_xticks(range(0, len(on_time_by_month), max(1, len(on_time_by_month)//6)))
+    ax.set_xticklabels([on_time_by_month.index[i]
+                        for i in range(0, len(on_time_by_month), max(1, len(on_time_by_month)//6))],
+                       rotation=45)
+    plt.tight_layout()
+    plt.savefig(os.path.join(OUTPUT_DIR, "on_time_vs_late.png"), dpi=150)
+    plt.close()
+    print(f"  Saved: on_time_vs_late.png")
+
+
+# ── Main ──────────────────────────────────────────────────────────────────────
 def main():
-    st.set_page_config(
-        page_title="KPI Dashboard",
-        page_icon="📊",
-        layout="wide",
-    )
-    st.title("📊 Operational KPI Dashboard")
+    print("\n" + "=" * 62)
+    print("  KPI DASHBOARD — DATA CLEANING & ANALYSIS")
+    print("=" * 62 + "\n")
 
-    df, source = load_data()
-    st.caption(
-        f"Data source: **{source.upper()}**  •  {len(df):,} KPI records  "
-        f"•  {df['month'].nunique()} months  •  {df['department'].nunique()} departments"
-    )
+    df, rows_loaded, clean_rows, on_time_pct = load_and_clean()
 
-    # ── Sidebar filters ────────────────────────────────────────────────────────
-    with st.sidebar:
-        st.header("Filters")
-        all_depts = sorted(df["department"].unique())
-        selected_depts = st.multiselect("Department", all_depts, default=all_depts)
+    # Calculate KPIs
+    kpi_1, kpi_2, kpi_3, kpi_4, kpi_5, kpi_6 = calculate_kpis(df)
 
-        all_months = sorted(df["month"].unique())
-        month_range = st.select_slider(
-            "Month Range",
-            options=all_months,
-            value=(all_months[0], all_months[-1]),
-        )
+    # Generate visualizations
+    make_plots(df, kpi_2, kpi_3)
 
-        anomaly_threshold = st.slider(
-            "Anomaly threshold (%)", min_value=5, max_value=30, value=10, step=5
-        )
+    print(f"\n[DONE] All KPI outputs written to:")
+    print(f"  {OUTPUT_DIR}")
+    print(f"  ✓ kpi_on_time_delivery.csv")
+    print(f"  ✓ kpi_avg_sales.csv")
+    print(f"  ✓ kpi_revenue.csv")
+    print(f"  ✓ kpi_late_risk.csv")
+    print(f"  ✓ kpi_delay_days.csv")
+    print(f"  ✓ kpi_profit_margin.csv")
+    print(f"  ✓ revenue_trend.png")
+    print(f"  ✓ avg_sales_by_month.png")
+    print(f"  ✓ on_time_vs_late.png\n")
 
-    # Apply filters
-    mask = (
-        df["department"].isin(selected_depts)
-        & (df["month"] >= month_range[0])
-        & (df["month"] <= month_range[1])
-    )
-    fdf = df[mask].copy()
-
-    if fdf.empty:
-        st.warning("No data matches the selected filters.")
-        return
-
-    # % of target (handle division by zero)
-    fdf["pct_of_target"] = np.where(
-        fdf["target_value"] != 0,
-        fdf["actual_value"] / fdf["target_value"] * 100,
-        np.nan,
-    )
-
-    # ── Metric cards (latest month) ────────────────────────────────────────────
-    st.subheader("KPI Summary — Latest Available Month")
-    latest_month = fdf["month"].max()
-    latest = fdf[fdf["month"] == latest_month]
-    kpis = latest["kpi_name"].unique()
-
-    cols = st.columns(min(4, len(kpis)))
-    for i, kpi in enumerate(kpis[:8]):
-        subset = latest[latest["kpi_name"] == kpi]
-        if subset.empty:
-            continue
-        actual = subset["actual_value"].mean()
-        target = subset["target_value"].mean()
-        delta  = actual - target
-        with cols[i % 4]:
-            st.metric(
-                label=kpi,
-                value=f"{actual:,.1f} {subset['unit'].iloc[0]}",
-                delta=f"{delta:+.1f} vs target",
-            )
-
-    st.divider()
-
-    # ── Bar chart: Actual vs Target ────────────────────────────────────────────
-    st.subheader(f"Actual vs Target — {latest_month}")
-    bar_df = (
-        latest.groupby("kpi_name")[["actual_value", "target_value"]]
-        .mean()
-        .reset_index()
-        .melt(id_vars="kpi_name", var_name="Metric", value_name="Value")
-    )
-    bar_df["Metric"] = bar_df["Metric"].map(
-        {"actual_value": "Actual", "target_value": "Target"}
-    )
-    fig_bar = px.bar(
-        bar_df,
-        x="kpi_name", y="Value", color="Metric", barmode="group",
-        color_discrete_map={"Actual": "#4C72B0", "Target": "#DD8452"},
-        labels={"kpi_name": "KPI", "Value": "Value"},
-    )
-    fig_bar.update_layout(xaxis_tickangle=-35, legend_title_text="")
-    st.plotly_chart(fig_bar, use_container_width=True)
-
-    # ── Trend line chart ───────────────────────────────────────────────────────
-    st.subheader("KPI Performance Over Time")
-    kpi_choice = st.selectbox("Select KPI to trend", sorted(fdf["kpi_name"].unique()))
-    trend_df = (
-        fdf[fdf["kpi_name"] == kpi_choice]
-        .groupby("month")[["actual_value", "target_value"]]
-        .mean()
-        .reset_index()
-        .sort_values("month")
-    )
-    fig_trend = go.Figure()
-    fig_trend.add_trace(go.Scatter(
-        x=trend_df["month"], y=trend_df["actual_value"],
-        mode="lines+markers", name="Actual",
-        line=dict(color="#4C72B0", width=2),
-        marker=dict(size=6),
-    ))
-    fig_trend.add_trace(go.Scatter(
-        x=trend_df["month"], y=trend_df["target_value"],
-        mode="lines", name="Target",
-        line=dict(color="#DD8452", width=2, dash="dash"),
-    ))
-    fig_trend.update_layout(
-        title=f"{kpi_choice} — Monthly Trend",
-        xaxis_title="Month", yaxis_title="Value",
-        legend_title_text="",
-    )
-    st.plotly_chart(fig_trend, use_container_width=True)
-
-    # ── Anomaly alerts ─────────────────────────────────────────────────────────
-    st.subheader(f"⚠️ Anomaly Alerts — Deviation > {anomaly_threshold}% from Target")
-    lo = 100 - anomaly_threshold
-    hi = 100 + anomaly_threshold
-    anomalies = fdf[
-        (fdf["pct_of_target"] < lo) | (fdf["pct_of_target"] > hi)
-    ].copy()
-    anomalies["deviation %"] = (anomalies["pct_of_target"] - 100).round(1)
-
-    if anomalies.empty:
-        st.success(f"✅ All KPIs are within {anomaly_threshold}% of their targets.")
-    else:
-        st.error(f"🔴 {len(anomalies)} anomalous readings detected")
-        st.dataframe(
-            anomalies[["month", "department", "kpi_name",
-                        "actual_value", "target_value", "unit", "deviation %"]]
-            .sort_values("deviation %")
-            .reset_index(drop=True),
-            use_container_width=True,
-        )
-
-    # ── Colour-coded raw data table ────────────────────────────────────────────
-    st.subheader("Raw KPI Data (green = on target, red = below target)")
-    display = fdf[
-        ["month", "department", "kpi_name", "actual_value", "target_value", "unit", "pct_of_target"]
-    ].copy()
-    display["pct_of_target"] = display["pct_of_target"].round(1)
-    display = display.sort_values(["month", "department", "kpi_name"]).reset_index(drop=True)
-
-    def _color_row(row):
-        color = "#d4edda" if (row["pct_of_target"] >= 90) else "#f8d7da"
-        return [f"background-color: {color}"] * len(row)
-
-    st.dataframe(
-        display.style.apply(_color_row, axis=1),
-        use_container_width=True,
-        height=400,
-    )
+    return rows_loaded, clean_rows
 
 
 if __name__ == "__main__":

@@ -1,0 +1,7 @@
+FINANCIAL DATA VALIDATION REPORT
+============================================================
+
+ISSUES FOUND: 3
+  • Rule 1: 63 nulls in Profit
+  • Rule 10: Discounts only 92.4% complete
+  • Rule 10: Profit only 91.0% complete
