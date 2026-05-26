@@ -1,0 +1,12 @@
+department_name,total_orders,on_time_pct,avg_ship_days,total_revenue,profit_margin_pct,target_on_time,status
+Discs Shop,2026,41.46,3.56,228887.73,9.78,95.0,Critical
+Fan Shop,66861,41.0,3.49,17113870.54,10.77,95.0,Critical
+Apparel,48998,40.94,3.5,7976255.08,11.02,95.0,Critical
+Footwear,14525,40.91,3.49,4006498.77,10.66,95.0,Critical
+Golf,33220,40.85,3.49,4609028.22,10.69,95.0,Critical
+Technology,1465,40.27,3.45,1039598.96,11.31,95.0,Critical
+Fitness,2479,40.22,3.51,397050.89,11.76,95.0,Critical
+Outdoors,9686,40.18,3.53,1253351.44,11.3,95.0,Critical
+Book Shop,405,40.0,3.39,12587.4,7.02,95.0,Critical
+Health and Beauty,362,39.78,3.46,106080.48,8.95,95.0,Critical
+Pet Shop,492,36.99,3.39,41524.8,8.64,95.0,Critical

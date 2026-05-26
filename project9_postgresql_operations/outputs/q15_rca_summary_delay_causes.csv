@@ -1,0 +1,21 @@
+order_region,shipping_mode,department_name,total_orders,late_orders,late_pct,avg_delay,revenue_impacted,profit_at_risk
+Eastern Asia,First Class,Outdoors,58,58,100.0,1.0,13028.95,3319.71
+Oceania,First Class,Discs Shop,62,62,100.0,1.0,8620.64,1963.15
+Southern Africa,First Class,Golf,52,52,100.0,1.0,7069.58,884.31
+East Africa,First Class,Golf,55,55,100.0,1.0,7019.46,1354.58
+Central America,First Class,Fitness,61,61,100.0,1.0,6913.96,1256.95
+East Africa,First Class,Apparel,83,82,98.8,1.0,13328.28,1547.56
+US Center,First Class,Fan Shop,349,344,98.57,1.0,91999.26,11319.38
+Northern Europe,First Class,Golf,243,239,98.35,1.0,32197.78,999.75
+Southern Europe,First Class,Footwear,119,117,98.32,1.0,37278.04,4215.92
+Southern Africa,First Class,Apparel,59,58,98.31,1.0,9148.86,469.38
+South of  USA,First Class,Footwear,58,57,98.28,1.0,15595.27,1793.44
+East of USA,First Class,Outdoors,58,57,98.28,1.0,5187.32,355.65
+Southern Europe,First Class,Apparel,393,386,98.22,1.0,62362.13,8051.65
+Eastern Europe,First Class,Footwear,56,55,98.21,1.0,14444.35,1590.55
+West Asia,First Class,Outdoors,55,54,98.18,1.0,4082.47,-157.66
+South of  USA,First Class,Apparel,161,158,98.14,1.0,24976.63,3364.61
+US Center,First Class,Outdoors,53,52,98.11,1.0,4352.78,144.63
+East Africa,First Class,Fan Shop,105,103,98.1,1.0,26286.61,3245.25
+South Asia,First Class,Footwear,96,94,97.92,1.0,24676.21,786.49
+North Africa,First Class,Golf,87,85,97.7,1.0,11879.05,1921.16

@@ -1,0 +1,4 @@
+customer_segment,total_orders,total_revenue,total_profit,profit_margin_pct,avg_order_value,profit_rank
+Consumer,93504,19095789.79,2073487.67,10.89,204.22,1
+Corporate,54789,11168406.63,1202574.96,10.85,203.84,2
+Home Office,32226,6520537.89,690840.34,10.64,202.34,3
