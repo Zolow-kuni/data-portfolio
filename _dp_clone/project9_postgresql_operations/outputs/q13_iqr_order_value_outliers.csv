@@ -1,0 +1,101 @@
+order_date,department_name,market,sales,quantity,delivery_status,outlier_type
+2017-10-02,Footwear,Europe,1999.99,1,Late delivery,Upper Outlier
+2017-10-02,Footwear,Europe,1999.99,1,Late delivery,Upper Outlier
+2017-09-30,Footwear,Europe,1999.99,1,Shipping on time,Upper Outlier
+2017-10-02,Footwear,Europe,1999.99,1,Shipping on time,Upper Outlier
+2017-10-01,Footwear,Europe,1999.99,1,Advance shipping,Upper Outlier
+2017-10-02,Footwear,Europe,1999.99,1,Shipping on time,Upper Outlier
+2017-09-30,Footwear,Europe,1999.99,1,Advance shipping,Upper Outlier
+2017-09-30,Footwear,Europe,1999.99,1,Late delivery,Upper Outlier
+2017-09-30,Footwear,Europe,1999.99,1,Advance shipping,Upper Outlier
+2017-09-30,Footwear,Europe,1999.99,1,Late delivery,Upper Outlier
+2017-10-01,Footwear,Europe,1999.99,1,Advance shipping,Upper Outlier
+2017-09-29,Footwear,Europe,1999.99,1,Shipping on time,Upper Outlier
+2017-10-02,Footwear,Europe,1999.99,1,Late delivery,Upper Outlier
+2017-10-01,Footwear,Europe,1999.99,1,Late delivery,Upper Outlier
+2017-10-01,Footwear,Europe,1999.99,1,Shipping on time,Upper Outlier
+2017-10-31,Technology,Europe,1500.0,1,Late delivery,Upper Outlier
+2017-12-23,Technology,Pacific Asia,1500.0,1,Late delivery,Upper Outlier
+2017-10-29,Technology,Europe,1500.0,1,Shipping on time,Upper Outlier
+2017-10-29,Technology,Europe,1500.0,1,Late delivery,Upper Outlier
+2017-10-31,Technology,Europe,1500.0,1,Advance shipping,Upper Outlier
+2017-10-26,Technology,Europe,1500.0,1,Advance shipping,Upper Outlier
+2017-10-27,Technology,Europe,1500.0,1,Late delivery,Upper Outlier
+2017-10-27,Technology,Europe,1500.0,1,Shipping on time,Upper Outlier
+2017-10-29,Technology,Europe,1500.0,1,Late delivery,Upper Outlier
+2017-10-27,Technology,Europe,1500.0,1,Shipping on time,Upper Outlier
+2017-10-27,Technology,Europe,1500.0,1,Shipping on time,Upper Outlier
+2017-10-27,Technology,Europe,1500.0,1,Late delivery,Upper Outlier
+2017-10-27,Technology,Europe,1500.0,1,Shipping on time,Upper Outlier
+2017-10-29,Technology,Europe,1500.0,1,Late delivery,Upper Outlier
+2017-10-26,Technology,Europe,1500.0,1,Shipping on time,Upper Outlier
+2017-10-29,Technology,Europe,1500.0,1,Late delivery,Upper Outlier
+2017-10-26,Technology,Europe,1500.0,1,Late delivery,Upper Outlier
+2017-10-30,Technology,Europe,1500.0,1,Late delivery,Upper Outlier
+2017-10-26,Technology,Europe,1500.0,1,Late delivery,Upper Outlier
+2017-12-23,Technology,Pacific Asia,1500.0,1,Late delivery,Upper Outlier
+2017-10-26,Technology,Europe,1500.0,1,Late delivery,Upper Outlier
+2017-10-29,Technology,Europe,1500.0,1,Late delivery,Upper Outlier
+2017-10-27,Technology,Europe,1500.0,1,Late delivery,Upper Outlier
+2017-10-31,Technology,Europe,1500.0,1,Late delivery,Upper Outlier
+2017-10-28,Technology,Europe,1500.0,1,Late delivery,Upper Outlier
+2017-10-29,Technology,Europe,1500.0,1,Late delivery,Upper Outlier
+2017-10-30,Technology,Europe,1500.0,1,Shipping on time,Upper Outlier
+2017-10-28,Technology,Europe,1500.0,1,Shipping canceled,Upper Outlier
+2017-12-23,Technology,Pacific Asia,1500.0,1,Late delivery,Upper Outlier
+2017-10-27,Technology,Europe,1500.0,1,Late delivery,Upper Outlier
+2017-12-24,Technology,Pacific Asia,1500.0,1,Late delivery,Upper Outlier
+2017-12-23,Technology,Pacific Asia,1500.0,1,Late delivery,Upper Outlier
+2017-12-23,Technology,Pacific Asia,1500.0,1,Shipping on time,Upper Outlier
+2017-10-27,Technology,Europe,1500.0,1,Shipping on time,Upper Outlier
+2017-10-30,Technology,Europe,1500.0,1,Shipping on time,Upper Outlier
+2017-10-26,Technology,Europe,1500.0,1,Advance shipping,Upper Outlier
+2017-10-28,Technology,Europe,1500.0,1,Late delivery,Upper Outlier
+2017-10-26,Technology,Europe,1500.0,1,Advance shipping,Upper Outlier
+2017-10-30,Technology,Europe,1500.0,1,Shipping on time,Upper Outlier
+2017-10-27,Technology,Europe,1500.0,1,Shipping on time,Upper Outlier
+2017-10-28,Technology,Europe,1500.0,1,Shipping on time,Upper Outlier
+2017-10-27,Technology,Europe,1500.0,1,Advance shipping,Upper Outlier
+2017-10-27,Technology,Europe,1500.0,1,Shipping on time,Upper Outlier
+2017-10-30,Technology,Europe,1500.0,1,Late delivery,Upper Outlier
+2017-10-26,Technology,Europe,1500.0,1,Late delivery,Upper Outlier
+2017-12-24,Technology,Pacific Asia,1500.0,1,Advance shipping,Upper Outlier
+2017-10-28,Technology,Europe,1500.0,1,Late delivery,Upper Outlier
+2017-10-26,Technology,Europe,1500.0,1,Advance shipping,Upper Outlier
+2017-10-30,Technology,Europe,1500.0,1,Shipping on time,Upper Outlier
+2017-10-29,Technology,Europe,1500.0,1,Late delivery,Upper Outlier
+2017-10-26,Technology,Europe,1500.0,1,Late delivery,Upper Outlier
+2017-10-29,Technology,Europe,1500.0,1,Shipping on time,Upper Outlier
+2017-10-30,Technology,Europe,1500.0,1,Late delivery,Upper Outlier
+2017-10-28,Technology,Europe,1500.0,1,Late delivery,Upper Outlier
+2017-10-29,Technology,Europe,1500.0,1,Advance shipping,Upper Outlier
+2017-10-26,Technology,Europe,1500.0,1,Advance shipping,Upper Outlier
+2017-10-29,Technology,Europe,1500.0,1,Shipping on time,Upper Outlier
+2017-12-24,Technology,Pacific Asia,1500.0,1,Late delivery,Upper Outlier
+2017-10-30,Technology,Europe,1500.0,1,Shipping on time,Upper Outlier
+2017-10-27,Technology,Europe,1500.0,1,Late delivery,Upper Outlier
+2017-10-29,Technology,Europe,1500.0,1,Shipping on time,Upper Outlier
+2017-10-27,Technology,Europe,1500.0,1,Shipping on time,Upper Outlier
+2017-12-23,Technology,Pacific Asia,1500.0,1,Advance shipping,Upper Outlier
+2017-10-29,Technology,Europe,1500.0,1,Late delivery,Upper Outlier
+2017-10-29,Technology,Europe,1500.0,1,Shipping on time,Upper Outlier
+2017-10-29,Technology,Europe,1500.0,1,Late delivery,Upper Outlier
+2017-10-29,Technology,Europe,1500.0,1,Late delivery,Upper Outlier
+2017-10-28,Technology,Europe,1500.0,1,Advance shipping,Upper Outlier
+2017-10-31,Technology,Europe,1500.0,1,Advance shipping,Upper Outlier
+2017-10-29,Technology,Europe,1500.0,1,Advance shipping,Upper Outlier
+2017-10-26,Technology,Europe,1500.0,1,Late delivery,Upper Outlier
+2017-10-28,Technology,Europe,1500.0,1,Late delivery,Upper Outlier
+2017-10-27,Technology,Europe,1500.0,1,Advance shipping,Upper Outlier
+2017-10-28,Technology,Europe,1500.0,1,Shipping on time,Upper Outlier
+2017-10-28,Technology,Europe,1500.0,1,Advance shipping,Upper Outlier
+2017-10-26,Technology,Europe,1500.0,1,Late delivery,Upper Outlier
+2017-10-26,Technology,Europe,1500.0,1,Shipping on time,Upper Outlier
+2017-10-30,Technology,Europe,1500.0,1,Shipping on time,Upper Outlier
+2017-10-27,Technology,Europe,1500.0,1,Late delivery,Upper Outlier
+2017-10-26,Technology,Europe,1500.0,1,Late delivery,Upper Outlier
+2017-10-31,Technology,Europe,1500.0,1,Shipping on time,Upper Outlier
+2017-10-29,Technology,Europe,1500.0,1,Shipping canceled,Upper Outlier
+2017-10-28,Technology,Europe,1500.0,1,Shipping canceled,Upper Outlier
+2017-10-31,Technology,Europe,1500.0,1,Advance shipping,Upper Outlier
+2017-10-30,Technology,Europe,1500.0,1,Shipping on time,Upper Outlier

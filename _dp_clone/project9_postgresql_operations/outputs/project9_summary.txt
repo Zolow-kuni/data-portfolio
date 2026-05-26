@@ -1,0 +1,45 @@
+================================================================================
+  PROJECT 9 — POSTGRESQL OPERATIONS ANALYTICS
+  Export Summary — generated 2026-05-26 21:53:57
+================================================================================
+
+DATABASE OVERVIEW
+-----------------
+  Total orders in database : 180,519
+  Date range               : 2015-01-01 to 2018-01-31
+  Unique departments        : 11
+  Unique markets            : 5
+  Unique countries          : 164
+
+KPI SNAPSHOT
+------------
+  On-time delivery rate    : 40.88%
+  Overall profit margin    : 10.83%
+
+ANOMALY DETECTION
+-----------------
+  Total anomalies detected : 200
+  (Q03 shipping cost z-score + Q11 profit z-score + Q13 IQR order value)
+
+TOP 3 DELAYED REGIONS
+----------------------
+  Central Africa (57.96%) | South Asia (56.27%) | East Africa (55.94%)
+
+EXPORTED FILES
+--------------
+  q01_monthly_revenue_mom.csv                        37 rows
+  q02_department_kpi_vs_target.csv                   11 rows
+  q03_shipping_cost_outliers.csv                     0 rows
+  q04_late_delivery_rca_region.csv                   20 rows
+  q05_customer_segment_profitability.csv             3 rows
+  q06_rolling_3m_revenue_by_dept.csv                 227 rows
+  q07_shipping_mode_performance.csv                  4 rows
+  q08_top_delayed_routes.csv                         10 rows
+  q09_weekly_kpi_summary.csv                         162 rows
+  q10_market_performance_ranking.csv                 5 rows
+  q11_profit_anomaly_zscore.csv                      100 rows
+  q12_supply_chain_defect_impact.csv                 100 rows
+  q13_iqr_order_value_outliers.csv                   100 rows
+  q14_cumulative_revenue_by_dept.csv                 227 rows
+  q15_rca_summary_delay_causes.csv                   20 rows
+================================================================================

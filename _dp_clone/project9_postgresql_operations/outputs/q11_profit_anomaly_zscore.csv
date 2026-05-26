@@ -1,0 +1,101 @@
+order_date,department_name,sales,profit,profit_z_score,anomaly_flag
+2017-10-02,Footwear,1999.99,-4274.98,-30.27,High Anomaly
+2017-09-30,Fitness,999.99,-1844.98,-19.91,High Anomaly
+2017-11-15,Outdoors,532.58,-1222.27,-16.29,High Anomaly
+2017-11-16,Outdoors,532.58,-1140.79,-15.22,High Anomaly
+2017-11-16,Outdoors,532.58,-1127.21,-15.04,High Anomaly
+2017-12-30,Apparel,461.48,-1027.25,-13.95,High Anomaly
+2017-11-06,Apparel,461.48,-964.95,-13.12,High Anomaly
+2017-12-23,Apparel,357.1,-925.6,-12.6,High Anomaly
+2017-07-05,Fitness,499.95,-1160.13,-12.59,High Anomaly
+2017-11-14,Outdoors,532.58,-931.66,-12.47,High Anomaly
+2017-10-01,Outdoors,599.99,-881.99,-11.81,High Anomaly
+2017-05-12,Outdoors,319.96,-862.29,-11.55,High Anomaly
+2015-06-24,Apparel,299.95,-824.86,-11.25,High Anomaly
+2017-12-22,Apparel,357.1,-819.54,-11.18,High Anomaly
+2015-10-28,Apparel,299.95,-809.87,-11.05,High Anomaly
+2017-11-14,Outdoors,532.58,-817.24,-10.96,High Anomaly
+2017-06-16,Apparel,299.95,-779.87,-10.65,High Anomaly
+2017-11-16,Outdoors,532.58,-790.5,-10.61,High Anomaly
+2015-08-13,Golf,250.0,-675.0,-10.53,High Anomaly
+2017-11-18,Outdoors,532.58,-773.57,-10.38,High Anomaly
+2015-01-07,Apparel,299.95,-757.22,-10.35,High Anomaly
+2016-11-22,Golf,250.0,-661.5,-10.33,High Anomaly
+2017-11-17,Outdoors,532.58,-766.92,-10.3,High Anomaly
+2017-11-13,Outdoors,532.58,-764.25,-10.26,High Anomaly
+2016-12-26,Outdoors,325.0,-756.11,-10.15,High Anomaly
+2016-04-13,Golf,250.0,-649.69,-10.15,High Anomaly
+2016-01-22,Apparel,299.95,-741.93,-10.14,High Anomaly
+2017-11-18,Outdoors,532.58,-754.93,-10.14,High Anomaly
+2015-10-08,Golf,250.0,-649.25,-10.14,High Anomaly
+2017-12-28,Apparel,461.48,-741.37,-10.14,High Anomaly
+2017-01-25,Golf,250.0,-648.0,-10.12,High Anomaly
+2016-03-28,Golf,250.0,-648.0,-10.12,High Anomaly
+2017-11-06,Apparel,461.48,-738.6,-10.1,High Anomaly
+2017-10-20,Apparel,357.1,-738.48,-10.1,High Anomaly
+2015-11-15,Apparel,299.95,-736.98,-10.08,High Anomaly
+2015-04-27,Apparel,299.95,-734.28,-10.04,High Anomaly
+2016-09-29,Outdoors,325.0,-745.88,-10.02,High Anomaly
+2017-12-27,Apparel,461.48,-729.6,-9.98,High Anomaly
+2016-10-03,Golf,250.0,-637.88,-9.97,High Anomaly
+2015-04-16,Apparel,299.95,-727.38,-9.95,High Anomaly
+2017-11-06,Apparel,461.48,-723.37,-9.9,High Anomaly
+2016-02-04,Footwear,499.95,-1374.86,-9.87,High Anomaly
+2018-01-02,Outdoors,532.58,-729.37,-9.8,High Anomaly
+2015-09-29,Golf,250.0,-625.63,-9.78,High Anomaly
+2017-02-13,Apparel,299.95,-712.68,-9.75,High Anomaly
+2016-06-05,Apparel,299.95,-711.33,-9.74,High Anomaly
+2016-08-27,Apparel,299.95,-709.68,-9.71,High Anomaly
+2016-09-06,Apparel,299.95,-709.68,-9.71,High Anomaly
+2015-01-11,Golf,250.0,-618.75,-9.67,High Anomaly
+2016-08-06,Golf,250.0,-618.38,-9.67,High Anomaly
+2017-11-16,Outdoors,532.58,-718.98,-9.67,High Anomaly
+2015-08-28,Golf,250.0,-616.13,-9.63,High Anomaly
+2017-12-28,Apparel,461.48,-701.45,-9.6,High Anomaly
+2016-05-03,Footwear,499.95,-1336.37,-9.6,High Anomaly
+2017-01-21,Golf,250.0,-612.0,-9.57,High Anomaly
+2017-11-26,Discs Shop,260.65,-552.58,-9.56,High Anomaly
+2015-05-14,Apparel,299.95,-696.03,-9.53,High Anomaly
+2016-05-19,Apparel,299.95,-696.03,-9.53,High Anomaly
+2017-09-08,Footwear,499.95,-1324.87,-9.52,High Anomaly
+2016-08-03,Golf,250.0,-606.25,-9.48,High Anomaly
+2016-12-03,Golf,250.0,-604.5,-9.46,High Anomaly
+2015-10-14,Fan Shop,399.98,-1088.95,-9.46,High Anomaly
+2015-09-09,Apparel,299.95,-688.39,-9.43,High Anomaly
+2016-06-28,Apparel,299.95,-688.39,-9.43,High Anomaly
+2017-05-13,Outdoors,299.97,-699.53,-9.41,High Anomaly
+2017-09-27,Fitness,329.99,-862.1,-9.41,High Anomaly
+2016-03-05,Fan Shop,399.98,-1079.95,-9.38,High Anomaly
+2015-02-10,Fan Shop,399.98,-1077.95,-9.36,High Anomaly
+2017-02-10,Fan Shop,399.98,-1077.95,-9.36,High Anomaly
+2017-11-18,Outdoors,532.58,-693.42,-9.33,High Anomaly
+2016-02-28,Apparel,299.95,-678.49,-9.3,High Anomaly
+2017-01-02,Fan Shop,399.98,-1069.15,-9.29,High Anomaly
+2017-12-28,Apparel,461.48,-675.95,-9.26,High Anomaly
+2015-12-03,Apparel,299.95,-675.64,-9.26,High Anomaly
+2017-09-01,Golf,250.0,-591.5,-9.26,High Anomaly
+2017-05-29,Footwear,499.95,-1286.87,-9.25,High Anomaly
+2015-11-11,Apparel,299.95,-672.19,-9.21,High Anomaly
+2016-10-02,Fan Shop,399.98,-1058.35,-9.2,High Anomaly
+2015-08-20,Fan Shop,399.98,-1055.95,-9.18,High Anomaly
+2015-04-28,Golf,250.0,-585.0,-9.16,High Anomaly
+2017-06-23,Outdoors,399.96,-679.93,-9.15,High Anomaly
+2015-12-04,Golf,250.0,-584.38,-9.15,High Anomaly
+2015-05-11,Fan Shop,399.98,-1047.55,-9.1,High Anomaly
+2016-12-16,Fan Shop,399.98,-1047.55,-9.1,High Anomaly
+2016-11-11,Fan Shop,399.98,-1047.55,-9.1,High Anomaly
+2017-02-28,Apparel,299.95,-662.89,-9.09,High Anomaly
+2015-04-06,Golf,250.0,-580.13,-9.08,High Anomaly
+2017-08-01,Apparel,239.96,-659.89,-9.05,High Anomaly
+2015-11-01,Fan Shop,399.98,-1038.75,-9.03,High Anomaly
+2017-12-27,Apparel,461.48,-657.61,-9.02,High Anomaly
+2016-08-11,Fan Shop,399.98,-1036.75,-9.01,High Anomaly
+2017-03-16,Golf,250.0,-573.75,-8.99,High Anomaly
+2017-10-26,Technology,1500.0,-3442.5,-8.99,High Anomaly
+2017-09-30,Footwear,1999.99,-1246.09,-8.96,High Anomaly
+2016-02-15,Apparel,299.95,-651.79,-8.94,High Anomaly
+2016-02-17,Fan Shop,399.98,-1028.15,-8.94,High Anomaly
+2016-03-20,Fan Shop,399.98,-1025.95,-8.92,High Anomaly
+2015-05-11,Fan Shop,399.98,-1025.95,-8.92,High Anomaly
+2017-05-02,Fan Shop,399.98,-1025.95,-8.92,High Anomaly
+2016-07-07,Apparel,299.95,-650.14,-8.92,High Anomaly

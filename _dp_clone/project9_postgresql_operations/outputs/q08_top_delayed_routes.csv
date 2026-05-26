@@ -1,0 +1,11 @@
+order_region,shipping_mode,shipments,avg_delay_days,max_delay_days,late_risk_pct,revenue_at_risk
+Central Asia,Second Class,117,2.21,4,86.32,22943.3
+Central Africa,Second Class,297,2.13,4,81.14,57423.99
+Eastern Asia,Second Class,1406,2.12,4,79.37,287205.49
+Western Europe,Second Class,5438,2.06,4,77.9,1169800.72
+South Asia,Second Class,1552,2.04,4,77.19,311107.55
+South of  USA,Second Class,829,2.04,4,81.18,155120.15
+Caribbean,Second Class,1631,2.03,4,78.3,328435.36
+Canada,Second Class,166,2.03,4,75.3,32206.81
+South America,Second Class,2827,2.0,4,75.06,561054.65
+West of USA,Second Class,1632,1.99,4,76.84,322243.64

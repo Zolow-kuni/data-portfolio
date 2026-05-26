@@ -1,0 +1,21 @@
+order_region,order_country,shipping_mode,total_orders,late_orders,late_risk_pct,avg_delay_days,avg_shipping_cost
+Southeast Asia,Tailandia,First Class,153,153,100.0,1.0,0.0
+South Asia,Pakistán,First Class,179,179,100.0,1.0,0.0
+Eastern Europe,Polonia,First Class,129,129,100.0,1.0,0.0
+Eastern Asia,Japón,First Class,108,108,100.0,1.0,0.0
+Southern Africa,SudAfrica,First Class,187,184,98.4,1.0,0.0
+West Africa,Nigeria,First Class,288,283,98.26,1.0,0.0
+North Africa,Marruecos,First Class,165,162,98.18,1.0,0.0
+Central America,Panamá,First Class,257,252,98.05,1.0,0.0
+West Asia,Turquía,First Class,579,567,97.93,1.0,0.0
+Western Europe,Austria,First Class,249,243,97.59,1.0,0.0
+Northern Europe,Suecia,First Class,166,162,97.59,1.0,0.0
+Southern Europe,España,First Class,656,639,97.41,1.0,0.0
+Southern Europe,Italia,First Class,733,713,97.27,1.0,0.0
+Eastern Europe,Rusia,First Class,178,173,97.19,1.0,0.0
+South Asia,Irán,First Class,213,207,97.18,1.0,0.0
+South America,Colombia,First Class,249,241,96.79,1.0,0.0
+Eastern Europe,Ucrania,First Class,180,174,96.67,1.0,0.0
+Central America,Honduras,First Class,537,519,96.65,1.0,0.0
+Caribbean,Cuba,First Class,498,481,96.59,1.0,0.0
+US Center,Estados Unidos,First Class,986,951,96.45,1.0,0.0
