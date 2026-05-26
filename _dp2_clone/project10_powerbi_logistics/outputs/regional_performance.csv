@@ -1,0 +1,168 @@
+order_region,order_country,market,total_orders,total_revenue,total_profit,on_time_pct,late_pct,avg_delay_days,profit_margin_pct,revenue_rank
+Western Europe,Francia,Europe,13222,2879942.36,327828.58,39.87,55.52,0.6,11.38,1
+Central America,México,LATAM,13172,2633195.29,303278.37,40.68,55.01,0.59,11.52,2
+Western Europe,Alemania,Europe,9564,2074171.82,194827.08,39.43,56.28,0.59,9.39,3
+Oceania,Australia,Pacific Asia,8497,1694621.67,170041.58,41.46,54.29,0.57,10.03,4
+Northern Europe,Reino Unido,Europe,7302,1612094.85,180942.88,42.3,53.45,0.53,11.22,5
+South America,Brasil,LATAM,7987,1594319.95,186713.64,40.67,54.23,0.57,11.71,6
+West of USA ,Estados Unidos,USCA,7993,1571415.96,164940.66,41.06,53.96,0.56,10.5,7
+East of USA,Estados Unidos,USCA,6915,1371111.99,156263.3,40.03,55.66,0.58,11.4,8
+Eastern Asia,China,Pacific Asia,5758,1172902.11,122190.92,41.26,54.24,0.56,10.42,9
+US Center ,Estados Unidos,USCA,5887,1151355.77,131094.23,40.78,55.24,0.59,11.39,10
+Southern Europe,Italia,Europe,4989,1072181.67,121545.47,41.91,53.56,0.48,11.34,11
+South Asia,India,Pacific Asia,4783,962396.7,99746.82,39.83,56.12,0.62,10.36,12
+Southern Europe,España,Europe,3868,851526.74,93547.64,40.72,55.69,0.56,10.99,13
+Southeast Asia,Indonesia,Pacific Asia,4204,847605.93,90714.08,40.27,55.38,0.58,10.7,14
+South of  USA ,Estados Unidos,USCA,4045,785783.95,88114.88,39.53,55.77,0.58,11.21,15
+Central America,El Salvador,LATAM,3726,747720.21,77051.91,40.47,56.12,0.62,10.3,16
+Central America,Honduras,LATAM,3629,734959.67,85173.81,43.4,52.88,0.46,11.59,17
+Caribbean,República Dominicana,LATAM,3669,726613.05,84401.02,41.07,55.06,0.6,11.62,18
+Caribbean,Cuba,LATAM,3534,709339.42,60624.03,44.03,50.88,0.48,8.55,19
+West Asia,Turquía,Pacific Asia,3395,667863.36,70910.66,40.32,55.79,0.6,10.62,20
+Central America,Nicaragua,LATAM,3046,605055.1,66033.6,38.41,56.34,0.63,10.91,21
+Central America,Guatemala,LATAM,2778,550517.12,47330.88,40.68,55.04,0.54,8.6,22
+West Africa,Nigeria,Africa,2309,455321.3,53436.54,43.83,53.05,0.57,11.74,23
+Western Europe,Países Bajos,Europe,1932,423197.06,42406.8,40.58,54.5,0.57,10.02,24
+Southeast Asia,Filipinas,Pacific Asia,2103,420269.82,47687.92,40.56,55.25,0.57,11.35,25
+Central America,Panamá,LATAM,1941,385822.72,37456.61,46.26,50.7,0.36,9.71,26
+South America,Argentina,LATAM,1931,378746.16,38797.77,43.29,51.73,0.48,10.24,27
+South America,Colombia,LATAM,1771,344901.32,39434.93,43.65,51.27,0.48,11.43,28
+Oceania,Nueva Zelanda,Pacific Asia,1590,310038.79,29172.23,44.15,52.58,0.5,9.41,29
+Western Europe,Austria,Europe,1387,296302.25,36473.11,37.92,58.11,0.55,12.31,30
+South Asia,Irán,Pacific Asia,1460,285869.16,34910.45,42.12,54.59,0.54,12.21,31
+North Africa,Egipto,Africa,1189,232570.18,21072.81,38.52,56.1,0.53,9.06,32
+North Africa,Marruecos,Africa,1135,223420.02,22879.15,42.03,54.45,0.57,10.24,33
+Southern Africa,SudAfrica,Africa,1099,217192.82,28934.34,42.68,52.59,0.46,13.32,34
+Northern Europe,Suecia,Europe,929,204599.5,22041.48,39.4,58.56,0.63,10.77,35
+Eastern Europe,Rusia,Europe,1014,200161.53,17473.0,39.94,55.33,0.63,8.73,36
+Central Africa,República Democrática del Congo,Africa,1010,198713.26,23743.14,36.93,59.8,0.65,11.95,37
+South America,Venezuela,LATAM,984,194201.28,28004.19,38.62,54.98,0.6,14.42,38
+West Asia,Irak,Pacific Asia,976,193168.15,18830.21,44.16,50.0,0.46,9.75,39
+Southeast Asia,Tailandia,Pacific Asia,909,189513.64,22735.13,37.95,56.88,0.6,12.0,40
+Eastern Europe,Ucrania,Europe,967,189131.52,16511.54,43.95,54.5,0.53,8.73,41
+Canada,Canada,USCA,959,186861.04,23900.71,45.78,48.8,0.39,12.79,42
+Southeast Asia,Vietnam,Pacific Asia,757,166364.27,16450.94,43.06,52.05,0.48,9.89,43
+West Asia,Arabia Saudí,Pacific Asia,860,163149.7,11735.63,38.84,57.67,0.56,7.19,44
+Eastern Asia,Japón,Pacific Asia,758,154352.13,12071.53,45.12,51.72,0.44,7.82,45
+South America,Perú,LATAM,764,151777.25,17744.53,37.43,57.46,0.65,11.69,46
+Western Europe,Bélgica,Europe,664,151641.32,15731.9,37.5,55.87,0.69,10.37,47
+South Asia,Pakistán,Pacific Asia,758,151022.68,18052.68,39.97,57.78,0.54,11.95,48
+South America,Chile,LATAM,738,145544.23,13173.86,35.77,60.16,0.64,9.05,49
+Eastern Europe,Polonia,Europe,641,123901.81,14857.18,43.21,55.69,0.5,11.99,50
+Eastern Asia,Corea del Sur,Pacific Asia,583,123235.0,14459.3,37.56,60.21,0.75,11.73,51
+Northern Europe,Irlanda,Europe,491,116683.22,6588.69,34.62,60.69,0.74,5.65,52
+Southeast Asia,Malasia,Pacific Asia,544,105694.21,10630.04,36.03,61.21,0.62,10.06,53
+North Africa,Argelia,Africa,516,101095.5,12111.17,41.67,53.1,0.66,11.98,54
+Caribbean,Haití,LATAM,534,99849.76,11748.09,44.19,54.12,0.52,11.77,55
+South Asia,Bangladés,Pacific Asia,466,94686.18,9962.07,39.27,58.8,0.66,10.52,56
+Southeast Asia,Singapur,Pacific Asia,455,93789.42,11399.47,44.18,53.41,0.45,12.15,57
+Eastern Europe,Rumania,Europe,455,90480.96,12646.52,35.6,57.8,0.63,13.98,58
+Southeast Asia,Myanmar (Birmania),Pacific Asia,409,80748.77,8666.07,41.81,54.28,0.36,10.73,59
+Southern Europe,Portugal,Europe,343,75991.16,10409.89,43.15,49.27,0.5,13.7,60
+East Africa,Tanzania,Africa,378,75470.2,10233.27,39.42,55.56,0.41,13.56,61
+Northern Europe,Noruega,Europe,333,73162.69,9563.01,43.54,53.45,0.74,13.07,62
+Western Europe,Suiza,Europe,330,67361.24,7695.48,38.18,53.33,0.84,11.42,63
+Northern Europe,Finlandia,Europe,290,61129.22,6282.61,47.59,47.93,0.4,10.28,64
+South America,Ecuador,LATAM,294,59389.69,2794.71,27.89,67.01,0.64,4.71,65
+Northern Europe,Dinamarca,Europe,285,58605.8,5224.62,52.63,44.91,0.26,8.91,66
+Central Africa,Angola,Africa,306,57666.02,361.8,37.25,59.8,0.88,0.63,67
+East Africa,Zambia,Africa,266,55521.24,4120.77,41.35,56.02,0.65,7.42,68
+West Asia,Israel,Pacific Asia,265,54023.76,5995.87,36.23,58.87,0.56,11.1,69
+Central Africa,Camerún,Africa,275,53905.74,8256.25,49.09,44.0,0.25,15.32,70
+Central Asia,Kazajistán,Pacific Asia,274,53742.19,5837.17,38.69,57.66,0.76,10.86,71
+West Africa,Ghana,Africa,264,53062.87,6129.58,36.36,60.61,0.94,11.55,72
+West Africa,Senegal,Africa,263,50717.07,5004.96,47.91,44.11,0.21,9.87,73
+East Africa,Kenia,Africa,238,50662.48,3826.89,47.48,48.74,0.44,7.55,74
+North Africa,Sudán,Africa,251,50190.06,4209.65,45.02,50.2,0.48,8.39,75
+West Africa,Costa de Marfil,Africa,257,48247.97,5554.45,36.19,60.7,0.78,11.51,76
+East Africa,Mozambique,Africa,244,48060.4,8457.07,33.61,63.93,0.86,17.6,77
+South America,Bolivia,LATAM,213,42269.38,4693.64,38.5,59.15,0.84,11.1,78
+Eastern Europe,Bielorrusia,Europe,210,41264.14,3495.36,46.19,50.95,0.52,8.47,79
+East Africa,Zimbabue,Africa,190,39099.52,4875.18,41.58,55.79,0.56,12.47,80
+South Asia,Afganistán,Pacific Asia,163,38568.86,1223.73,38.04,57.06,0.61,3.17,81
+Eastern Europe,República Checa,Europe,187,38135.87,3384.53,43.32,53.48,0.45,8.87,82
+Eastern Europe,Hungría,Europe,179,36030.44,5758.31,35.2,62.57,0.63,15.98,83
+Eastern Europe,Bulgaria,Europe,166,34949.68,4069.52,38.55,51.2,0.52,11.64,84
+Caribbean,Jamaica,LATAM,170,33063.83,4995.31,45.29,50.0,0.6,15.11,85
+East Africa,Madagascar,Africa,149,28570.55,3112.66,43.62,49.66,0.74,10.89,86
+East Africa,Somalia,Africa,141,28501.9,3739.29,30.5,63.83,0.55,13.12,87
+Caribbean,Trinidad y Tobago,LATAM,138,28330.55,4556.55,32.61,58.7,0.94,16.08,88
+Southeast Asia,Camboya,Pacific Asia,152,27826.49,2975.08,35.53,60.53,0.49,10.69,89
+South America,Uruguay,LATAM,139,27062.91,2691.44,43.17,56.12,0.42,9.95,90
+Central Asia,Uzbekistán,Pacific Asia,121,24152.29,3193.02,41.32,57.85,0.7,13.22,91
+Caribbean,Martinica,LATAM,120,24137.01,2878.02,36.67,52.5,0.44,11.92,92
+Northern Europe,Lituania,Europe,133,23951.94,2746.65,42.86,55.64,0.48,11.47,93
+West Africa,Togo,Africa,122,23693.49,1595.31,61.48,36.89,0.15,6.73,94
+West Africa,Níger,Africa,108,23443.35,3474.68,33.33,63.89,0.79,14.82,95
+Caribbean,Barbados,LATAM,117,23291.43,1997.61,41.88,55.56,0.8,8.58,96
+North Africa,Libia,Africa,105,21217.98,3381.12,50.48,46.67,0.06,15.94,97
+West Asia,Jordania,Pacific Asia,108,20006.61,1218.35,45.37,51.85,0.55,6.09,98
+West Africa,Mali,Africa,103,19942.6,1053.95,41.75,58.25,0.39,5.28,99
+East Africa,Uganda,Africa,96,19516.92,3054.2,40.62,59.38,0.64,15.65,100
+Central Asia,Kirguistán,Pacific Asia,98,18991.2,3147.8,61.22,38.78,0.24,16.58,101
+East Africa,Ruanda,Africa,86,18913.02,-330.02,50.0,47.67,0.33,-1.74,102
+West Asia,Georgia,Pacific Asia,93,18498.05,1167.94,24.73,68.82,0.62,6.31,103
+South Asia,Nepal,Pacific Asia,80,17733.02,1140.54,40.0,60.0,0.62,6.43,104
+Southern Europe,Croacia,Europe,86,17216.28,2268.95,32.56,59.3,0.56,13.18,105
+West Africa,Benín,Africa,85,16430.2,2011.16,52.94,45.88,0.18,12.24,106
+South America,Paraguay,LATAM,78,15595.09,679.32,56.41,38.46,0.37,4.36,107
+Eastern Asia,Mongolia,Pacific Asia,79,15481.74,-286.23,34.18,65.82,1.28,-1.85,108
+Eastern Europe,Moldavia,Europe,78,15351.1,891.19,28.21,69.23,1.41,5.81,109
+Eastern Asia,Hong Kong,Pacific Asia,73,14034.02,307.03,47.95,36.99,0.36,2.19,110
+West Asia,Azerbaiyán,Pacific Asia,68,13369.54,610.68,42.65,57.35,0.57,4.57,111
+West Asia,Yemen,Pacific Asia,71,13106.28,1486.78,23.94,59.15,0.83,11.34,112
+West Asia,Siria,Pacific Asia,63,12408.74,2769.68,34.92,53.97,0.95,22.32,113
+Central Asia,Turkmenistán,Pacific Asia,53,12108.34,625.81,30.19,69.81,0.68,5.17,114
+Oceania,Papúa Nueva Guinea,Pacific Asia,61,11993.74,2264.21,42.62,54.1,0.1,18.88,115
+West Africa,Guinea,Africa,45,9464.58,1537.79,44.44,42.22,0.09,16.25,116
+Central Africa,Gabón,Africa,45,9253.98,374.72,22.22,77.78,1.11,4.05,117
+Southern Europe,Bosnia y Herzegovina,Europe,45,8869.09,-327.38,26.67,68.89,0.69,-3.69,118
+Southern Europe,Albania,Europe,37,8299.13,1660.78,40.54,59.46,0.35,20.01,119
+West Asia,Qatar,Pacific Asia,42,7724.09,1919.38,40.48,52.38,0.38,24.85,120
+West Africa,Sierra Leona,Africa,39,7429.04,418.42,51.28,48.72,0.18,5.63,121
+West Africa,Liberia,Africa,34,6974.28,181.99,47.06,41.18,0.38,2.61,122
+Southern Europe,Grecia,Europe,28,6605.52,207.43,57.14,39.29,0.18,3.14,123
+East Africa,Yibuti,Africa,31,6569.37,1239.0,32.26,67.74,0.61,18.86,124
+Eastern Asia,Taiwán,Pacific Asia,29,6396.33,-1374.54,65.52,34.48,0.07,-21.49,125
+Caribbean,Guadalupe,LATAM,36,6394.27,625.01,61.11,38.89,0.36,9.77,126
+North Africa,Túnez,Africa,36,6258.47,945.96,22.22,77.78,0.86,15.11,127
+Central America,Costa Rica,LATAM,36,5947.17,244.74,30.56,69.44,1.31,4.12,128
+West Asia,Emiratos Árabes Unidos,Pacific Asia,29,5690.39,828.81,31.03,68.97,0.59,14.57,129
+Northern Europe,Estonia,Europe,29,5603.42,60.66,3.45,96.55,1.55,1.08,130
+West Africa,Guinea-Bissau,Africa,28,5169.41,-1448.72,46.43,53.57,0.46,-28.02,131
+Central Africa,República Centroafricana,Africa,23,4829.37,656.41,34.78,65.22,0.65,13.59,132
+Eastern Europe,Eslovaquia,Europe,22,4739.5,587.9,27.27,72.73,0.82,12.4,133
+West Africa,Mauritania,Africa,21,4601.45,1011.28,61.9,38.1,0.19,21.98,134
+South America,Guyana,LATAM,19,4029.55,501.45,21.05,78.95,0.84,12.44,135
+East Africa,Etiopía,Africa,25,3859.44,446.41,44.0,36.0,-0.04,11.57,136
+Southern Africa,Namibia,Africa,20,3789.6,494.45,25.0,75.0,0.75,13.05,137
+Southern Africa,Lesoto,Africa,20,3149.62,484.53,25.0,50.0,0.85,15.38,138
+West Asia,Líbano,Pacific Asia,20,2967.65,758.23,70.0,30.0,-0.1,25.55,139
+Southern Africa,Botsuana,Africa,13,2859.64,600.27,30.77,69.23,0.62,20.99,140
+South Asia,Sri Lanka,Pacific Asia,16,2634.72,458.94,31.25,68.75,0.88,17.42,141
+Central America,Belice,LATAM,13,2494.81,-228.35,38.46,61.54,0.23,-9.15,142
+Southern Europe,Montenegro,Europe,11,2389.72,817.82,54.55,45.45,0.45,34.22,143
+Southern Europe,Chipre,Europe,12,2099.77,378.18,33.33,66.67,0.25,18.01,144
+Central Africa,República del Congo,Africa,13,1974.72,224.3,7.69,92.31,1.0,11.36,145
+Western Europe,Luxemburgo,Europe,10,1764.72,483.13,0.0,100.0,2.7,27.38,146
+South America,Guayana Francesa,LATAM,9,1704.75,-231.88,66.67,33.33,-0.56,-13.6,147
+Southern Europe,Macedonia,Europe,6,1549.88,297.45,83.33,16.67,-0.5,19.19,148
+West Africa,República de Gambia,Africa,5,1449.86,-265.83,0.0,100.0,2.0,-18.33,149
+West Africa,Burkina Faso,Africa,11,1403.76,352.23,90.91,9.09,-0.27,25.09,150
+West Asia,Omán,Pacific Asia,8,1374.7,256.68,100.0,0.0,-0.5,18.67,151
+South America,Surinam,LATAM,8,1339.84,156.8,100.0,0.0,-2.0,11.7,152
+Southern Africa,Suazilandia,Africa,5,1259.91,312.46,0.0,100.0,2.0,24.8,153
+Southern Europe,Eslovenia,Europe,6,1189.86,23.0,16.67,83.33,1.83,1.93,154
+East Africa,Sudán del Sur,Africa,5,879.94,222.78,0.0,100.0,2.2,25.32,155
+Central Asia,Tayikistán,Pacific Asia,7,845.91,241.48,57.14,42.86,0.43,28.55,156
+South Asia,Bután,Pacific Asia,5,769.6,208.67,0.0,100.0,2.0,27.11,157
+Southeast Asia,Laos,Pacific Asia,6,683.01,84.09,0.0,100.0,1.83,12.31,158
+Central Africa,Chad,Africa,3,599.96,-272.71,100.0,0.0,0.0,-45.45,159
+West Africa,Sáhara Occidental,Africa,2,599.96,-17.52,0.0,100.0,2.0,-2.92,160
+West Asia,Baréin,Pacific Asia,4,529.89,150.22,100.0,0.0,-1.0,28.35,161
+West Asia,Armenia,Pacific Asia,5,455.9,42.46,0.0,100.0,1.0,9.31,162
+West Asia,Kuwait,Pacific Asia,2,334.96,133.83,100.0,0.0,0.0,39.95,163
+Central Africa,Guinea Ecuatorial,Africa,2,319.96,103.36,0.0,100.0,1.5,32.3,164
+East Africa,Eritrea,Africa,2,309.96,92.48,0.0,100.0,2.0,29.84,165
+East Africa,Burundi,Africa,1,299.95,77.75,100.0,0.0,-1.0,25.92,166
+Eastern Europe,Serbia,Europe,1,120.0,42.0,100.0,0.0,-1.0,35.0,167

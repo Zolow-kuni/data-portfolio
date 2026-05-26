@@ -1,0 +1,1288 @@
+shipping_mode,order_region,department_name,delay_category,order_count,total_revenue,avg_delay_days,max_delay_days,revenue_at_risk
+First Class,Canada,Apparel,Minor Delay (1-2 days),50,8048.95,1.0,1,7489.02
+First Class,Canada,Fan Shop,Minor Delay (1-2 days),71,17347.81,1.0,1,15948.06
+First Class,Canada,Fitness,Minor Delay (1-2 days),3,293.95,1.0,1,293.95
+First Class,Canada,Footwear,Minor Delay (1-2 days),12,2515.68,1.0,1,2515.68
+First Class,Canada,Golf,Minor Delay (1-2 days),36,4794.62,1.0,1,4494.67
+First Class,Canada,Outdoors,Minor Delay (1-2 days),12,801.73,1.0,1,726.76
+First Class,Caribbean,Apparel,Minor Delay (1-2 days),316,48633.69,1.0,1,46343.99
+First Class,Caribbean,Fan Shop,Minor Delay (1-2 days),453,115464.71,1.0,1,108965.42
+First Class,Caribbean,Fitness,Minor Delay (1-2 days),11,1289.76,1.0,1,1289.76
+First Class,Caribbean,Footwear,Minor Delay (1-2 days),100,27922.0,1.0,1,26131.23
+First Class,Caribbean,Golf,Minor Delay (1-2 days),249,33982.87,1.0,1,32532.92
+First Class,Caribbean,Outdoors,Minor Delay (1-2 days),64,6777.21,1.0,1,6697.25
+First Class,Central Africa,Apparel,Minor Delay (1-2 days),83,12598.32,1.0,1,11858.42
+First Class,Central Africa,Fan Shop,Minor Delay (1-2 days),106,27097.33,1.0,1,25197.47
+First Class,Central Africa,Fitness,Minor Delay (1-2 days),4,289.92,1.0,1,244.93
+First Class,Central Africa,Footwear,Minor Delay (1-2 days),22,6191.27,1.0,1,6191.27
+First Class,Central Africa,Golf,Minor Delay (1-2 days),72,9869.24,1.0,1,8939.31
+First Class,Central Africa,Outdoors,Minor Delay (1-2 days),13,1239.68,1.0,1,1159.72
+First Class,Central America,Apparel,Minor Delay (1-2 days),1151,181815.84,1.0,1,173396.87
+First Class,Central America,Fan Shop,Minor Delay (1-2 days),1690,438069.35,1.0,1,417022.08
+First Class,Central America,Fitness,Minor Delay (1-2 days),61,6913.96,1.0,1,6913.96
+First Class,Central America,Footwear,Minor Delay (1-2 days),394,106640.92,1.0,1,102121.44
+First Class,Central America,Golf,Minor Delay (1-2 days),847,121856.41,1.0,1,117366.62
+First Class,Central America,Outdoors,Minor Delay (1-2 days),239,28552.36,1.0,1,27401.6
+First Class,Central Asia,Apparel,Minor Delay (1-2 days),17,2779.63,1.0,1,2779.63
+First Class,Central Asia,Fan Shop,Minor Delay (1-2 days),24,5349.21,1.0,1,5349.21
+First Class,Central Asia,Footwear,Minor Delay (1-2 days),5,1599.84,1.0,1,1599.84
+First Class,Central Asia,Golf,Minor Delay (1-2 days),11,1324.91,1.0,1,1324.91
+First Class,Central Asia,Outdoors,Minor Delay (1-2 days),6,847.78,1.0,1,847.78
+First Class,East Africa,Apparel,Minor Delay (1-2 days),83,13328.28,1.0,1,13198.29
+First Class,East Africa,Fan Shop,Minor Delay (1-2 days),105,26286.61,1.0,1,25686.64
+First Class,East Africa,Fitness,Minor Delay (1-2 days),2,344.93,1.0,1,344.93
+First Class,East Africa,Footwear,Minor Delay (1-2 days),22,7969.12,1.0,1,7969.12
+First Class,East Africa,Golf,Minor Delay (1-2 days),55,7019.46,1.0,1,7019.46
+First Class,East Africa,Outdoors,Minor Delay (1-2 days),13,880.61,1.0,1,880.61
+First Class,East of USA,Apparel,Minor Delay (1-2 days),270,41584.69,1.0,1,39714.92
+First Class,East of USA,Fan Shop,Minor Delay (1-2 days),425,107497.58,1.0,1,102847.95
+First Class,East of USA,Fitness,Minor Delay (1-2 days),13,1038.78,1.0,1,1038.78
+First Class,East of USA,Footwear,Minor Delay (1-2 days),82,22878.34,1.0,1,22623.39
+First Class,East of USA,Golf,Minor Delay (1-2 days),241,33337.48,1.0,1,32227.52
+First Class,East of USA,Outdoors,Minor Delay (1-2 days),58,5187.32,1.0,1,4979.36
+First Class,Eastern Asia,Apparel,Minor Delay (1-2 days),273,49008.41,1.0,1,46633.29
+First Class,Eastern Asia,Book Shop,Minor Delay (1-2 days),2,62.16,1.0,1,62.16
+First Class,Eastern Asia,Discs Shop,Minor Delay (1-2 days),59,7742.72,1.0,1,7090.88
+First Class,Eastern Asia,Fan Shop,Minor Delay (1-2 days),335,82149.67,1.0,1,77400.29
+First Class,Eastern Asia,Fitness,Minor Delay (1-2 days),32,7269.24,1.0,1,6871.51
+First Class,Eastern Asia,Footwear,Minor Delay (1-2 days),84,23057.52,1.0,1,21757.65
+First Class,Eastern Asia,Golf,Minor Delay (1-2 days),160,23508.46,1.0,1,22538.59
+First Class,Eastern Asia,Health and Beauty ,Minor Delay (1-2 days),17,4981.68,1.0,1,4395.6
+First Class,Eastern Asia,Outdoors,Minor Delay (1-2 days),58,13028.95,1.0,1,13028.95
+First Class,Eastern Asia,Pet Shop,Minor Delay (1-2 days),18,1519.2,1.0,1,1519.2
+First Class,Eastern Asia,Technology,Minor Delay (1-2 days),5,3758.64,1.0,1,3758.64
+First Class,Eastern Europe,Apparel,Minor Delay (1-2 days),169,27356.35,1.0,1,25896.57
+First Class,Eastern Europe,Fan Shop,Minor Delay (1-2 days),261,67912.51,1.0,1,65512.71
+First Class,Eastern Europe,Fitness,Minor Delay (1-2 days),9,1024.77,1.0,1,1024.77
+First Class,Eastern Europe,Footwear,Minor Delay (1-2 days),56,14444.35,1.0,1,14244.37
+First Class,Eastern Europe,Golf,Minor Delay (1-2 days),129,18153.92,1.0,1,17163.93
+First Class,Eastern Europe,Outdoors,Minor Delay (1-2 days),34,2696.03,1.0,1,2472.1
+First Class,North Africa,Apparel,Minor Delay (1-2 days),143,24046.75,1.0,1,23526.79
+First Class,North Africa,Fan Shop,Minor Delay (1-2 days),188,47794.43,1.0,1,46244.71
+First Class,North Africa,Fitness,Minor Delay (1-2 days),7,739.88,1.0,1,739.88
+First Class,North Africa,Footwear,Minor Delay (1-2 days),35,9340.95,1.0,1,9240.96
+First Class,North Africa,Golf,Minor Delay (1-2 days),87,11879.05,1.0,1,11709.08
+First Class,North Africa,Outdoors,Minor Delay (1-2 days),26,2382.26,1.0,1,2318.3
+First Class,Northern Europe,Apparel,Minor Delay (1-2 days),423,73157.63,1.0,1,69399.4
+First Class,Northern Europe,Book Shop,Minor Delay (1-2 days),7,217.56,1.0,1,217.56
+First Class,Northern Europe,Discs Shop,Minor Delay (1-2 days),7,691.39,1.0,1,691.39
+First Class,Northern Europe,Fan Shop,Minor Delay (1-2 days),517,133985.06,1.0,1,127435.85
+First Class,Northern Europe,Fitness,Minor Delay (1-2 days),12,2465.66,1.0,1,2165.67
+First Class,Northern Europe,Footwear,Minor Delay (1-2 days),106,31516.76,1.0,1,30416.87
+First Class,Northern Europe,Golf,Minor Delay (1-2 days),243,32197.78,1.0,1,31567.8
+First Class,Northern Europe,Outdoors,Minor Delay (1-2 days),57,7847.56,1.0,1,7567.61
+First Class,Northern Europe,Technology,Minor Delay (1-2 days),46,26735.44,1.0,1,26482.56
+First Class,Oceania,Apparel,Minor Delay (1-2 days),347,56036.94,1.0,1,52000.36
+First Class,Oceania,Book Shop,Minor Delay (1-2 days),2,62.16,1.0,1,62.16
+First Class,Oceania,Discs Shop,Minor Delay (1-2 days),62,8620.64,1.0,1,8620.64
+First Class,Oceania,Fan Shop,Minor Delay (1-2 days),503,121332.09,1.0,1,111521.6
+First Class,Oceania,Fitness,Minor Delay (1-2 days),17,3479.03,1.0,1,3479.03
+First Class,Oceania,Footwear,Minor Delay (1-2 days),107,28715.9,1.0,1,26514.14
+First Class,Oceania,Golf,Minor Delay (1-2 days),210,29577.84,1.0,1,27458.03
+First Class,Oceania,Health and Beauty ,Minor Delay (1-2 days),11,3223.44,1.0,1,3223.44
+First Class,Oceania,Outdoors,Minor Delay (1-2 days),71,15173.72,1.0,1,15004.77
+First Class,Oceania,Pet Shop,Minor Delay (1-2 days),29,2447.6,1.0,1,2278.8
+First Class,Oceania,Technology,Minor Delay (1-2 days),7,4264.4,1.0,1,4264.4
+First Class,South America,Apparel,Minor Delay (1-2 days),594,90468.21,1.0,1,83649.09
+First Class,South America,Fan Shop,Minor Delay (1-2 days),893,233304.89,1.0,1,217956.84
+First Class,South America,Fitness,Minor Delay (1-2 days),30,3059.53,1.0,1,3034.53
+First Class,South America,Footwear,Minor Delay (1-2 days),205,53816.74,1.0,1,49766.27
+First Class,South America,Golf,Minor Delay (1-2 days),458,62625.83,1.0,1,57646.16
+First Class,South America,Outdoors,Minor Delay (1-2 days),131,15056.99,1.0,1,13816.25
+First Class,South Asia,Apparel,Minor Delay (1-2 days),316,55145.66,1.0,1,52633.84
+First Class,South Asia,Book Shop,Minor Delay (1-2 days),2,62.16,1.0,1,62.16
+First Class,South Asia,Discs Shop,Minor Delay (1-2 days),55,6874.99,1.0,1,6688.03
+First Class,South Asia,Fan Shop,Minor Delay (1-2 days),439,110676.11,1.0,1,107026.46
+First Class,South Asia,Fitness,Minor Delay (1-2 days),25,5794.07,1.0,1,5704.09
+First Class,South Asia,Footwear,Minor Delay (1-2 days),96,24676.21,1.0,1,24176.26
+First Class,South Asia,Golf,Minor Delay (1-2 days),232,32857.38,1.0,1,31247.47
+First Class,South Asia,Health and Beauty ,Minor Delay (1-2 days),15,4395.6,1.0,1,4102.56
+First Class,South Asia,Outdoors,Minor Delay (1-2 days),85,14640.21,1.0,1,14388.27
+First Class,South Asia,Pet Shop,Minor Delay (1-2 days),11,928.4,1.0,1,928.4
+First Class,South Asia,Technology,Minor Delay (1-2 days),7,4662.72,1.0,1,4662.72
+First Class,South of  USA ,Apparel,Minor Delay (1-2 days),161,24976.63,1.0,1,24486.7
+First Class,South of  USA ,Fan Shop,Minor Delay (1-2 days),241,62692.68,1.0,1,58993.18
+First Class,South of  USA ,Fitness,Minor Delay (1-2 days),8,888.85,1.0,1,788.85
+First Class,South of  USA ,Footwear,Minor Delay (1-2 days),58,15595.27,1.0,1,15495.28
+First Class,South of  USA ,Golf,Minor Delay (1-2 days),107,15649.07,1.0,1,14479.15
+First Class,South of  USA ,Outdoors,Minor Delay (1-2 days),25,2421.26,1.0,1,2391.28
+First Class,Southeast Asia,Apparel,Minor Delay (1-2 days),442,76921.28,1.0,1,72107.14
+First Class,Southeast Asia,Book Shop,Minor Delay (1-2 days),4,124.32,1.0,1,124.32
+First Class,Southeast Asia,Discs Shop,Minor Delay (1-2 days),47,5113.64,1.0,1,4773.49
+First Class,Southeast Asia,Fan Shop,Minor Delay (1-2 days),502,125262.39,1.0,1,120778.26
+First Class,Southeast Asia,Fitness,Minor Delay (1-2 days),36,7671.03,1.0,1,7343.28
+First Class,Southeast Asia,Footwear,Minor Delay (1-2 days),115,30998.4,1.0,1,30089.51
+First Class,Southeast Asia,Golf,Minor Delay (1-2 days),255,34107.34,1.0,1,33487.42
+First Class,Southeast Asia,Health and Beauty ,Minor Delay (1-2 days),24,7032.96,1.0,1,6446.88
+First Class,Southeast Asia,Outdoors,Minor Delay (1-2 days),82,14812.12,1.0,1,14573.23
+First Class,Southeast Asia,Pet Shop,Minor Delay (1-2 days),26,2194.4,1.0,1,2110.0
+First Class,Southeast Asia,Technology,Minor Delay (1-2 days),19,8294.76,1.0,1,8041.88
+First Class,Southern Africa,Apparel,Minor Delay (1-2 days),59,9148.86,1.0,1,9018.87
+First Class,Southern Africa,Fan Shop,Minor Delay (1-2 days),61,17248.4,1.0,1,16998.43
+First Class,Southern Africa,Fitness,Minor Delay (1-2 days),1,119.98,1.0,1,119.98
+First Class,Southern Africa,Footwear,Minor Delay (1-2 days),12,3199.68,1.0,1,3199.68
+First Class,Southern Africa,Golf,Minor Delay (1-2 days),52,7069.58,1.0,1,7069.58
+First Class,Southern Africa,Outdoors,Minor Delay (1-2 days),13,1084.62,1.0,1,1084.62
+First Class,Southern Europe,Apparel,Minor Delay (1-2 days),393,62362.13,1.0,1,61302.26
+First Class,Southern Europe,Book Shop,Minor Delay (1-2 days),2,62.16,1.0,1,62.16
+First Class,Southern Europe,Discs Shop,Minor Delay (1-2 days),10,725.26,1.0,1,725.26
+First Class,Southern Europe,Fan Shop,Minor Delay (1-2 days),591,152657.51,1.0,1,147008.22
+First Class,Southern Europe,Fitness,Minor Delay (1-2 days),17,3451.61,1.0,1,3451.61
+First Class,Southern Europe,Footwear,Minor Delay (1-2 days),119,37278.04,1.0,1,36478.12
+First Class,Southern Europe,Golf,Minor Delay (1-2 days),256,33292.37,1.0,1,32372.45
+First Class,Southern Europe,Outdoors,Minor Delay (1-2 days),70,10540.15,1.0,1,10067.22
+First Class,Southern Europe,Technology,Minor Delay (1-2 days),46,31776.08,1.0,1,31324.04
+First Class,US Center ,Apparel,Minor Delay (1-2 days),262,41224.61,1.0,1,39734.8
+First Class,US Center ,Fan Shop,Minor Delay (1-2 days),349,91999.26,1.0,1,90749.42
+First Class,US Center ,Fitness,Minor Delay (1-2 days),14,1413.74,1.0,1,1323.76
+First Class,US Center ,Footwear,Minor Delay (1-2 days),82,22112.47,1.0,1,19823.78
+First Class,US Center ,Golf,Minor Delay (1-2 days),226,30613.0,1.0,1,29433.06
+First Class,US Center ,Outdoors,Minor Delay (1-2 days),53,4352.78,1.0,1,4320.79
+First Class,West Africa,Apparel,Minor Delay (1-2 days),123,19007.52,1.0,1,18567.57
+First Class,West Africa,Fan Shop,Minor Delay (1-2 days),156,42225.37,1.0,1,40725.45
+First Class,West Africa,Fitness,Minor Delay (1-2 days),9,1287.65,1.0,1,1287.65
+First Class,West Africa,Footwear,Minor Delay (1-2 days),39,10003.82,1.0,1,10003.82
+First Class,West Africa,Golf,Minor Delay (1-2 days),112,15289.15,1.0,1,14969.15
+First Class,West Africa,Outdoors,Minor Delay (1-2 days),24,1848.18,1.0,1,1848.18
+First Class,West Asia,Apparel,Minor Delay (1-2 days),264,41244.63,1.0,1,38694.95
+First Class,West Asia,Fan Shop,Minor Delay (1-2 days),390,101198.85,1.0,1,96799.33
+First Class,West Asia,Fitness,Minor Delay (1-2 days),13,1115.74,1.0,1,935.78
+First Class,West Asia,Footwear,Minor Delay (1-2 days),73,19271.61,1.0,1,18601.76
+First Class,West Asia,Golf,Minor Delay (1-2 days),199,28218.27,1.0,1,26708.37
+First Class,West Asia,Outdoors,Minor Delay (1-2 days),55,4082.47,1.0,1,3882.52
+First Class,West of USA ,Apparel,Minor Delay (1-2 days),309,47513.83,1.0,1,44734.2
+First Class,West of USA ,Fan Shop,Minor Delay (1-2 days),453,115076.73,1.0,1,107157.88
+First Class,West of USA ,Fitness,Minor Delay (1-2 days),12,1631.68,1.0,1,1631.68
+First Class,West of USA ,Footwear,Minor Delay (1-2 days),91,24525.29,1.0,1,22833.5
+First Class,West of USA ,Golf,Minor Delay (1-2 days),220,29003.33,1.0,1,26563.39
+First Class,West of USA ,Outdoors,Minor Delay (1-2 days),64,5625.04,1.0,1,5350.15
+First Class,Western Europe,Apparel,Minor Delay (1-2 days),1185,198907.69,1.0,1,189907.56
+First Class,Western Europe,Book Shop,Minor Delay (1-2 days),34,1056.72,1.0,1,1056.72
+First Class,Western Europe,Discs Shop,Minor Delay (1-2 days),36,3774.42,1.0,1,3281.28
+First Class,Western Europe,Fan Shop,Minor Delay (1-2 days),1496,392473.93,1.0,1,373877.76
+First Class,Western Europe,Fitness,Minor Delay (1-2 days),61,13244.05,1.0,1,12584.08
+First Class,Western Europe,Footwear,Minor Delay (1-2 days),337,93500.24,1.0,1,90000.59
+First Class,Western Europe,Golf,Minor Delay (1-2 days),819,114756.17,1.0,1,108086.63
+First Class,Western Europe,Outdoors,Minor Delay (1-2 days),205,31687.68,1.0,1,30386.89
+First Class,Western Europe,Technology,Minor Delay (1-2 days),139,87396.6,1.0,1,80726.56
+Same Day,Canada,Apparel,Minor Delay (1-2 days),2,259.98,1.0,1,259.98
+Same Day,Canada,Fan Shop,Minor Delay (1-2 days),5,1349.88,1.0,1,749.91
+Same Day,Canada,Footwear,Minor Delay (1-2 days),4,1519.75,1.0,1,899.91
+Same Day,Caribbean,Apparel,Minor Delay (1-2 days),73,11678.52,1.0,1,10688.65
+Same Day,Caribbean,Fan Shop,Minor Delay (1-2 days),97,24347.34,1.0,1,22697.55
+Same Day,Caribbean,Footwear,Minor Delay (1-2 days),22,7167.23,1.0,1,6667.28
+Same Day,Caribbean,Golf,Minor Delay (1-2 days),40,5169.57,1.0,1,5049.6
+Same Day,Caribbean,Outdoors,Minor Delay (1-2 days),9,543.78,1.0,1,433.83
+Same Day,Central Africa,Apparel,Minor Delay (1-2 days),7,1199.8,1.0,1,1199.8
+Same Day,Central Africa,Fan Shop,Minor Delay (1-2 days),12,2549.57,1.0,1,2549.57
+Same Day,Central Africa,Footwear,Minor Delay (1-2 days),1,199.98,1.0,1,199.98
+Same Day,Central Africa,Golf,Minor Delay (1-2 days),4,439.89,1.0,1,439.89
+Same Day,Central America,Apparel,Minor Delay (1-2 days),174,28046.2,1.0,1,26276.46
+Same Day,Central America,Fan Shop,Minor Delay (1-2 days),297,74832.41,1.0,1,70843.03
+Same Day,Central America,Fitness,Minor Delay (1-2 days),10,1290.73,1.0,1,1290.73
+Same Day,Central America,Footwear,Minor Delay (1-2 days),44,10541.73,1.0,1,10117.82
+Same Day,Central America,Golf,Minor Delay (1-2 days),139,19478.57,1.0,1,18228.72
+Same Day,Central America,Outdoors,Minor Delay (1-2 days),29,3346.24,1.0,1,3043.24
+Same Day,Central Asia,Apparel,Minor Delay (1-2 days),2,309.96,1.0,1,309.96
+Same Day,Central Asia,Fan Shop,Minor Delay (1-2 days),6,1289.76,1.0,1,1289.76
+Same Day,Central Asia,Footwear,Minor Delay (1-2 days),2,299.97,1.0,1,299.97
+Same Day,Central Asia,Golf,Minor Delay (1-2 days),3,310.0,1.0,1,310.0
+Same Day,East Africa,Apparel,Minor Delay (1-2 days),10,1239.84,1.0,1,1239.84
+Same Day,East Africa,Fan Shop,Minor Delay (1-2 days),18,3499.47,1.0,1,3499.47
+Same Day,East Africa,Fitness,Minor Delay (1-2 days),1,50.0,1.0,1,50.0
+Same Day,East Africa,Footwear,Minor Delay (1-2 days),4,1209.83,1.0,1,1209.83
+Same Day,East Africa,Golf,Minor Delay (1-2 days),6,749.95,1.0,1,749.95
+Same Day,East Africa,Outdoors,Minor Delay (1-2 days),2,164.92,1.0,1,164.92
+Same Day,East of USA,Apparel,Minor Delay (1-2 days),53,7878.92,1.0,1,7878.92
+Same Day,East of USA,Fan Shop,Minor Delay (1-2 days),77,19097.89,1.0,1,18697.91
+Same Day,East of USA,Fitness,Minor Delay (1-2 days),3,345.93,1.0,1,345.93
+Same Day,East of USA,Footwear,Minor Delay (1-2 days),12,2833.52,1.0,1,2833.52
+Same Day,East of USA,Golf,Minor Delay (1-2 days),47,6874.5,1.0,1,6874.5
+Same Day,East of USA,Outdoors,Minor Delay (1-2 days),10,1149.69,1.0,1,1149.69
+Same Day,Eastern Asia,Apparel,Minor Delay (1-2 days),59,9163.43,1.0,1,8947.61
+Same Day,Eastern Asia,Book Shop,Minor Delay (1-2 days),3,93.24,1.0,1,62.16
+Same Day,Eastern Asia,Discs Shop,Minor Delay (1-2 days),8,1048.41,1.0,1,1048.41
+Same Day,Eastern Asia,Fan Shop,Minor Delay (1-2 days),52,11744.71,1.0,1,11533.18
+Same Day,Eastern Asia,Fitness,Minor Delay (1-2 days),5,1000.41,1.0,1,1000.41
+Same Day,Eastern Asia,Footwear,Minor Delay (1-2 days),14,3352.57,1.0,1,3352.57
+Same Day,Eastern Asia,Golf,Minor Delay (1-2 days),30,3764.71,1.0,1,3764.71
+Same Day,Eastern Asia,Health and Beauty ,Minor Delay (1-2 days),4,1172.16,1.0,1,1172.16
+Same Day,Eastern Asia,Outdoors,Minor Delay (1-2 days),18,4010.11,1.0,1,4010.11
+Same Day,Eastern Asia,Pet Shop,Minor Delay (1-2 days),3,253.2,1.0,1,253.2
+Same Day,Eastern Asia,Technology,Minor Delay (1-2 days),1,252.88,1.0,1,252.88
+Same Day,Eastern Europe,Apparel,Minor Delay (1-2 days),18,2779.63,1.0,1,2779.63
+Same Day,Eastern Europe,Fan Shop,Minor Delay (1-2 days),21,4449.46,1.0,1,4449.46
+Same Day,Eastern Europe,Footwear,Minor Delay (1-2 days),5,1334.85,1.0,1,1334.85
+Same Day,Eastern Europe,Golf,Minor Delay (1-2 days),18,2759.76,1.0,1,2759.76
+Same Day,Eastern Europe,Outdoors,Minor Delay (1-2 days),2,259.9,1.0,1,259.9
+Same Day,North Africa,Apparel,Minor Delay (1-2 days),40,5939.22,1.0,1,5679.24
+Same Day,North Africa,Fan Shop,Minor Delay (1-2 days),34,8798.89,1.0,1,8398.91
+Same Day,North Africa,Footwear,Minor Delay (1-2 days),16,4154.42,1.0,1,4154.42
+Same Day,North Africa,Golf,Minor Delay (1-2 days),15,2009.91,1.0,1,2009.91
+Same Day,North Africa,Outdoors,Minor Delay (1-2 days),6,541.81,1.0,1,541.81
+Same Day,Northern Europe,Apparel,Minor Delay (1-2 days),52,8909.34,1.0,1,8422.25
+Same Day,Northern Europe,Book Shop,Minor Delay (1-2 days),9,279.72,1.0,1,279.72
+Same Day,Northern Europe,Discs Shop,Minor Delay (1-2 days),5,515.72,1.0,1,351.34
+Same Day,Northern Europe,Fan Shop,Minor Delay (1-2 days),80,21363.64,1.0,1,19913.87
+Same Day,Northern Europe,Fitness,Minor Delay (1-2 days),1,99.96,1.0,1,99.96
+Same Day,Northern Europe,Footwear,Minor Delay (1-2 days),20,6213.39,1.0,1,6113.4
+Same Day,Northern Europe,Golf,Minor Delay (1-2 days),39,5289.52,1.0,1,4779.56
+Same Day,Northern Europe,Outdoors,Minor Delay (1-2 days),11,1540.51,1.0,1,1410.52
+Same Day,Northern Europe,Technology,Minor Delay (1-2 days),2,505.76,1.0,1,505.76
+Same Day,Oceania,Apparel,Minor Delay (1-2 days),71,11503.58,1.0,1,10922.12
+Same Day,Oceania,Book Shop,Minor Delay (1-2 days),1,31.08,1.0,1,31.08
+Same Day,Oceania,Discs Shop,Minor Delay (1-2 days),14,777.3,1.0,1,737.55
+Same Day,Oceania,Fan Shop,Minor Delay (1-2 days),79,19658.88,1.0,1,18959.06
+Same Day,Oceania,Fitness,Minor Delay (1-2 days),6,1966.5,1.0,1,1311.0
+Same Day,Oceania,Footwear,Minor Delay (1-2 days),27,7462.07,1.0,1,7302.12
+Same Day,Oceania,Golf,Minor Delay (1-2 days),44,5979.69,1.0,1,5979.69
+Same Day,Oceania,Outdoors,Minor Delay (1-2 days),15,1356.27,1.0,1,1316.29
+Same Day,Oceania,Pet Shop,Minor Delay (1-2 days),15,1266.0,1.0,1,1266.0
+Same Day,Oceania,Technology,Minor Delay (1-2 days),1,252.88,1.0,1,252.88
+Same Day,South America,Apparel,Minor Delay (1-2 days),112,17267.74,1.0,1,16457.84
+Same Day,South America,Fan Shop,Minor Delay (1-2 days),165,40824.93,1.0,1,39375.1
+Same Day,South America,Fitness,Minor Delay (1-2 days),8,749.86,1.0,1,749.86
+Same Day,South America,Footwear,Minor Delay (1-2 days),36,9485.9,1.0,1,8486.0
+Same Day,South America,Golf,Minor Delay (1-2 days),75,9898.9,1.0,1,8918.97
+Same Day,South America,Outdoors,Minor Delay (1-2 days),24,2002.43,1.0,1,1874.5
+Same Day,South Asia,Apparel,Minor Delay (1-2 days),56,9323.54,1.0,1,8893.6
+Same Day,South Asia,Book Shop,Minor Delay (1-2 days),5,155.4,1.0,1,155.4
+Same Day,South Asia,Discs Shop,Minor Delay (1-2 days),16,1797.22,1.0,1,1797.22
+Same Day,South Asia,Fan Shop,Minor Delay (1-2 days),50,12200.17,1.0,1,12200.17
+Same Day,South Asia,Fitness,Minor Delay (1-2 days),3,705.5,1.0,1,705.5
+Same Day,South Asia,Footwear,Minor Delay (1-2 days),16,3694.59,1.0,1,3694.59
+Same Day,South Asia,Golf,Minor Delay (1-2 days),27,3749.75,1.0,1,3349.75
+Same Day,South Asia,Outdoors,Minor Delay (1-2 days),19,3888.58,1.0,1,3664.65
+Same Day,South Asia,Pet Shop,Minor Delay (1-2 days),2,168.8,1.0,1,168.8
+Same Day,South Asia,Technology,Minor Delay (1-2 days),2,505.76,1.0,1,505.76
+Same Day,South of  USA ,Apparel,Minor Delay (1-2 days),27,4389.42,1.0,1,4389.42
+Same Day,South of  USA ,Fan Shop,Minor Delay (1-2 days),35,7648.69,1.0,1,7648.69
+Same Day,South of  USA ,Fitness,Minor Delay (1-2 days),2,144.98,1.0,1,144.98
+Same Day,South of  USA ,Footwear,Minor Delay (1-2 days),11,3059.69,1.0,1,3059.69
+Same Day,South of  USA ,Golf,Minor Delay (1-2 days),20,2469.82,1.0,1,2469.82
+Same Day,South of  USA ,Outdoors,Minor Delay (1-2 days),5,438.85,1.0,1,438.85
+Same Day,Southeast Asia,Apparel,Minor Delay (1-2 days),52,9350.69,1.0,1,8649.91
+Same Day,Southeast Asia,Book Shop,Minor Delay (1-2 days),1,31.08,1.0,1,31.08
+Same Day,Southeast Asia,Discs Shop,Minor Delay (1-2 days),12,1841.65,1.0,1,1581.0
+Same Day,Southeast Asia,Fan Shop,Minor Delay (1-2 days),65,15624.29,1.0,1,15224.31
+Same Day,Southeast Asia,Fitness,Minor Delay (1-2 days),5,874.46,1.0,1,874.46
+Same Day,Southeast Asia,Footwear,Minor Delay (1-2 days),10,3299.67,1.0,1,3299.67
+Same Day,Southeast Asia,Golf,Minor Delay (1-2 days),31,4479.81,1.0,1,4479.81
+Same Day,Southeast Asia,Health and Beauty ,Minor Delay (1-2 days),1,293.04,1.0,1,293.04
+Same Day,Southeast Asia,Outdoors,Minor Delay (1-2 days),9,2224.54,1.0,1,2224.54
+Same Day,Southeast Asia,Pet Shop,Minor Delay (1-2 days),3,253.2,1.0,1,253.2
+Same Day,Southeast Asia,Technology,Minor Delay (1-2 days),1,252.88,1.0,1,252.88
+Same Day,Southern Africa,Apparel,Minor Delay (1-2 days),11,1839.74,1.0,1,1219.82
+Same Day,Southern Africa,Fan Shop,Minor Delay (1-2 days),28,6799.22,1.0,1,5749.37
+Same Day,Southern Africa,Footwear,Minor Delay (1-2 days),4,1129.89,1.0,1,899.91
+Same Day,Southern Africa,Golf,Minor Delay (1-2 days),11,1369.97,1.0,1,1239.99
+Same Day,Southern Europe,Apparel,Minor Delay (1-2 days),92,15059.6,1.0,1,14319.7
+Same Day,Southern Europe,Book Shop,Minor Delay (1-2 days),1,31.08,1.0,1,31.08
+Same Day,Southern Europe,Discs Shop,Minor Delay (1-2 days),1,164.38,1.0,1,164.38
+Same Day,Southern Europe,Fan Shop,Minor Delay (1-2 days),131,35296.35,1.0,1,31996.63
+Same Day,Southern Europe,Fitness,Minor Delay (1-2 days),3,409.94,1.0,1,249.95
+Same Day,Southern Europe,Footwear,Minor Delay (1-2 days),25,5444.36,1.0,1,4944.41
+Same Day,Southern Europe,Golf,Minor Delay (1-2 days),56,7239.35,1.0,1,6739.35
+Same Day,Southern Europe,Outdoors,Minor Delay (1-2 days),12,1552.68,1.0,1,1472.74
+Same Day,Southern Europe,Technology,Minor Delay (1-2 days),6,1716.44,1.0,1,1716.44
+Same Day,US Center ,Apparel,Minor Delay (1-2 days),37,5739.23,1.0,1,5739.23
+Same Day,US Center ,Fan Shop,Minor Delay (1-2 days),42,11448.73,1.0,1,11448.73
+Same Day,US Center ,Fitness,Minor Delay (1-2 days),3,399.88,1.0,1,399.88
+Same Day,US Center ,Footwear,Minor Delay (1-2 days),15,3687.59,1.0,1,3687.59
+Same Day,US Center ,Golf,Minor Delay (1-2 days),18,2879.78,1.0,1,2879.78
+Same Day,US Center ,Outdoors,Minor Delay (1-2 days),10,1000.73,1.0,1,1000.73
+Same Day,West Africa,Apparel,Minor Delay (1-2 days),24,3889.48,1.0,1,3149.58
+Same Day,West Africa,Fan Shop,Minor Delay (1-2 days),40,9828.85,1.0,1,9378.96
+Same Day,West Africa,Footwear,Minor Delay (1-2 days),8,2275.73,1.0,1,2275.73
+Same Day,West Africa,Golf,Minor Delay (1-2 days),11,1939.99,1.0,1,1939.99
+Same Day,West Africa,Outdoors,Minor Delay (1-2 days),4,164.91,1.0,1,74.96
+Same Day,West Asia,Apparel,Minor Delay (1-2 days),40,6339.13,1.0,1,6339.13
+Same Day,West Asia,Fan Shop,Minor Delay (1-2 days),54,14948.37,1.0,1,14948.37
+Same Day,West Asia,Fitness,Minor Delay (1-2 days),2,225.0,1.0,1,225.0
+Same Day,West Asia,Footwear,Minor Delay (1-2 days),9,1761.82,1.0,1,1361.86
+Same Day,West Asia,Golf,Minor Delay (1-2 days),19,2789.84,1.0,1,2789.84
+Same Day,West Asia,Outdoors,Minor Delay (1-2 days),5,284.89,1.0,1,284.89
+Same Day,West of USA ,Apparel,Minor Delay (1-2 days),53,8139.04,1.0,1,7709.1
+Same Day,West of USA ,Fan Shop,Minor Delay (1-2 days),73,18778.04,1.0,1,18378.06
+Same Day,West of USA ,Fitness,Minor Delay (1-2 days),5,362.96,1.0,1,274.96
+Same Day,West of USA ,Footwear,Minor Delay (1-2 days),13,3392.53,1.0,1,3392.53
+Same Day,West of USA ,Golf,Minor Delay (1-2 days),54,7174.5,1.0,1,7174.5
+Same Day,West of USA ,Outdoors,Minor Delay (1-2 days),11,1157.76,1.0,1,1157.76
+Same Day,Western Europe,Apparel,Minor Delay (1-2 days),187,30351.14,1.0,1,29224.11
+Same Day,Western Europe,Book Shop,Minor Delay (1-2 days),13,404.04,1.0,1,404.04
+Same Day,Western Europe,Discs Shop,Minor Delay (1-2 days),1,164.38,1.0,1,0.0
+Same Day,Western Europe,Fan Shop,Minor Delay (1-2 days),276,71786.7,1.0,1,69887.08
+Same Day,Western Europe,Fitness,Minor Delay (1-2 days),8,1000.91,1.0,1,1000.91
+Same Day,Western Europe,Footwear,Minor Delay (1-2 days),54,13893.55,1.0,1,13593.58
+Same Day,Western Europe,Golf,Minor Delay (1-2 days),138,18978.63,1.0,1,18888.64
+Same Day,Western Europe,Outdoors,Minor Delay (1-2 days),37,5309.22,1.0,1,4769.38
+Same Day,Western Europe,Technology,Minor Delay (1-2 days),17,9434.44,1.0,1,9181.56
+Same Day,Canada,Apparel,On Time,6,879.9,0.0,0,0.0
+Same Day,Canada,Fan Shop,On Time,10,2349.64,0.0,0,0.0
+Same Day,Canada,Footwear,On Time,2,459.96,0.0,0,0.0
+Same Day,Canada,Golf,On Time,3,319.92,0.0,0,0.0
+Same Day,Canada,Outdoors,On Time,1,74.97,0.0,0,0.0
+Same Day,Caribbean,Apparel,On Time,48,8048.88,0.0,0,0.0
+Same Day,Caribbean,Fan Shop,On Time,79,18847.61,0.0,0,0.0
+Same Day,Caribbean,Fitness,On Time,2,178.97,0.0,0,0.0
+Same Day,Caribbean,Footwear,On Time,22,5124.46,0.0,0,0.0
+Same Day,Caribbean,Golf,On Time,41,5949.64,0.0,0,0.0
+Same Day,Caribbean,Outdoors,On Time,18,2359.5,0.0,0,0.0
+Same Day,Central Africa,Apparel,On Time,19,3109.61,0.0,0,0.0
+Same Day,Central Africa,Fan Shop,On Time,18,4849.41,0.0,0,0.0
+Same Day,Central Africa,Footwear,On Time,6,1899.81,0.0,0,0.0
+Same Day,Central Africa,Golf,On Time,9,1429.93,0.0,0,0.0
+Same Day,Central Africa,Outdoors,On Time,3,174.93,0.0,0,0.0
+Same Day,Central America,Apparel,On Time,216,35505.33,0.0,0,0.0
+Same Day,Central America,Fan Shop,On Time,273,68842.23,0.0,0,0.0
+Same Day,Central America,Fitness,On Time,13,1459.8,0.0,0,0.0
+Same Day,Central America,Footwear,On Time,53,12496.63,0.0,0,0.0
+Same Day,Central America,Golf,On Time,137,20038.42,0.0,0,0.0
+Same Day,Central America,Outdoors,On Time,38,4651.97,0.0,0,0.0
+Same Day,Central Asia,Apparel,On Time,13,1999.76,0.0,0,0.0
+Same Day,Central Asia,Fan Shop,On Time,20,5149.31,0.0,0,0.0
+Same Day,Central Asia,Footwear,On Time,3,899.91,0.0,0,0.0
+Same Day,Central Asia,Golf,On Time,12,1659.86,0.0,0,0.0
+Same Day,Central Asia,Outdoors,On Time,3,179.92,0.0,0,0.0
+Same Day,East Africa,Apparel,On Time,11,1439.83,0.0,0,0.0
+Same Day,East Africa,Fan Shop,On Time,20,4899.41,0.0,0,0.0
+Same Day,East Africa,Fitness,On Time,1,239.96,0.0,0,0.0
+Same Day,East Africa,Footwear,On Time,7,2549.76,0.0,0,0.0
+Same Day,East Africa,Golf,On Time,16,2049.85,0.0,0,0.0
+Same Day,East Africa,Outdoors,On Time,2,199.96,0.0,0,0.0
+Same Day,East of USA,Apparel,On Time,57,9318.75,0.0,0,0.0
+Same Day,East of USA,Fan Shop,On Time,92,23817.21,0.0,0,0.0
+Same Day,East of USA,Fitness,On Time,2,66.99,0.0,0,0.0
+Same Day,East of USA,Footwear,On Time,17,4407.51,0.0,0,0.0
+Same Day,East of USA,Golf,On Time,39,4879.7,0.0,0,0.0
+Same Day,East of USA,Outdoors,On Time,9,881.75,0.0,0,0.0
+Same Day,Eastern Asia,Apparel,On Time,65,11652.49,0.0,0,0.0
+Same Day,Eastern Asia,Book Shop,On Time,1,31.08,0.0,0,0.0
+Same Day,Eastern Asia,Discs Shop,On Time,5,765.18,0.0,0,0.0
+Same Day,Eastern Asia,Fan Shop,On Time,70,15717.23,0.0,0,0.0
+Same Day,Eastern Asia,Fitness,On Time,4,578.7,0.0,0,0.0
+Same Day,Eastern Asia,Footwear,On Time,13,4169.61,0.0,0,0.0
+Same Day,Eastern Asia,Golf,On Time,29,4039.8,0.0,0,0.0
+Same Day,Eastern Asia,Health and Beauty ,On Time,2,586.08,0.0,0,0.0
+Same Day,Eastern Asia,Outdoors,On Time,12,2599.09,0.0,0,0.0
+Same Day,Eastern Asia,Pet Shop,On Time,4,337.6,0.0,0,0.0
+Same Day,Eastern Asia,Technology,On Time,4,3505.76,0.0,0,0.0
+Same Day,Eastern Europe,Apparel,On Time,25,3999.45,0.0,0,0.0
+Same Day,Eastern Europe,Fan Shop,On Time,51,11348.24,0.0,0,0.0
+Same Day,Eastern Europe,Fitness,On Time,3,365.95,0.0,0,0.0
+Same Day,Eastern Europe,Footwear,On Time,8,1418.82,0.0,0,0.0
+Same Day,Eastern Europe,Golf,On Time,23,2609.77,0.0,0,0.0
+Same Day,Eastern Europe,Outdoors,On Time,4,659.84,0.0,0,0.0
+Same Day,North Africa,Apparel,On Time,20,2829.61,0.0,0,0.0
+Same Day,North Africa,Fan Shop,On Time,32,8849.07,0.0,0,0.0
+Same Day,North Africa,Fitness,On Time,1,44.0,0.0,0,0.0
+Same Day,North Africa,Footwear,On Time,7,939.86,0.0,0,0.0
+Same Day,North Africa,Golf,On Time,18,2089.84,0.0,0,0.0
+Same Day,North Africa,Outdoors,On Time,4,275.9,0.0,0,0.0
+Same Day,Northern Europe,Apparel,On Time,86,16421.33,0.0,0,0.0
+Same Day,Northern Europe,Book Shop,On Time,3,93.24,0.0,0,0.0
+Same Day,Northern Europe,Discs Shop,On Time,6,373.92,0.0,0,0.0
+Same Day,Northern Europe,Fan Shop,On Time,97,25746.7,0.0,0,0.0
+Same Day,Northern Europe,Fitness,On Time,1,44.99,0.0,0,0.0
+Same Day,Northern Europe,Footwear,On Time,24,6091.35,0.0,0,0.0
+Same Day,Northern Europe,Golf,On Time,56,9089.44,0.0,0,0.0
+Same Day,Northern Europe,Outdoors,On Time,12,1254.69,0.0,0,0.0
+Same Day,Northern Europe,Technology,On Time,13,10518.84,0.0,0,0.0
+Same Day,Oceania,Apparel,On Time,105,17136.84,0.0,0,0.0
+Same Day,Oceania,Book Shop,On Time,1,31.08,0.0,0,0.0
+Same Day,Oceania,Discs Shop,On Time,15,1366.01,0.0,0,0.0
+Same Day,Oceania,Fan Shop,On Time,126,30604.1,0.0,0,0.0
+Same Day,Oceania,Fitness,On Time,3,775.48,0.0,0,0.0
+Same Day,Oceania,Footwear,On Time,33,9345.94,0.0,0,0.0
+Same Day,Oceania,Golf,On Time,58,8204.64,0.0,0,0.0
+Same Day,Oceania,Health and Beauty ,On Time,4,1172.16,0.0,0,0.0
+Same Day,Oceania,Outdoors,On Time,26,3816.72,0.0,0,0.0
+Same Day,Oceania,Pet Shop,On Time,3,253.2,0.0,0,0.0
+Same Day,South America,Apparel,On Time,98,15358.07,0.0,0,0.0
+Same Day,South America,Fan Shop,On Time,138,35266.54,0.0,0,0.0
+Same Day,South America,Fitness,On Time,4,447.92,0.0,0,0.0
+Same Day,South America,Footwear,On Time,37,10423.95,0.0,0,0.0
+Same Day,South America,Golf,On Time,65,8624.47,0.0,0,0.0
+Same Day,South America,Outdoors,On Time,14,1425.63,0.0,0,0.0
+Same Day,South Asia,Apparel,On Time,42,6628.35,0.0,0,0.0
+Same Day,South Asia,Book Shop,On Time,1,31.08,0.0,0,0.0
+Same Day,South Asia,Discs Shop,On Time,8,510.44,0.0,0,0.0
+Same Day,South Asia,Fan Shop,On Time,69,16609.38,0.0,0,0.0
+Same Day,South Asia,Fitness,On Time,5,1349.2,0.0,0,0.0
+Same Day,South Asia,Footwear,On Time,15,2399.7,0.0,0,0.0
+Same Day,South Asia,Golf,On Time,30,3919.72,0.0,0,0.0
+Same Day,South Asia,Health and Beauty ,On Time,3,879.12,0.0,0,0.0
+Same Day,South Asia,Outdoors,On Time,6,1272.45,0.0,0,0.0
+Same Day,South Asia,Pet Shop,On Time,4,337.6,0.0,0,0.0
+Same Day,South of  USA ,Apparel,On Time,41,6639.15,0.0,0,0.0
+Same Day,South of  USA ,Fan Shop,On Time,51,13698.82,0.0,0,0.0
+Same Day,South of  USA ,Footwear,On Time,8,2190.75,0.0,0,0.0
+Same Day,South of  USA ,Golf,On Time,28,4189.69,0.0,0,0.0
+Same Day,South of  USA ,Outdoors,On Time,7,443.79,0.0,0,0.0
+Same Day,Southeast Asia,Apparel,On Time,73,13336.6,0.0,0,0.0
+Same Day,Southeast Asia,Discs Shop,On Time,11,1099.95,0.0,0,0.0
+Same Day,Southeast Asia,Fan Shop,On Time,82,18320.5,0.0,0,0.0
+Same Day,Southeast Asia,Fitness,On Time,6,1309.22,0.0,0,0.0
+Same Day,Southeast Asia,Footwear,On Time,11,3429.61,0.0,0,0.0
+Same Day,Southeast Asia,Golf,On Time,53,7869.5,0.0,0,0.0
+Same Day,Southeast Asia,Outdoors,On Time,19,4240.52,0.0,0,0.0
+Same Day,Southeast Asia,Pet Shop,On Time,6,506.4,0.0,0,0.0
+Same Day,Southern Africa,Apparel,On Time,4,519.96,0.0,0,0.0
+Same Day,Southern Africa,Fan Shop,On Time,8,2299.81,0.0,0,0.0
+Same Day,Southern Africa,Footwear,On Time,5,1299.87,0.0,0,0.0
+Same Day,Southern Africa,Golf,On Time,4,619.92,0.0,0,0.0
+Same Day,Southern Europe,Apparel,On Time,66,11341.48,0.0,0,0.0
+Same Day,Southern Europe,Book Shop,On Time,3,93.24,0.0,0,0.0
+Same Day,Southern Europe,Fan Shop,On Time,87,23097.78,0.0,0,0.0
+Same Day,Southern Europe,Fitness,On Time,3,309.92,0.0,0,0.0
+Same Day,Southern Europe,Footwear,On Time,23,5775.31,0.0,0,0.0
+Same Day,Southern Europe,Golf,On Time,40,5879.53,0.0,0,0.0
+Same Day,Southern Europe,Outdoors,On Time,13,1323.76,0.0,0,0.0
+Same Day,Southern Europe,Technology,On Time,7,5710.68,0.0,0,0.0
+Same Day,US Center ,Apparel,On Time,59,9208.78,0.0,0,0.0
+Same Day,US Center ,Fan Shop,On Time,81,19857.52,0.0,0,0.0
+Same Day,US Center ,Fitness,On Time,2,339.96,0.0,0,0.0
+Same Day,US Center ,Footwear,On Time,9,3169.65,0.0,0,0.0
+Same Day,US Center ,Golf,On Time,34,4589.59,0.0,0,0.0
+Same Day,US Center ,Outdoors,On Time,13,1096.62,0.0,0,0.0
+Same Day,West Africa,Apparel,On Time,27,4479.44,0.0,0,0.0
+Same Day,West Africa,Fan Shop,On Time,51,13248.29,0.0,0,0.0
+Same Day,West Africa,Fitness,On Time,3,449.9,0.0,0,0.0
+Same Day,West Africa,Footwear,On Time,18,6092.31,0.0,0,0.0
+Same Day,West Africa,Golf,On Time,30,4939.69,0.0,0,0.0
+Same Day,West Africa,Outdoors,On Time,7,667.74,0.0,0,0.0
+Same Day,West Asia,Apparel,On Time,36,5939.22,0.0,0,0.0
+Same Day,West Asia,Fan Shop,On Time,58,14688.32,0.0,0,0.0
+Same Day,West Asia,Fitness,On Time,1,88.0,0.0,0,0.0
+Same Day,West Asia,Footwear,On Time,14,3924.54,0.0,0,0.0
+Same Day,West Asia,Golf,On Time,32,3689.77,0.0,0,0.0
+Same Day,West Asia,Outdoors,On Time,9,1010.7,0.0,0,0.0
+Same Day,West of USA ,Apparel,On Time,56,8588.86,0.0,0,0.0
+Same Day,West of USA ,Fan Shop,On Time,88,23197.59,0.0,0,0.0
+Same Day,West of USA ,Fitness,On Time,1,124.95,0.0,0,0.0
+Same Day,West of USA ,Footwear,On Time,9,3027.67,0.0,0,0.0
+Same Day,West of USA ,Golf,On Time,46,6344.62,0.0,0,0.0
+Same Day,West of USA ,Outdoors,On Time,16,1067.52,0.0,0,0.0
+Same Day,Western Europe,Apparel,On Time,230,38283.17,0.0,0,0.0
+Same Day,Western Europe,Book Shop,On Time,2,62.16,0.0,0,0.0
+Same Day,Western Europe,Discs Shop,On Time,1,11.29,0.0,0,0.0
+Same Day,Western Europe,Fan Shop,On Time,277,70311.89,0.0,0,0.0
+Same Day,Western Europe,Fitness,On Time,12,1389.79,0.0,0,0.0
+Same Day,Western Europe,Footwear,On Time,67,18406.11,0.0,0,0.0
+Same Day,Western Europe,Golf,On Time,129,17788.68,0.0,0,0.0
+Same Day,Western Europe,Outdoors,On Time,29,4135.17,0.0,0,0.0
+Same Day,Western Europe,Technology,On Time,17,9633.6,0.0,0,0.0
+Second Class,Central Asia,Fitness,Moderate Delay (3-5 days),1,224.95,4.0,4,224.95
+Second Class,Eastern Asia,Book Shop,Moderate Delay (3-5 days),1,31.08,4.0,4,31.08
+Second Class,Oceania,Health and Beauty ,Moderate Delay (3-5 days),1,293.04,4.0,4,293.04
+Second Class,Southern Africa,Footwear,Moderate Delay (3-5 days),5,824.89,4.0,4,824.89
+Second Class,US Center ,Fitness,Moderate Delay (3-5 days),3,299.95,4.0,4,299.95
+Second Class,East Africa,Outdoors,Moderate Delay (3-5 days),7,703.79,3.86,4,703.79
+Second Class,Canada,Footwear,Moderate Delay (3-5 days),6,2199.78,3.83,4,2199.78
+Second Class,Western Europe,Book Shop,Moderate Delay (3-5 days),6,186.48,3.83,4,186.48
+Second Class,US Center ,Outdoors,Moderate Delay (3-5 days),20,1924.4,3.75,4,1852.46
+Second Class,Southeast Asia,Footwear,Moderate Delay (3-5 days),48,13241.61,3.73,4,12379.7
+Second Class,West Asia,Fitness,Moderate Delay (3-5 days),7,545.86,3.71,4,545.86
+Second Class,Central Africa,Golf,Moderate Delay (3-5 days),27,4029.62,3.7,4,4029.62
+Second Class,East Africa,Footwear,Moderate Delay (3-5 days),10,3159.65,3.7,4,3159.65
+Second Class,Caribbean,Outdoors,Moderate Delay (3-5 days),31,3438.02,3.68,4,3438.02
+Second Class,Central Africa,Outdoors,Moderate Delay (3-5 days),6,582.79,3.67,4,582.79
+Second Class,Eastern Europe,Fitness,Moderate Delay (3-5 days),3,216.96,3.67,4,216.96
+Second Class,Eastern Europe,Outdoors,Moderate Delay (3-5 days),21,1685.43,3.67,4,1560.48
+Second Class,Oceania,Technology,Moderate Delay (3-5 days),3,957.8,3.67,4,957.8
+Second Class,South Asia,Technology,Moderate Delay (3-5 days),6,4011.52,3.67,4,4011.52
+Second Class,Southeast Asia,Health and Beauty ,Moderate Delay (3-5 days),6,1758.24,3.67,4,1758.24
+Second Class,Southern Africa,Golf,Moderate Delay (3-5 days),9,1684.96,3.67,4,1684.96
+Second Class,Southern Europe,Discs Shop,Moderate Delay (3-5 days),3,340.05,3.67,4,340.05
+Second Class,West of USA ,Fitness,Moderate Delay (3-5 days),6,449.92,3.67,4,383.92
+Second Class,East of USA,Outdoors,Moderate Delay (3-5 days),20,1472.41,3.65,4,1384.45
+Second Class,Eastern Europe,Golf,Moderate Delay (3-5 days),57,7569.31,3.63,4,7369.36
+Second Class,East of USA,Fitness,Moderate Delay (3-5 days),8,799.85,3.62,4,799.85
+Second Class,Northern Europe,Discs Shop,Moderate Delay (3-5 days),8,855.77,3.62,4,855.77
+Second Class,South America,Outdoors,Moderate Delay (3-5 days),66,8030.21,3.62,4,7561.28
+Second Class,Southern Europe,Book Shop,Moderate Delay (3-5 days),8,248.64,3.62,4,248.64
+Second Class,Eastern Asia,Discs Shop,Moderate Delay (3-5 days),23,2392.54,3.61,4,2392.54
+Second Class,South America,Footwear,Moderate Delay (3-5 days),79,21996.36,3.61,4,20196.54
+Second Class,South of  USA ,Golf,Moderate Delay (3-5 days),64,8504.44,3.61,4,8504.44
+Second Class,Southern Africa,Fan Shop,Moderate Delay (3-5 days),28,7499.04,3.61,4,7499.04
+Second Class,East of USA,Golf,Moderate Delay (3-5 days),87,12409.01,3.6,4,12409.01
+Second Class,Northern Europe,Technology,Moderate Delay (3-5 days),25,20585.64,3.6,4,19428.68
+Second Class,US Center ,Footwear,Moderate Delay (3-5 days),41,11357.76,3.59,4,11357.76
+Second Class,East of USA,Footwear,Moderate Delay (3-5 days),33,10234.85,3.58,4,9834.89
+Second Class,Eastern Europe,Apparel,Moderate Delay (3-5 days),96,15577.87,3.58,4,15447.88
+Second Class,South Asia,Discs Shop,Moderate Delay (3-5 days),26,2358.7,3.58,4,2358.7
+Second Class,Caribbean,Footwear,Moderate Delay (3-5 days),68,19756.84,3.57,4,19456.87
+Second Class,South America,Fan Shop,Moderate Delay (3-5 days),450,119427.47,3.57,4,116427.77
+Second Class,West Asia,Outdoors,Moderate Delay (3-5 days),28,2440.15,3.57,4,2440.15
+Second Class,Central Africa,Footwear,Moderate Delay (3-5 days),9,3274.55,3.56,4,3274.55
+Second Class,South America,Golf,Moderate Delay (3-5 days),222,31463.06,3.56,4,30203.15
+Second Class,South Asia,Health and Beauty ,Moderate Delay (3-5 days),9,2637.36,3.56,4,2344.32
+Second Class,Southeast Asia,Discs Shop,Moderate Delay (3-5 days),36,3515.17,3.56,4,3254.52
+Second Class,Southern Europe,Outdoors,Moderate Delay (3-5 days),32,5163.24,3.56,4,5003.29
+Second Class,Southern Europe,Technology,Moderate Delay (3-5 days),27,12707.72,3.56,4,12707.72
+Second Class,Eastern Asia,Pet Shop,Moderate Delay (3-5 days),11,928.4,3.55,4,844.0
+Second Class,Eastern Europe,Footwear,Moderate Delay (3-5 days),22,6598.14,3.55,4,6598.14
+Second Class,Southern Europe,Golf,Moderate Delay (3-5 days),128,18208.55,3.55,4,17478.62
+Second Class,US Center ,Golf,Moderate Delay (3-5 days),85,11589.24,3.55,4,11439.24
+Second Class,West Africa,Apparel,Moderate Delay (3-5 days),77,11758.53,3.55,4,11198.6
+Second Class,Canada,Golf,Moderate Delay (3-5 days),13,1669.82,3.54,4,1669.82
+Second Class,East of USA,Apparel,Moderate Delay (3-5 days),154,24236.87,3.54,4,22477.07
+Second Class,US Center ,Apparel,Moderate Delay (3-5 days),127,20527.22,3.54,4,20147.26
+Second Class,Oceania,Fitness,Moderate Delay (3-5 days),15,3560.63,3.53,4,3560.63
+Second Class,South America,Apparel,Moderate Delay (3-5 days),320,50213.38,3.53,4,49363.51
+Second Class,West Africa,Fan Shop,Moderate Delay (3-5 days),119,30296.19,3.53,4,29496.3
+Second Class,West Africa,Golf,Moderate Delay (3-5 days),60,7959.5,3.53,4,7449.54
+Second Class,Eastern Asia,Golf,Moderate Delay (3-5 days),93,12034.01,3.52,4,11214.09
+Second Class,US Center ,Fan Shop,Moderate Delay (3-5 days),163,42645.15,3.52,4,41345.22
+Second Class,Western Europe,Golf,Moderate Delay (3-5 days),437,60900.21,3.52,4,58980.34
+Second Class,Caribbean,Fan Shop,Moderate Delay (3-5 days),255,65792.14,3.51,4,62542.61
+Second Class,Eastern Asia,Apparel,Moderate Delay (3-5 days),158,28635.21,3.51,4,26468.39
+Second Class,North Africa,Golf,Moderate Delay (3-5 days),37,6019.61,3.51,4,5539.73
+Second Class,Northern Europe,Outdoors,Moderate Delay (3-5 days),39,5012.02,3.51,4,4372.1
+Second Class,Southeast Asia,Fan Shop,Moderate Delay (3-5 days),231,55584.25,3.51,4,51534.8
+Second Class,Southern Europe,Footwear,Moderate Delay (3-5 days),49,13303.54,3.51,4,12813.59
+Second Class,West Asia,Apparel,Moderate Delay (3-5 days),125,19277.51,3.51,4,18347.63
+Second Class,West Asia,Golf,Moderate Delay (3-5 days),89,13184.0,3.51,4,13184.0
+Second Class,West of USA ,Outdoors,Moderate Delay (3-5 days),35,2820.9,3.51,4,2820.9
+Second Class,Western Europe,Apparel,Moderate Delay (3-5 days),631,106334.42,3.51,4,101586.39
+Second Class,Western Europe,Fan Shop,Moderate Delay (3-5 days),825,211663.47,3.51,4,202367.76
+Second Class,Canada,Apparel,Moderate Delay (3-5 days),14,2209.69,3.5,4,2079.7
+Second Class,Canada,Outdoors,Moderate Delay (3-5 days),4,260.88,3.5,4,260.88
+Second Class,Caribbean,Apparel,Moderate Delay (3-5 days),179,27506.43,3.5,4,25966.64
+Second Class,Caribbean,Golf,Moderate Delay (3-5 days),123,17623.17,3.5,4,16873.17
+Second Class,Central Africa,Apparel,Moderate Delay (3-5 days),36,5549.32,3.5,4,5299.35
+Second Class,Central America,Fan Shop,Moderate Delay (3-5 days),818,202963.29,3.5,4,194714.34
+Second Class,Central America,Golf,Moderate Delay (3-5 days),424,59671.05,3.5,4,57106.17
+Second Class,North Africa,Footwear,Moderate Delay (3-5 days),16,3818.51,3.5,4,3518.54
+Second Class,Oceania,Book Shop,Moderate Delay (3-5 days),2,62.16,3.5,4,62.16
+Second Class,South Asia,Apparel,Moderate Delay (3-5 days),185,32298.47,3.5,4,32168.48
+Second Class,Southeast Asia,Book Shop,Moderate Delay (3-5 days),4,124.32,3.5,4,124.32
+Second Class,Southern Africa,Outdoors,Moderate Delay (3-5 days),2,255.92,3.5,4,255.92
+Second Class,Southern Europe,Fitness,Moderate Delay (3-5 days),6,474.93,3.5,4,474.93
+Second Class,Western Europe,Outdoors,Moderate Delay (3-5 days),117,18501.16,3.5,4,17812.23
+Second Class,Eastern Asia,Footwear,Moderate Delay (3-5 days),41,11326.53,3.49,4,11171.57
+Second Class,Eastern Asia,Outdoors,Moderate Delay (3-5 days),47,11744.62,3.49,4,11679.62
+Second Class,Northern Europe,Fan Shop,Moderate Delay (3-5 days),261,69281.89,3.49,4,67482.13
+Second Class,South of  USA ,Apparel,Moderate Delay (3-5 days),105,15648.01,3.49,4,15388.03
+Second Class,Southern Europe,Fan Shop,Moderate Delay (3-5 days),216,55141.46,3.49,4,53091.63
+Second Class,Central America,Footwear,Moderate Delay (3-5 days),179,52738.02,3.48,4,49218.36
+Second Class,East of USA,Fan Shop,Moderate Delay (3-5 days),199,48894.94,3.48,4,45945.33
+Second Class,Northern Europe,Apparel,Moderate Delay (3-5 days),200,35638.93,3.48,4,33857.67
+Second Class,Oceania,Fan Shop,Moderate Delay (3-5 days),249,60796.88,3.48,4,57935.65
+Second Class,Oceania,Golf,Moderate Delay (3-5 days),131,18418.43,3.48,4,17088.43
+Second Class,West of USA ,Apparel,Moderate Delay (3-5 days),190,30995.86,3.48,4,29766.03
+Second Class,Eastern Asia,Fitness,Moderate Delay (3-5 days),15,3965.15,3.47,4,3637.4
+Second Class,Northern Europe,Fitness,Moderate Delay (3-5 days),17,3602.75,3.47,4,3602.75
+Second Class,Oceania,Discs Shop,Moderate Delay (3-5 days),38,4823.7,3.47,4,4619.57
+Second Class,Oceania,Outdoors,Moderate Delay (3-5 days),47,6995.76,3.47,4,6947.77
+Second Class,South Asia,Fitness,Moderate Delay (3-5 days),15,2213.13,3.47,4,2088.13
+Second Class,South of  USA ,Footwear,Moderate Delay (3-5 days),30,8572.0,3.47,4,8572.0
+Second Class,Southeast Asia,Golf,Moderate Delay (3-5 days),108,14739.19,3.47,4,13689.24
+Second Class,West of USA ,Fan Shop,Moderate Delay (3-5 days),239,60343.12,3.47,4,57443.41
+Second Class,Western Europe,Technology,Moderate Delay (3-5 days),57,36255.36,3.47,4,35098.4
+Second Class,Central America,Apparel,Moderate Delay (3-5 days),540,82749.17,3.46,4,79349.55
+Second Class,Central America,Outdoors,Moderate Delay (3-5 days),114,10470.99,3.46,4,10177.09
+Second Class,North Africa,Fan Shop,Moderate Delay (3-5 days),99,25237.04,3.46,4,23687.17
+Second Class,Northern Europe,Footwear,Moderate Delay (3-5 days),69,20874.08,3.46,4,19574.21
+Second Class,West of USA ,Golf,Moderate Delay (3-5 days),130,19038.35,3.46,4,18618.35
+Second Class,Canada,Fan Shop,Moderate Delay (3-5 days),33,8799.06,3.45,4,8199.1
+Second Class,Central Africa,Fan Shop,Moderate Delay (3-5 days),56,12648.0,3.45,4,12448.08
+Second Class,North Africa,Apparel,Moderate Delay (3-5 days),65,9958.69,3.45,4,9828.7
+Second Class,South Asia,Fan Shop,Moderate Delay (3-5 days),220,55936.09,3.45,4,54136.36
+Second Class,South Asia,Footwear,Moderate Delay (3-5 days),47,13634.54,3.45,4,12934.61
+Second Class,Southern Europe,Apparel,Moderate Delay (3-5 days),181,30174.25,3.45,4,28687.28
+Second Class,West Asia,Fan Shop,Moderate Delay (3-5 days),170,42444.9,3.45,4,39045.33
+Second Class,Caribbean,Fitness,Moderate Delay (3-5 days),9,1124.72,3.44,4,1124.72
+Second Class,East Africa,Apparel,Moderate Delay (3-5 days),36,5649.28,3.44,4,5649.28
+Second Class,Eastern Asia,Fan Shop,Moderate Delay (3-5 days),201,53180.13,3.44,4,51380.3
+Second Class,Northern Europe,Golf,Moderate Delay (3-5 days),136,20698.78,3.44,4,19489.01
+Second Class,Oceania,Apparel,Moderate Delay (3-5 days),218,36859.1,3.44,4,35807.54
+Second Class,South America,Fitness,Moderate Delay (3-5 days),9,1163.83,3.44,4,1163.83
+Second Class,Southeast Asia,Apparel,Moderate Delay (3-5 days),196,35037.89,3.44,4,33588.12
+Second Class,West Asia,Footwear,Moderate Delay (3-5 days),36,9846.9,3.44,4,9718.92
+Second Class,West of USA ,Footwear,Moderate Delay (3-5 days),55,15192.17,3.44,4,12644.44
+Second Class,Central Asia,Golf,Moderate Delay (3-5 days),7,1299.88,3.43,4,1299.88
+Second Class,North Africa,Fitness,Moderate Delay (3-5 days),7,1137.8,3.43,4,1137.8
+Second Class,Southeast Asia,Outdoors,Moderate Delay (3-5 days),44,9131.11,3.43,4,8891.16
+Second Class,Southeast Asia,Pet Shop,Moderate Delay (3-5 days),14,1181.6,3.43,4,1097.2
+Second Class,Western Europe,Footwear,Moderate Delay (3-5 days),176,49680.97,3.43,4,48581.08
+Second Class,South of  USA ,Outdoors,Moderate Delay (3-5 days),19,2011.46,3.42,4,2011.46
+Second Class,Western Europe,Fitness,Moderate Delay (3-5 days),26,5473.59,3.42,4,5208.64
+Second Class,Eastern Europe,Fan Shop,Moderate Delay (3-5 days),105,27596.71,3.41,4,27346.81
+Second Class,South Asia,Outdoors,Moderate Delay (3-5 days),32,3927.3,3.41,4,3722.39
+Second Class,South of  USA ,Fan Shop,Moderate Delay (3-5 days),106,27116.96,3.41,4,26616.99
+Second Class,Southeast Asia,Fitness,Moderate Delay (3-5 days),17,3471.82,3.41,4,3044.11
+Second Class,East Africa,Golf,Moderate Delay (3-5 days),20,2429.83,3.4,4,2269.87
+Second Class,Oceania,Footwear,Moderate Delay (3-5 days),60,16008.14,3.4,4,15268.25
+Second Class,Southern Africa,Apparel,Moderate Delay (3-5 days),10,1239.84,3.4,4,1239.84
+Second Class,Central Asia,Apparel,Moderate Delay (3-5 days),18,3019.59,3.39,4,3019.59
+Second Class,Central America,Fitness,Moderate Delay (3-5 days),32,4534.19,3.38,4,4380.19
+Second Class,Western Europe,Discs Shop,Moderate Delay (3-5 days),13,1677.67,3.38,4,1513.29
+Second Class,Central Asia,Fan Shop,Moderate Delay (3-5 days),22,6109.41,3.36,4,6109.41
+Second Class,South Asia,Golf,Moderate Delay (3-5 days),111,15808.86,3.36,4,15199.0
+Second Class,South Asia,Pet Shop,Moderate Delay (3-5 days),11,928.4,3.36,4,928.4
+Second Class,Eastern Asia,Technology,Moderate Delay (3-5 days),3,3252.88,3.33,4,3252.88
+Second Class,Northern Europe,Book Shop,Moderate Delay (3-5 days),3,93.24,3.33,4,93.24
+Second Class,West Africa,Footwear,Moderate Delay (3-5 days),24,6950.12,3.33,4,6350.18
+Second Class,East Africa,Fan Shop,Moderate Delay (3-5 days),62,15198.38,3.29,4,14598.41
+Second Class,Southeast Asia,Technology,Moderate Delay (3-5 days),7,5710.68,3.29,4,5710.68
+Second Class,West Africa,Outdoors,Moderate Delay (3-5 days),22,1657.4,3.27,4,1657.4
+Second Class,Eastern Asia,Health and Beauty ,Moderate Delay (3-5 days),4,1172.16,3.25,4,1172.16
+Second Class,North Africa,Outdoors,Moderate Delay (3-5 days),16,1356.63,3.25,4,1356.63
+Second Class,Oceania,Pet Shop,Moderate Delay (3-5 days),11,928.4,3.18,4,844.0
+Second Class,South of  USA ,Fitness,Moderate Delay (3-5 days),6,652.85,3.17,4,652.85
+Second Class,Canada,Fitness,Moderate Delay (3-5 days),1,89.98,3.0,3,89.98
+Second Class,Central Asia,Footwear,Moderate Delay (3-5 days),1,499.95,3.0,3,499.95
+Second Class,Central Asia,Outdoors,Moderate Delay (3-5 days),3,210.93,3.0,3,210.93
+Second Class,East Africa,Fitness,Moderate Delay (3-5 days),3,529.93,3.0,3,529.93
+Second Class,West Africa,Fitness,Moderate Delay (3-5 days),1,74.97,3.0,3,74.97
+Second Class,Oceania,Technology,Minor Delay (1-2 days),1,252.88,2.0,2,252.88
+Second Class,South of  USA ,Fitness,Minor Delay (1-2 days),1,34.99,2.0,2,34.99
+Second Class,Southeast Asia,Book Shop,Minor Delay (1-2 days),2,62.16,2.0,2,62.16
+Second Class,Southern Africa,Outdoors,Minor Delay (1-2 days),4,286.89,2.0,2,206.93
+Second Class,Northern Europe,Fitness,Minor Delay (1-2 days),12,1684.8,1.83,2,1684.8
+Second Class,Eastern Asia,Fitness,Minor Delay (1-2 days),12,3021.88,1.75,2,2649.14
+Second Class,Eastern Asia,Technology,Minor Delay (1-2 days),4,3505.76,1.75,2,3505.76
+Second Class,East Africa,Golf,Minor Delay (1-2 days),23,2789.75,1.74,2,2739.75
+Second Class,Southern Africa,Golf,Minor Delay (1-2 days),11,1409.96,1.73,2,859.96
+Second Class,South America,Fitness,Minor Delay (1-2 days),14,1412.71,1.71,2,1412.71
+Second Class,Canada,Fan Shop,Minor Delay (1-2 days),18,4499.37,1.67,2,4499.37
+Second Class,US Center ,Fitness,Minor Delay (1-2 days),6,844.86,1.67,2,844.86
+Second Class,West Asia,Outdoors,Minor Delay (1-2 days),30,2628.15,1.67,2,2484.18
+Second Class,Central America,Fitness,Minor Delay (1-2 days),22,3016.39,1.64,2,3016.39
+Second Class,Southern Europe,Technology,Minor Delay (1-2 days),25,14549.2,1.64,2,10844.28
+Second Class,South Asia,Fitness,Minor Delay (1-2 days),8,1825.91,1.62,2,1498.16
+Second Class,Canada,Apparel,Minor Delay (1-2 days),15,2039.73,1.6,2,2039.73
+Second Class,Central Africa,Outdoors,Minor Delay (1-2 days),5,484.91,1.6,2,484.91
+Second Class,Central Asia,Fan Shop,Minor Delay (1-2 days),20,4569.28,1.6,2,4119.39
+Second Class,East of USA,Footwear,Minor Delay (1-2 days),43,10655.61,1.6,2,10191.67
+Second Class,South of  USA ,Golf,Minor Delay (1-2 days),78,10989.35,1.59,2,10889.35
+Second Class,Central America,Apparel,Minor Delay (1-2 days),641,98587.16,1.58,2,94727.64
+Second Class,East Africa,Footwear,Minor Delay (1-2 days),12,3511.62,1.58,2,3511.62
+Second Class,Eastern Asia,Discs Shop,Minor Delay (1-2 days),33,3741.55,1.58,2,3701.8
+Second Class,Eastern Asia,Fan Shop,Minor Delay (1-2 days),196,48088.71,1.58,2,46477.47
+Second Class,Southeast Asia,Technology,Minor Delay (1-2 days),12,9469.32,1.58,2,9469.32
+Second Class,Eastern Asia,Footwear,Minor Delay (1-2 days),44,11700.61,1.57,2,10500.73
+Second Class,Oceania,Fitness,Minor Delay (1-2 days),21,4427.07,1.57,2,4099.32
+Second Class,South Asia,Discs Shop,Minor Delay (1-2 days),21,1746.71,1.57,2,1746.71
+Second Class,South Asia,Golf,Minor Delay (1-2 days),89,12128.9,1.57,2,11873.92
+Second Class,South of  USA ,Apparel,Minor Delay (1-2 days),97,15137.99,1.57,2,15008.0
+Second Class,Southeast Asia,Discs Shop,Minor Delay (1-2 days),30,3871.56,1.57,2,3871.56
+Second Class,US Center ,Golf,Minor Delay (1-2 days),111,15258.8,1.57,2,14248.89
+Second Class,Central Asia,Apparel,Minor Delay (1-2 days),16,2109.8,1.56,2,1979.81
+Second Class,Central Asia,Golf,Minor Delay (1-2 days),9,1180.0,1.56,2,1180.0
+Second Class,North Africa,Golf,Minor Delay (1-2 days),43,6439.65,1.56,2,5939.65
+Second Class,South of  USA ,Outdoors,Minor Delay (1-2 days),18,1503.49,1.56,2,1503.49
+Second Class,Southern Europe,Outdoors,Minor Delay (1-2 days),27,3576.32,1.56,2,3544.34
+Second Class,West Asia,Golf,Minor Delay (1-2 days),91,13009.22,1.56,2,12749.26
+Second Class,Western Europe,Discs Shop,Minor Delay (1-2 days),9,1479.42,1.56,2,1479.42
+Second Class,Central America,Footwear,Minor Delay (1-2 days),174,49369.39,1.55,2,47349.58
+Second Class,Central America,Outdoors,Minor Delay (1-2 days),111,11118.36,1.55,2,10436.49
+Second Class,South Asia,Fan Shop,Minor Delay (1-2 days),201,49114.38,1.55,2,48064.49
+Second Class,Canada,Golf,Minor Delay (1-2 days),13,2009.82,1.54,2,2009.82
+Second Class,Central America,Fan Shop,Minor Delay (1-2 days),831,213223.84,1.54,2,204625.14
+Second Class,Central America,Golf,Minor Delay (1-2 days),410,56965.63,1.54,2,54005.72
+Second Class,East Africa,Fan Shop,Minor Delay (1-2 days),56,14548.22,1.54,2,14548.22
+Second Class,Southeast Asia,Health and Beauty ,Minor Delay (1-2 days),13,3809.52,1.54,2,3809.52
+Second Class,West Asia,Fan Shop,Minor Delay (1-2 days),193,52214.79,1.54,2,51514.83
+Second Class,Eastern Asia,Apparel,Minor Delay (1-2 days),146,24837.38,1.53,2,23941.65
+Second Class,North Africa,Footwear,Minor Delay (1-2 days),17,4155.53,1.53,2,3655.58
+Second Class,Northern Europe,Footwear,Minor Delay (1-2 days),64,17066.19,1.53,2,16477.23
+Second Class,South of  USA ,Fan Shop,Minor Delay (1-2 days),131,30845.79,1.53,2,30495.86
+Second Class,Southeast Asia,Footwear,Minor Delay (1-2 days),60,16948.25,1.53,2,15848.36
+Second Class,Western Europe,Footwear,Minor Delay (1-2 days),179,51291.76,1.53,2,49291.96
+Second Class,Northern Europe,Apparel,Minor Delay (1-2 days),227,38454.81,1.52,2,36623.5
+Second Class,Northern Europe,Outdoors,Minor Delay (1-2 days),33,4965.24,1.52,2,4855.29
+Second Class,Oceania,Footwear,Minor Delay (1-2 days),62,16719.15,1.52,2,16719.15
+Second Class,South Asia,Outdoors,Minor Delay (1-2 days),33,5263.73,1.52,2,4411.26
+Second Class,Caribbean,Footwear,Minor Delay (1-2 days),61,16213.09,1.51,2,15813.13
+Second Class,North Africa,Fan Shop,Minor Delay (1-2 days),111,26746.45,1.51,2,26546.53
+Second Class,South America,Apparel,Minor Delay (1-2 days),270,41394.64,1.51,2,39294.85
+Second Class,South Asia,Apparel,Minor Delay (1-2 days),175,30058.99,1.51,2,29129.11
+Second Class,Western Europe,Apparel,Minor Delay (1-2 days),603,102775.2,1.51,2,96932.94
+Second Class,Central Asia,Footwear,Minor Delay (1-2 days),6,1399.86,1.5,2,899.91
+Second Class,East of USA,Fitness,Minor Delay (1-2 days),10,1454.67,1.5,2,1454.67
+Second Class,East of USA,Golf,Minor Delay (1-2 days),107,14353.74,1.5,2,13563.75
+Second Class,Eastern Asia,Book Shop,Minor Delay (1-2 days),2,62.16,1.5,2,62.16
+Second Class,Eastern Asia,Health and Beauty ,Minor Delay (1-2 days),4,1172.16,1.5,2,1172.16
+Second Class,Eastern Europe,Fitness,Minor Delay (1-2 days),4,324.93,1.5,2,324.93
+Second Class,North Africa,Fitness,Minor Delay (1-2 days),6,699.83,1.5,2,699.83
+Second Class,Oceania,Book Shop,Minor Delay (1-2 days),2,62.16,1.5,2,62.16
+Second Class,Oceania,Golf,Minor Delay (1-2 days),124,16593.97,1.5,2,16168.97
+Second Class,South Asia,Health and Beauty ,Minor Delay (1-2 days),10,2930.4,1.5,2,2637.36
+Second Class,Southeast Asia,Fan Shop,Minor Delay (1-2 days),241,58581.12,1.5,2,56969.84
+Second Class,Southeast Asia,Golf,Minor Delay (1-2 days),131,18373.82,1.5,2,17653.85
+Second Class,Southeast Asia,Pet Shop,Minor Delay (1-2 days),16,1350.4,1.5,2,1350.4
+Second Class,US Center ,Outdoors,Minor Delay (1-2 days),26,2011.28,1.5,2,2011.28
+Second Class,West Africa,Fitness,Minor Delay (1-2 days),2,196.95,1.5,2,196.95
+Second Class,West Africa,Outdoors,Minor Delay (1-2 days),14,880.58,1.5,2,880.58
+Second Class,West Asia,Apparel,Minor Delay (1-2 days),130,20257.37,1.5,2,19597.48
+Second Class,West of USA ,Apparel,Minor Delay (1-2 days),204,32675.65,1.5,2,31125.85
+Second Class,West of USA ,Golf,Minor Delay (1-2 days),113,15423.99,1.5,2,14264.07
+Second Class,Western Europe,Book Shop,Minor Delay (1-2 days),12,372.96,1.5,2,372.96
+Second Class,Caribbean,Golf,Minor Delay (1-2 days),118,16198.75,1.49,2,15338.79
+Second Class,Eastern Asia,Golf,Minor Delay (1-2 days),84,10649.19,1.49,2,9959.2
+Second Class,Oceania,Apparel,Minor Delay (1-2 days),223,36708.45,1.49,2,36328.49
+Second Class,Oceania,Fan Shop,Minor Delay (1-2 days),283,74919.07,1.49,2,74107.7
+Second Class,US Center ,Footwear,Minor Delay (1-2 days),35,9376.81,1.49,2,9176.83
+Second Class,West Africa,Golf,Minor Delay (1-2 days),51,6929.75,1.49,2,6929.75
+Second Class,Oceania,Outdoors,Minor Delay (1-2 days),61,10740.24,1.48,2,10207.66
+Second Class,South Asia,Footwear,Minor Delay (1-2 days),29,7498.17,1.48,2,7128.22
+Second Class,Western Europe,Fan Shop,Minor Delay (1-2 days),765,196626.98,1.48,2,188777.73
+Second Class,Western Europe,Golf,Minor Delay (1-2 days),380,53086.35,1.48,2,51721.46
+Second Class,Western Europe,Technology,Minor Delay (1-2 days),50,26352.84,1.48,2,26099.96
+Second Class,Central Africa,Fan Shop,Minor Delay (1-2 days),43,11198.88,1.47,2,10798.9
+Second Class,East Africa,Apparel,Minor Delay (1-2 days),51,8178.94,1.47,2,7928.97
+Second Class,East of USA,Fan Shop,Minor Delay (1-2 days),199,50724.31,1.47,2,48624.45
+Second Class,Eastern Europe,Outdoors,Minor Delay (1-2 days),19,1494.44,1.47,2,1494.44
+Second Class,Northern Europe,Fan Shop,Minor Delay (1-2 days),306,78191.0,1.47,2,76141.12
+Second Class,South America,Fan Shop,Minor Delay (1-2 days),413,99417.18,1.47,2,95697.52
+Second Class,Southern Europe,Golf,Minor Delay (1-2 days),118,16588.8,1.47,2,16238.81
+Second Class,West Asia,Footwear,Minor Delay (1-2 days),43,10690.71,1.47,2,10580.77
+Second Class,West of USA ,Fan Shop,Minor Delay (1-2 days),243,64412.68,1.47,2,62612.82
+Second Class,Western Europe,Fitness,Minor Delay (1-2 days),17,2560.76,1.47,2,2560.76
+Second Class,East of USA,Apparel,Minor Delay (1-2 days),132,19977.37,1.46,2,19167.47
+Second Class,Southern Europe,Discs Shop,Minor Delay (1-2 days),13,1524.58,1.46,2,1524.58
+Second Class,West of USA ,Outdoors,Minor Delay (1-2 days),35,2619.11,1.46,2,2506.16
+Second Class,Caribbean,Apparel,Minor Delay (1-2 days),173,28146.16,1.45,2,26046.44
+Second Class,North Africa,Outdoors,Minor Delay (1-2 days),20,2068.37,1.45,2,1927.43
+Second Class,South America,Golf,Minor Delay (1-2 days),204,28552.88,1.45,2,26353.03
+Second Class,Southeast Asia,Apparel,Minor Delay (1-2 days),190,34592.79,1.45,2,33366.23
+Second Class,Southern Africa,Fan Shop,Minor Delay (1-2 days),22,5449.44,1.45,2,4949.47
+Second Class,Southern Europe,Apparel,Minor Delay (1-2 days),190,30557.96,1.45,2,30248.0
+Second Class,Southern Europe,Fan Shop,Minor Delay (1-2 days),252,66363.03,1.45,2,64363.48
+Second Class,US Center ,Fan Shop,Minor Delay (1-2 days),179,47145.06,1.45,2,46245.18
+Second Class,West Asia,Fitness,Minor Delay (1-2 days),11,1263.76,1.45,2,1263.76
+Second Class,West of USA ,Footwear,Minor Delay (1-2 days),55,13479.4,1.45,2,12579.49
+Second Class,Caribbean,Outdoors,Minor Delay (1-2 days),39,3441.96,1.44,2,3382.0
+Second Class,Central Africa,Apparel,Minor Delay (1-2 days),25,4519.34,1.44,2,4519.34
+Second Class,Central Africa,Golf,Minor Delay (1-2 days),25,2919.82,1.44,2,2919.82
+Second Class,South America,Outdoors,Minor Delay (1-2 days),71,9458.14,1.44,2,8670.26
+Second Class,South Asia,Pet Shop,Minor Delay (1-2 days),9,759.6,1.44,2,759.6
+Second Class,US Center ,Apparel,Minor Delay (1-2 days),135,22876.91,1.44,2,22087.03
+Second Class,East of USA,Outdoors,Minor Delay (1-2 days),14,1432.54,1.43,2,1432.54
+Second Class,Eastern Europe,Fan Shop,Minor Delay (1-2 days),98,24947.06,1.43,2,24947.06
+Second Class,Caribbean,Fan Shop,Minor Delay (1-2 days),275,70488.95,1.42,2,67439.24
+Second Class,Eastern Asia,Pet Shop,Minor Delay (1-2 days),12,1012.8,1.42,2,928.4
+Second Class,Eastern Europe,Apparel,Minor Delay (1-2 days),83,12138.49,1.42,2,12138.49
+Second Class,Northern Europe,Golf,Minor Delay (1-2 days),123,16768.72,1.42,2,16148.75
+Second Class,Northern Europe,Technology,Minor Delay (1-2 days),17,12127.84,1.41,2,12127.84
+Second Class,Southern Europe,Footwear,Minor Delay (1-2 days),63,16874.32,1.41,2,14974.51
+Second Class,Western Europe,Outdoors,Minor Delay (1-2 days),109,15271.44,1.41,2,14453.51
+Second Class,Canada,Outdoors,Minor Delay (1-2 days),5,379.85,1.4,2,379.85
+Second Class,Caribbean,Fitness,Minor Delay (1-2 days),5,619.87,1.4,2,539.88
+Second Class,East Africa,Outdoors,Minor Delay (1-2 days),5,165.91,1.4,2,165.91
+Second Class,North Africa,Apparel,Minor Delay (1-2 days),67,11018.56,1.4,2,10468.64
+Second Class,South America,Footwear,Minor Delay (1-2 days),96,28506.87,1.4,2,27806.94
+Second Class,West Africa,Apparel,Minor Delay (1-2 days),68,10278.73,1.4,2,10028.76
+Second Class,Eastern Asia,Outdoors,Minor Delay (1-2 days),44,7085.07,1.39,2,6502.51
+Second Class,Oceania,Discs Shop,Minor Delay (1-2 days),41,5730.38,1.39,2,5265.6
+Second Class,West Africa,Fan Shop,Minor Delay (1-2 days),127,32966.87,1.39,2,31666.94
+Second Class,Eastern Europe,Footwear,Minor Delay (1-2 days),26,8419.13,1.38,2,8419.13
+Second Class,Southeast Asia,Outdoors,Minor Delay (1-2 days),45,7405.49,1.38,2,6872.91
+Second Class,Oceania,Pet Shop,Minor Delay (1-2 days),11,928.4,1.36,2,928.4
+Second Class,Southeast Asia,Fitness,Minor Delay (1-2 days),14,2761.38,1.36,2,2761.38
+Second Class,Eastern Europe,Golf,Minor Delay (1-2 days),48,6499.5,1.35,2,6499.5
+Second Class,Central Asia,Outdoors,Minor Delay (1-2 days),3,239.9,1.33,2,239.9
+Second Class,Northern Europe,Book Shop,Minor Delay (1-2 days),3,93.24,1.33,2,93.24
+Second Class,Northern Europe,Discs Shop,Minor Delay (1-2 days),3,340.05,1.33,2,340.05
+Second Class,Southern Africa,Footwear,Minor Delay (1-2 days),6,1717.79,1.33,2,1117.85
+Second Class,Southern Europe,Book Shop,Minor Delay (1-2 days),3,93.24,1.33,2,93.24
+Second Class,South of  USA ,Footwear,Minor Delay (1-2 days),28,5521.29,1.32,2,5021.34
+Second Class,Southern Africa,Apparel,Minor Delay (1-2 days),13,1669.78,1.31,2,1669.78
+Second Class,West Africa,Footwear,Minor Delay (1-2 days),23,6496.27,1.3,2,6496.27
+Second Class,Central Africa,Fitness,Minor Delay (1-2 days),4,416.94,1.25,2,416.94
+Second Class,Central Africa,Footwear,Minor Delay (1-2 days),9,1999.76,1.22,2,1999.76
+Second Class,Canada,Footwear,Minor Delay (1-2 days),6,1654.72,1.17,2,1654.72
+Second Class,Oceania,Health and Beauty ,Minor Delay (1-2 days),6,1758.24,1.17,2,1758.24
+Second Class,West of USA ,Fitness,Minor Delay (1-2 days),8,919.82,1.12,2,919.82
+Second Class,South Asia,Technology,Minor Delay (1-2 days),3,3252.88,1.0,1,3252.88
+Second Class,Southern Europe,Fitness,Minor Delay (1-2 days),6,974.82,1.0,1,799.87
+Second Class,Canada,Apparel,On Time,10,1379.84,0.0,0,0.0
+Second Class,Canada,Fan Shop,On Time,15,3249.56,0.0,0,0.0
+Second Class,Canada,Fitness,On Time,1,179.96,0.0,0,0.0
+Second Class,Canada,Footwear,On Time,1,399.96,0.0,0,0.0
+Second Class,Canada,Golf,On Time,7,879.93,0.0,0,0.0
+Second Class,Canada,Outdoors,On Time,4,304.86,0.0,0,0.0
+Second Class,Caribbean,Apparel,On Time,86,13758.15,0.0,0,0.0
+Second Class,Caribbean,Fan Shop,On Time,115,29466.85,0.0,0,0.0
+Second Class,Caribbean,Fitness,On Time,5,729.88,0.0,0,0.0
+Second Class,Caribbean,Footwear,On Time,17,5154.34,0.0,0,0.0
+Second Class,Caribbean,Golf,On Time,60,7999.28,0.0,0,0.0
+Second Class,Caribbean,Outdoors,On Time,12,976.76,0.0,0,0.0
+Second Class,Central Africa,Apparel,On Time,16,2029.79,0.0,0,0.0
+Second Class,Central Africa,Fan Shop,On Time,21,5069.53,0.0,0,0.0
+Second Class,Central Africa,Footwear,On Time,3,869.9,0.0,0,0.0
+Second Class,Central Africa,Golf,On Time,9,1509.95,0.0,0,0.0
+Second Class,Central Africa,Outdoors,On Time,3,320.89,0.0,0,0.0
+Second Class,Central America,Apparel,On Time,318,49133.77,0.0,0,0.0
+Second Class,Central America,Fan Shop,On Time,471,123236.81,0.0,0,0.0
+Second Class,Central America,Fitness,On Time,13,1474.78,0.0,0,0.0
+Second Class,Central America,Footwear,On Time,89,27096.11,0.0,0,0.0
+Second Class,Central America,Golf,On Time,238,33982.71,0.0,0,0.0
+Second Class,Central America,Outdoors,On Time,56,6431.74,0.0,0,0.0
+Second Class,Central Asia,Apparel,On Time,4,669.9,0.0,0,0.0
+Second Class,Central Asia,Fan Shop,On Time,2,599.9,0.0,0,0.0
+Second Class,Central Asia,Footwear,On Time,1,99.99,0.0,0,0.0
+Second Class,Central Asia,Golf,On Time,4,709.96,0.0,0,0.0
+Second Class,East Africa,Apparel,On Time,15,2239.72,0.0,0,0.0
+Second Class,East Africa,Fan Shop,On Time,35,8948.89,0.0,0,0.0
+Second Class,East Africa,Footwear,On Time,6,1527.82,0.0,0,0.0
+Second Class,East Africa,Golf,On Time,20,2454.79,0.0,0,0.0
+Second Class,East Africa,Outdoors,On Time,1,24.99,0.0,0,0.0
+Second Class,East of USA,Apparel,On Time,62,9978.71,0.0,0,0.0
+Second Class,East of USA,Fan Shop,On Time,117,30156.46,0.0,0,0.0
+Second Class,East of USA,Fitness,On Time,4,729.85,0.0,0,0.0
+Second Class,East of USA,Footwear,On Time,30,8426.01,0.0,0,0.0
+Second Class,East of USA,Golf,On Time,49,6649.5,0.0,0,0.0
+Second Class,East of USA,Outdoors,On Time,10,750.71,0.0,0,0.0
+Second Class,Eastern Asia,Apparel,On Time,70,12405.45,0.0,0,0.0
+Second Class,Eastern Asia,Discs Shop,On Time,13,1150.89,0.0,0,0.0
+Second Class,Eastern Asia,Fan Shop,On Time,76,17532.11,0.0,0,0.0
+Second Class,Eastern Asia,Fitness,On Time,3,830.45,0.0,0,0.0
+Second Class,Eastern Asia,Footwear,On Time,8,914.89,0.0,0,0.0
+Second Class,Eastern Asia,Golf,On Time,35,4819.64,0.0,0,0.0
+Second Class,Eastern Asia,Health and Beauty ,On Time,5,1465.2,0.0,0,0.0
+Second Class,Eastern Asia,Outdoors,On Time,14,4209.28,0.0,0,0.0
+Second Class,Eastern Asia,Pet Shop,On Time,4,337.6,0.0,0,0.0
+Second Class,Eastern Europe,Apparel,On Time,46,7349.02,0.0,0,0.0
+Second Class,Eastern Europe,Fan Shop,On Time,89,20506.98,0.0,0,0.0
+Second Class,Eastern Europe,Fitness,On Time,1,74.97,0.0,0,0.0
+Second Class,Eastern Europe,Footwear,On Time,18,4776.42,0.0,0,0.0
+Second Class,Eastern Europe,Golf,On Time,27,4359.84,0.0,0,0.0
+Second Class,Eastern Europe,Outdoors,On Time,9,819.64,0.0,0,0.0
+Second Class,North Africa,Apparel,On Time,39,6219.15,0.0,0,0.0
+Second Class,North Africa,Fan Shop,On Time,37,9199.15,0.0,0,0.0
+Second Class,North Africa,Fitness,On Time,3,189.95,0.0,0,0.0
+Second Class,North Africa,Footwear,On Time,6,1899.81,0.0,0,0.0
+Second Class,North Africa,Golf,On Time,23,2919.82,0.0,0,0.0
+Second Class,North Africa,Outdoors,On Time,5,496.85,0.0,0,0.0
+Second Class,Northern Europe,Apparel,On Time,100,15605.38,0.0,0,0.0
+Second Class,Northern Europe,Discs Shop,On Time,5,668.81,0.0,0,0.0
+Second Class,Northern Europe,Fan Shop,On Time,148,38645.53,0.0,0,0.0
+Second Class,Northern Europe,Fitness,On Time,5,599.87,0.0,0,0.0
+Second Class,Northern Europe,Footwear,On Time,39,10703.8,0.0,0,0.0
+Second Class,Northern Europe,Golf,On Time,83,11789.32,0.0,0,0.0
+Second Class,Northern Europe,Outdoors,On Time,16,2948.75,0.0,0,0.0
+Second Class,Northern Europe,Technology,On Time,11,5024.6,0.0,0,0.0
+Second Class,Oceania,Apparel,On Time,122,21126.35,0.0,0,0.0
+Second Class,Oceania,Book Shop,On Time,3,93.24,0.0,0,0.0
+Second Class,Oceania,Discs Shop,On Time,20,2562.1,0.0,0,0.0
+Second Class,Oceania,Fan Shop,On Time,131,31655.69,0.0,0,0.0
+Second Class,Oceania,Fitness,On Time,12,1955.02,0.0,0,0.0
+Second Class,Oceania,Footwear,On Time,29,8744.11,0.0,0,0.0
+Second Class,Oceania,Golf,On Time,68,9109.17,0.0,0,0.0
+Second Class,Oceania,Health and Beauty ,On Time,4,1172.16,0.0,0,0.0
+Second Class,Oceania,Outdoors,On Time,28,3877.98,0.0,0,0.0
+Second Class,Oceania,Pet Shop,On Time,6,506.4,0.0,0,0.0
+Second Class,Oceania,Technology,On Time,2,704.92,0.0,0,0.0
+Second Class,South America,Apparel,On Time,165,24346.98,0.0,0,0.0
+Second Class,South America,Fan Shop,On Time,211,53251.2,0.0,0,0.0
+Second Class,South America,Fitness,On Time,12,1569.74,0.0,0,0.0
+Second Class,South America,Footwear,On Time,61,18128.19,0.0,0,0.0
+Second Class,South America,Golf,On Time,129,18803.78,0.0,0,0.0
+Second Class,South America,Outdoors,On Time,35,3918.03,0.0,0,0.0
+Second Class,South Asia,Apparel,On Time,81,13461.57,0.0,0,0.0
+Second Class,South Asia,Discs Shop,On Time,15,1632.84,0.0,0,0.0
+Second Class,South Asia,Fan Shop,On Time,124,29072.64,0.0,0,0.0
+Second Class,South Asia,Fitness,On Time,3,612.69,0.0,0,0.0
+Second Class,South Asia,Footwear,On Time,19,5402.42,0.0,0,0.0
+Second Class,South Asia,Golf,On Time,45,6789.56,0.0,0,0.0
+Second Class,South Asia,Health and Beauty ,On Time,1,293.04,0.0,0,0.0
+Second Class,South Asia,Outdoors,On Time,16,1833.87,0.0,0,0.0
+Second Class,South Asia,Pet Shop,On Time,5,422.0,0.0,0,0.0
+Second Class,South Asia,Technology,On Time,3,3252.88,0.0,0,0.0
+Second Class,South of  USA ,Apparel,On Time,41,6379.17,0.0,0,0.0
+Second Class,South of  USA ,Fan Shop,On Time,59,14498.05,0.0,0,0.0
+Second Class,South of  USA ,Footwear,On Time,8,2494.7,0.0,0,0.0
+Second Class,South of  USA ,Golf,On Time,32,4689.74,0.0,0,0.0
+Second Class,South of  USA ,Outdoors,On Time,6,519.87,0.0,0,0.0
+Second Class,Southeast Asia,Apparel,On Time,104,18731.38,0.0,0,0.0
+Second Class,Southeast Asia,Discs Shop,On Time,18,1819.9,0.0,0,0.0
+Second Class,Southeast Asia,Fan Shop,On Time,134,33026.89,0.0,0,0.0
+Second Class,Southeast Asia,Fitness,On Time,8,1896.73,0.0,0,0.0
+Second Class,Southeast Asia,Footwear,On Time,20,4603.43,0.0,0,0.0
+Second Class,Southeast Asia,Golf,On Time,51,6524.4,0.0,0,0.0
+Second Class,Southeast Asia,Health and Beauty ,On Time,3,879.12,0.0,0,0.0
+Second Class,Southeast Asia,Outdoors,On Time,19,2123.78,0.0,0,0.0
+Second Class,Southeast Asia,Pet Shop,On Time,9,759.6,0.0,0,0.0
+Second Class,Southeast Asia,Technology,On Time,2,1752.88,0.0,0,0.0
+Second Class,Southern Africa,Apparel,On Time,9,1219.82,0.0,0,0.0
+Second Class,Southern Africa,Fan Shop,On Time,15,3649.53,0.0,0,0.0
+Second Class,Southern Africa,Footwear,On Time,3,1034.89,0.0,0,0.0
+Second Class,Southern Africa,Golf,On Time,9,1299.85,0.0,0,0.0
+Second Class,Southern Africa,Outdoors,On Time,4,321.86,0.0,0,0.0
+Second Class,Southern Europe,Apparel,On Time,102,17272.69,0.0,0,0.0
+Second Class,Southern Europe,Book Shop,On Time,2,62.16,0.0,0,0.0
+Second Class,Southern Europe,Discs Shop,On Time,3,186.96,0.0,0,0.0
+Second Class,Southern Europe,Fan Shop,On Time,124,32006.66,0.0,0,0.0
+Second Class,Southern Europe,Fitness,On Time,5,659.88,0.0,0,0.0
+Second Class,Southern Europe,Footwear,On Time,32,8374.06,0.0,0,0.0
+Second Class,Southern Europe,Golf,On Time,63,8389.36,0.0,0,0.0
+Second Class,Southern Europe,Outdoors,On Time,12,1424.64,0.0,0,0.0
+Second Class,Southern Europe,Technology,On Time,8,4465.12,0.0,0,0.0
+Second Class,US Center ,Apparel,On Time,77,12108.39,0.0,0,0.0
+Second Class,US Center ,Fan Shop,On Time,97,25597.14,0.0,0,0.0
+Second Class,US Center ,Fitness,On Time,3,309.92,0.0,0,0.0
+Second Class,US Center ,Footwear,On Time,19,5089.46,0.0,0,0.0
+Second Class,US Center ,Golf,On Time,53,7389.69,0.0,0,0.0
+Second Class,US Center ,Outdoors,On Time,20,1316.48,0.0,0,0.0
+Second Class,West Africa,Apparel,On Time,40,6639.08,0.0,0,0.0
+Second Class,West Africa,Fan Shop,On Time,59,14948.13,0.0,0,0.0
+Second Class,West Africa,Fitness,On Time,1,59.99,0.0,0,0.0
+Second Class,West Africa,Footwear,On Time,14,3941.53,0.0,0,0.0
+Second Class,West Africa,Golf,On Time,27,3579.67,0.0,0,0.0
+Second Class,West Africa,Outdoors,On Time,9,1121.65,0.0,0,0.0
+Second Class,West Asia,Apparel,On Time,80,11418.61,0.0,0,0.0
+Second Class,West Asia,Fan Shop,On Time,95,24966.86,0.0,0,0.0
+Second Class,West Asia,Fitness,On Time,2,239.96,0.0,0,0.0
+Second Class,West Asia,Footwear,On Time,21,5403.41,0.0,0,0.0
+Second Class,West Asia,Golf,On Time,44,5249.52,0.0,0,0.0
+Second Class,West Asia,Outdoors,On Time,9,1235.67,0.0,0,0.0
+Second Class,West of USA ,Apparel,On Time,87,12918.29,0.0,0,0.0
+Second Class,West of USA ,Fan Shop,On Time,122,31846.59,0.0,0,0.0
+Second Class,West of USA ,Fitness,On Time,2,220.0,0.0,0,0.0
+Second Class,West of USA ,Footwear,On Time,32,7866.94,0.0,0,0.0
+Second Class,West of USA ,Golf,On Time,62,10019.25,0.0,0,0.0
+Second Class,West of USA ,Outdoors,On Time,14,1001.6,0.0,0,0.0
+Second Class,Western Europe,Apparel,On Time,276,48263.32,0.0,0,0.0
+Second Class,Western Europe,Book Shop,On Time,11,341.88,0.0,0,0.0
+Second Class,Western Europe,Discs Shop,On Time,9,1173.24,0.0,0,0.0
+Second Class,Western Europe,Fan Shop,On Time,386,101939.91,0.0,0,0.0
+Second Class,Western Europe,Fitness,On Time,5,787.88,0.0,0,0.0
+Second Class,Western Europe,Footwear,On Time,93,27912.19,0.0,0,0.0
+Second Class,Western Europe,Golf,On Time,184,25828.44,0.0,0,0.0
+Second Class,Western Europe,Outdoors,On Time,41,7230.06,0.0,0,0.0
+Second Class,Western Europe,Technology,On Time,21,15832.76,0.0,0,0.0
+Standard Class,Southern Africa,Fitness,Minor Delay (1-2 days),4,544.88,2.0,2,544.88
+Standard Class,East of USA,Fitness,Minor Delay (1-2 days),20,2261.6,1.75,2,2141.64
+Standard Class,North Africa,Fitness,Minor Delay (1-2 days),8,1179.75,1.75,2,1004.8
+Standard Class,West Asia,Fitness,Minor Delay (1-2 days),10,1071.83,1.7,2,961.83
+Standard Class,Southern Africa,Apparel,Minor Delay (1-2 days),72,10768.59,1.69,2,10518.62
+Standard Class,Central Africa,Outdoors,Minor Delay (1-2 days),27,1994.34,1.67,2,1974.35
+Standard Class,North Africa,Footwear,Minor Delay (1-2 days),68,19948.81,1.66,2,19548.85
+Standard Class,Northern Europe,Fitness,Minor Delay (1-2 days),23,3312.49,1.65,2,3312.49
+Standard Class,Eastern Europe,Footwear,Minor Delay (1-2 days),76,21120.68,1.64,2,20050.8
+Standard Class,Caribbean,Fitness,Minor Delay (1-2 days),30,3703.43,1.63,2,3407.46
+Standard Class,South Asia,Technology,Minor Delay (1-2 days),8,4517.28,1.62,2,4264.4
+Standard Class,Southeast Asia,Pet Shop,Minor Delay (1-2 days),21,1772.4,1.62,2,1772.4
+Standard Class,US Center ,Fitness,Minor Delay (1-2 days),16,1950.63,1.62,2,1950.63
+Standard Class,Northern Europe,Outdoors,Minor Delay (1-2 days),119,18271.36,1.61,2,17501.51
+Standard Class,Southern Africa,Fan Shop,Minor Delay (1-2 days),119,31696.16,1.61,2,29996.42
+Standard Class,Central Asia,Outdoors,Minor Delay (1-2 days),5,507.81,1.6,2,507.81
+Standard Class,Western Europe,Discs Shop,Minor Delay (1-2 days),48,4522.26,1.6,2,4335.3
+Standard Class,Central Africa,Apparel,Minor Delay (1-2 days),116,16967.86,1.59,2,16587.9
+Standard Class,North Africa,Outdoors,Minor Delay (1-2 days),44,4486.49,1.59,2,4399.54
+Standard Class,Southern Africa,Golf,Minor Delay (1-2 days),46,5839.62,1.59,2,5759.64
+Standard Class,Southern Africa,Outdoors,Minor Delay (1-2 days),17,1770.49,1.59,2,1530.52
+Standard Class,Canada,Apparel,Minor Delay (1-2 days),50,7419.02,1.58,2,6929.09
+Standard Class,South of  USA ,Fitness,Minor Delay (1-2 days),12,895.94,1.58,2,895.94
+Standard Class,Southern Europe,Book Shop,Minor Delay (1-2 days),12,372.96,1.58,2,372.96
+Standard Class,Canada,Golf,Minor Delay (1-2 days),30,4419.87,1.57,2,3769.87
+Standard Class,East Africa,Outdoors,Minor Delay (1-2 days),23,2221.29,1.57,2,2013.33
+Standard Class,Eastern Asia,Health and Beauty ,Minor Delay (1-2 days),21,6153.84,1.57,2,5860.8
+Standard Class,Eastern Asia,Outdoors,Minor Delay (1-2 days),109,26242.31,1.57,2,25827.4
+Standard Class,Eastern Europe,Outdoors,Minor Delay (1-2 days),51,3596.6,1.57,2,3431.67
+Standard Class,Oceania,Book Shop,Minor Delay (1-2 days),7,217.56,1.57,2,217.56
+Standard Class,Oceania,Technology,Minor Delay (1-2 days),16,7787.44,1.56,2,5275.92
+Standard Class,West of USA ,Fitness,Minor Delay (1-2 days),18,2107.53,1.56,2,2082.54
+Standard Class,Canada,Fan Shop,Minor Delay (1-2 days),67,15908.21,1.55,2,15508.23
+Standard Class,Eastern Asia,Golf,Minor Delay (1-2 days),261,35212.2,1.55,2,34622.26
+Standard Class,Eastern Europe,Fan Shop,Minor Delay (1-2 days),374,98938.25,1.55,2,95188.74
+Standard Class,Eastern Europe,Golf,Minor Delay (1-2 days),181,26528.24,1.55,2,25048.36
+Standard Class,South of  USA ,Apparel,Minor Delay (1-2 days),254,39514.79,1.55,2,37665.04
+Standard Class,Southeast Asia,Fan Shop,Minor Delay (1-2 days),796,195224.91,1.55,2,187341.02
+Standard Class,West of USA ,Apparel,Minor Delay (1-2 days),535,83348.79,1.55,2,80719.1
+Standard Class,West of USA ,Footwear,Minor Delay (1-2 days),148,40231.54,1.55,2,38246.73
+Standard Class,Eastern Asia,Discs Shop,Minor Delay (1-2 days),97,9541.43,1.54,2,9241.03
+Standard Class,Northern Europe,Golf,Minor Delay (1-2 days),437,60555.84,1.54,2,58005.99
+Standard Class,Oceania,Footwear,Minor Delay (1-2 days),167,41093.4,1.54,2,40253.52
+Standard Class,South America,Outdoors,Minor Delay (1-2 days),206,20502.4,1.54,2,19633.64
+Standard Class,South Asia,Footwear,Minor Delay (1-2 days),132,35079.79,1.54,2,33924.93
+Standard Class,South of  USA ,Footwear,Minor Delay (1-2 days),89,21821.65,1.54,2,19821.85
+Standard Class,Central America,Apparel,Minor Delay (1-2 days),1834,286462.48,1.53,2,275603.94
+Standard Class,Eastern Asia,Fan Shop,Minor Delay (1-2 days),562,136491.72,1.53,2,133107.72
+Standard Class,Eastern Asia,Pet Shop,Minor Delay (1-2 days),30,2532.0,1.53,2,2447.6
+Standard Class,Eastern Asia,Technology,Minor Delay (1-2 days),15,15017.28,1.53,2,15017.28
+Standard Class,Northern Europe,Apparel,Minor Delay (1-2 days),632,110683.19,1.53,2,107413.63
+Standard Class,Northern Europe,Footwear,Minor Delay (1-2 days),197,55362.25,1.53,2,52617.65
+Standard Class,Oceania,Golf,Minor Delay (1-2 days),398,55290.76,1.53,2,53710.83
+Standard Class,South America,Apparel,Minor Delay (1-2 days),928,145100.97,1.53,2,138531.82
+Standard Class,South Asia,Outdoors,Minor Delay (1-2 days),124,21667.78,1.53,2,21424.88
+Standard Class,South Asia,Pet Shop,Minor Delay (1-2 days),15,1266.0,1.53,2,1181.6
+Standard Class,South of  USA ,Fan Shop,Minor Delay (1-2 days),373,94989.93,1.53,2,89140.55
+Standard Class,Southeast Asia,Fitness,Minor Delay (1-2 days),55,11565.6,1.53,2,11237.85
+Standard Class,West Africa,Outdoors,Minor Delay (1-2 days),58,4535.38,1.53,2,4325.49
+Standard Class,East of USA,Fan Shop,Minor Delay (1-2 days),673,177680.56,1.52,2,170381.46
+Standard Class,East of USA,Footwear,Minor Delay (1-2 days),123,33349.17,1.52,2,32049.3
+Standard Class,East of USA,Outdoors,Minor Delay (1-2 days),97,9439.35,1.52,2,9331.41
+Standard Class,Eastern Asia,Apparel,Minor Delay (1-2 days),458,77073.99,1.52,2,74616.02
+Standard Class,Eastern Asia,Fitness,Minor Delay (1-2 days),27,5830.4,1.52,2,5402.69
+Standard Class,Eastern Asia,Footwear,Minor Delay (1-2 days),130,33929.92,1.52,2,32170.13
+Standard Class,US Center ,Footwear,Minor Delay (1-2 days),101,26439.8,1.52,2,25508.93
+Standard Class,West of USA ,Golf,Minor Delay (1-2 days),356,49406.56,1.52,2,47436.79
+Standard Class,Western Europe,Fitness,Minor Delay (1-2 days),73,14346.71,1.52,2,14301.72
+Standard Class,Caribbean,Fan Shop,Minor Delay (1-2 days),720,183157.96,1.51,2,173759.31
+Standard Class,Central America,Fan Shop,Minor Delay (1-2 days),2702,703556.76,1.51,2,676799.84
+Standard Class,Central America,Golf,Minor Delay (1-2 days),1282,177511.44,1.51,2,168332.16
+Standard Class,East of USA,Apparel,Minor Delay (1-2 days),470,73580.57,1.51,2,69991.04
+Standard Class,Eastern Europe,Apparel,Minor Delay (1-2 days),255,39604.88,1.51,2,37385.18
+Standard Class,North Africa,Apparel,Minor Delay (1-2 days),225,34575.59,1.51,2,33105.8
+Standard Class,North Africa,Fan Shop,Minor Delay (1-2 days),246,59932.05,1.51,2,57682.36
+Standard Class,North Africa,Golf,Minor Delay (1-2 days),140,17848.69,1.51,2,16858.73
+Standard Class,Northern Europe,Fan Shop,Minor Delay (1-2 days),854,221278.38,1.51,2,209729.78
+Standard Class,Northern Europe,Technology,Minor Delay (1-2 days),47,32427.28,1.51,2,31071.16
+Standard Class,Oceania,Fitness,Minor Delay (1-2 days),57,9720.34,1.51,2,8409.34
+Standard Class,South Asia,Apparel,Minor Delay (1-2 days),478,82117.99,1.51,2,77702.13
+Standard Class,South Asia,Discs Shop,Minor Delay (1-2 days),87,10181.02,1.51,2,10101.52
+Standard Class,South Asia,Fan Shop,Minor Delay (1-2 days),600,150183.03,1.51,2,144520.62
+Standard Class,Southeast Asia,Discs Shop,Minor Delay (1-2 days),137,15719.79,1.51,2,14535.06
+Standard Class,West Africa,Apparel,Minor Delay (1-2 days),247,40364.52,1.51,2,38034.85
+Standard Class,West Asia,Apparel,Minor Delay (1-2 days),392,65171.19,1.51,2,63451.43
+Standard Class,West Asia,Footwear,Minor Delay (1-2 days),140,35839.79,1.51,2,34404.94
+Standard Class,West of USA ,Outdoors,Minor Delay (1-2 days),104,9452.96,1.51,2,8552.22
+Standard Class,Western Europe,Apparel,Minor Delay (1-2 days),1726,300324.07,1.51,2,285347.2
+Standard Class,Western Europe,Golf,Minor Delay (1-2 days),1157,160904.04,1.51,2,152854.7
+Standard Class,Western Europe,Outdoors,Minor Delay (1-2 days),336,49593.84,1.51,2,47080.22
+Standard Class,Canada,Outdoors,Minor Delay (1-2 days),10,970.67,1.5,2,970.67
+Standard Class,Caribbean,Outdoors,Minor Delay (1-2 days),98,9729.21,1.5,2,9558.27
+Standard Class,Central America,Outdoors,Minor Delay (1-2 days),370,42144.22,1.5,2,41178.52
+Standard Class,Central Asia,Fitness,Minor Delay (1-2 days),2,124.95,1.5,2,124.95
+Standard Class,Central Asia,Footwear,Minor Delay (1-2 days),16,3448.58,1.5,2,3448.58
+Standard Class,East of USA,Golf,Minor Delay (1-2 days),329,43106.86,1.5,2,41686.94
+Standard Class,Eastern Asia,Book Shop,Minor Delay (1-2 days),2,62.16,1.5,2,62.16
+Standard Class,Oceania,Apparel,Minor Delay (1-2 days),654,108948.92,1.5,2,106350.17
+Standard Class,Oceania,Health and Beauty ,Minor Delay (1-2 days),20,5860.8,1.5,2,5567.76
+Standard Class,Oceania,Outdoors,Minor Delay (1-2 days),129,22902.77,1.5,2,22812.83
+Standard Class,Oceania,Pet Shop,Minor Delay (1-2 days),34,2869.6,1.5,2,2616.4
+Standard Class,South America,Fan Shop,Minor Delay (1-2 days),1408,359164.13,1.5,2,342175.72
+Standard Class,South America,Footwear,Minor Delay (1-2 days),289,79057.37,1.5,2,76517.66
+Standard Class,South Asia,Book Shop,Minor Delay (1-2 days),2,62.16,1.5,2,62.16
+Standard Class,Southeast Asia,Apparel,Minor Delay (1-2 days),622,107835.53,1.5,2,104950.96
+Standard Class,Southeast Asia,Footwear,Minor Delay (1-2 days),139,35109.06,1.5,2,33709.2
+Standard Class,Southeast Asia,Golf,Minor Delay (1-2 days),357,48241.7,1.5,2,46911.77
+Standard Class,Southern Europe,Technology,Minor Delay (1-2 days),48,38820.92,1.5,2,35368.88
+Standard Class,West Asia,Golf,Minor Delay (1-2 days),252,35442.37,1.5,2,33722.55
+Standard Class,West of USA ,Fan Shop,Minor Delay (1-2 days),692,175400.38,1.5,2,169251.0
+Standard Class,Central America,Fitness,Minor Delay (1-2 days),79,9981.37,1.49,2,9834.37
+Standard Class,Central America,Footwear,Minor Delay (1-2 days),586,162376.42,1.49,2,155382.16
+Standard Class,East Africa,Golf,Minor Delay (1-2 days),75,10709.16,1.49,2,10279.23
+Standard Class,South America,Golf,Minor Delay (1-2 days),724,102738.13,1.49,2,96028.51
+Standard Class,South Asia,Golf,Minor Delay (1-2 days),304,39931.88,1.49,2,38122.02
+Standard Class,Southern Europe,Apparel,Minor Delay (1-2 days),596,98119.19,1.49,2,92484.09
+Standard Class,Southern Europe,Golf,Minor Delay (1-2 days),399,55286.5,1.49,2,51936.77
+Standard Class,Western Europe,Fan Shop,Minor Delay (1-2 days),2349,614979.44,1.49,2,584136.57
+Standard Class,Western Europe,Footwear,Minor Delay (1-2 days),506,145359.2,1.49,2,138536.91
+Standard Class,Western Europe,Technology,Minor Delay (1-2 days),157,126825.12,1.49,2,123860.0
+Standard Class,Caribbean,Apparel,Minor Delay (1-2 days),494,76919.78,1.48,2,72140.46
+Standard Class,Caribbean,Footwear,Minor Delay (1-2 days),173,43420.25,1.48,2,40935.56
+Standard Class,Oceania,Fan Shop,Minor Delay (1-2 days),856,212961.9,1.48,2,209300.72
+Standard Class,Southern Europe,Fan Shop,Minor Delay (1-2 days),792,202950.82,1.48,2,195001.75
+Standard Class,Southern Europe,Outdoors,Minor Delay (1-2 days),122,18142.07,1.48,2,16799.4
+Standard Class,US Center ,Fan Shop,Minor Delay (1-2 days),499,127986.03,1.48,2,122586.52
+Standard Class,US Center ,Outdoors,Minor Delay (1-2 days),65,5335.98,1.48,2,4780.14
+Standard Class,Western Europe,Book Shop,Minor Delay (1-2 days),56,1740.48,1.48,2,1678.32
+Standard Class,Caribbean,Golf,Minor Delay (1-2 days),363,49356.15,1.47,2,47116.46
+Standard Class,Central Africa,Golf,Minor Delay (1-2 days),91,12829.07,1.47,2,12229.17
+Standard Class,Central Asia,Fan Shop,Minor Delay (1-2 days),47,12698.66,1.47,2,11398.73
+Standard Class,East Africa,Apparel,Minor Delay (1-2 days),133,20387.29,1.47,2,19877.34
+Standard Class,East Africa,Fan Shop,Minor Delay (1-2 days),174,47874.71,1.47,2,46724.93
+Standard Class,South of  USA ,Golf,Minor Delay (1-2 days),191,26008.09,1.47,2,24458.34
+Standard Class,US Center ,Apparel,Minor Delay (1-2 days),380,59792.25,1.47,2,57672.51
+Standard Class,West Asia,Fan Shop,Minor Delay (1-2 days),513,130694.01,1.47,2,125344.57
+Standard Class,Central Africa,Fan Shop,Minor Delay (1-2 days),170,44345.62,1.46,2,41745.79
+Standard Class,Southern Europe,Footwear,Minor Delay (1-2 days),154,45341.3,1.46,2,44391.38
+Standard Class,US Center ,Golf,Minor Delay (1-2 days),260,35087.9,1.46,2,34407.92
+Standard Class,West Africa,Fitness,Minor Delay (1-2 days),13,889.85,1.46,2,714.9
+Standard Class,Central Asia,Apparel,Minor Delay (1-2 days),38,6649.09,1.45,2,6649.09
+Standard Class,Eastern Europe,Fitness,Minor Delay (1-2 days),11,1147.78,1.45,2,1147.78
+Standard Class,South Asia,Fitness,Minor Delay (1-2 days),38,8975.2,1.45,2,8622.46
+Standard Class,Southeast Asia,Book Shop,Minor Delay (1-2 days),11,341.88,1.45,2,310.8
+Standard Class,Southern Europe,Fitness,Minor Delay (1-2 days),29,4575.56,1.45,2,4575.56
+Standard Class,Canada,Footwear,Minor Delay (1-2 days),18,5132.46,1.44,2,5032.47
+Standard Class,East Africa,Footwear,Minor Delay (1-2 days),50,15422.43,1.44,2,13522.62
+Standard Class,South Asia,Health and Beauty ,Minor Delay (1-2 days),16,4688.64,1.44,2,4395.6
+Standard Class,Southeast Asia,Outdoors,Minor Delay (1-2 days),131,23186.27,1.44,2,22011.18
+Standard Class,Southeast Asia,Technology,Minor Delay (1-2 days),25,21685.76,1.44,2,18180.0
+Standard Class,West Africa,Footwear,Minor Delay (1-2 days),70,19640.88,1.44,2,19140.93
+Standard Class,Northern Europe,Discs Shop,Minor Delay (1-2 days),23,2862.2,1.43,2,2862.2
+Standard Class,Southeast Asia,Health and Beauty ,Minor Delay (1-2 days),30,8791.2,1.43,2,8791.2
+Standard Class,West Asia,Outdoors,Minor Delay (1-2 days),72,5632.9,1.43,2,5447.99
+Standard Class,West Africa,Fan Shop,Minor Delay (1-2 days),340,88319.38,1.42,2,83719.84
+Standard Class,West Africa,Golf,Minor Delay (1-2 days),167,22858.51,1.41,2,22158.56
+Standard Class,Central Africa,Fitness,Minor Delay (1-2 days),5,676.87,1.4,2,496.91
+Standard Class,Oceania,Discs Shop,Minor Delay (1-2 days),107,13241.14,1.4,2,12940.74
+Standard Class,Southern Africa,Footwear,Minor Delay (1-2 days),31,8448.86,1.39,2,8448.86
+Standard Class,Central Africa,Footwear,Minor Delay (1-2 days),40,10139.72,1.38,2,9899.78
+Standard Class,Central Asia,Golf,Minor Delay (1-2 days),26,3859.76,1.38,2,3709.76
+Standard Class,South America,Fitness,Minor Delay (1-2 days),48,7875.72,1.35,2,7775.76
+Standard Class,Southern Europe,Discs Shop,Minor Delay (1-2 days),20,2062.88,1.35,2,2062.88
+Standard Class,East Africa,Fitness,Minor Delay (1-2 days),3,207.98,1.33,2,207.98
+Standard Class,Northern Europe,Book Shop,Minor Delay (1-2 days),9,279.72,1.33,2,279.72
+Standard Class,South of  USA ,Outdoors,Minor Delay (1-2 days),48,4671.68,1.33,2,4621.73
+Standard Class,Canada,Fitness,On Time,2,149.96,-0.5,0,0.0
+Standard Class,Central Asia,Footwear,On Time,9,2243.65,-0.67,0,0.0
+Standard Class,Oceania,Pet Shop,On Time,36,3038.4,-0.72,0,0.0
+Standard Class,Central Asia,Golf,On Time,28,3759.76,-0.75,0,0.0
+Standard Class,East of USA,Fitness,On Time,23,2445.62,-0.78,0,0.0
+Standard Class,Eastern Asia,Book Shop,On Time,9,279.72,-0.78,0,0.0
+Standard Class,East Africa,Outdoors,On Time,35,3296.01,-0.8,0,0.0
+Standard Class,Central Africa,Outdoors,On Time,26,2584.31,-0.81,0,0.0
+Standard Class,Northern Europe,Book Shop,On Time,18,559.44,-0.83,0,0.0
+Standard Class,Southeast Asia,Book Shop,On Time,12,372.96,-0.83,0,0.0
+Standard Class,Oceania,Fitness,On Time,68,14694.44,-0.85,0,0.0
+Standard Class,Central Asia,Outdoors,On Time,7,647.82,-0.86,0,0.0
+Standard Class,Northern Europe,Fitness,On Time,39,6350.23,-0.87,0,0.0
+Standard Class,North Africa,Outdoors,On Time,57,4634.33,-0.88,0,0.0
+Standard Class,West Asia,Outdoors,On Time,122,10139.78,-0.88,0,0.0
+Standard Class,US Center ,Outdoors,On Time,121,9635.49,-0.89,0,0.0
+Standard Class,West Africa,Apparel,On Time,360,56522.55,-0.89,0,0.0
+Standard Class,West of USA ,Fitness,On Time,37,3986.31,-0.89,0,0.0
+Standard Class,US Center ,Fan Shop,On Time,796,208275.11,-0.9,0,0.0
+Standard Class,West Africa,Footwear,On Time,109,27365.83,-0.9,0,0.0
+Standard Class,Caribbean,Golf,On Time,593,80694.55,-0.91,0,0.0
+Standard Class,South Asia,Fitness,On Time,53,12675.08,-0.91,0,0.0
+Standard Class,Southern Africa,Apparel,On Time,131,19737.55,-0.91,0,0.0
+Standard Class,US Center ,Golf,On Time,391,53381.45,-0.91,0,0.0
+Standard Class,West Africa,Golf,On Time,282,37742.15,-0.91,0,0.0
+Standard Class,Eastern Asia,Health and Beauty ,On Time,26,7619.04,-0.92,0,0.0
+Standard Class,South Asia,Discs Shop,On Time,132,15464.42,-0.92,0,0.0
+Standard Class,Southeast Asia,Technology,On Time,38,25172.36,-0.92,0,0.0
+Standard Class,Central Africa,Golf,On Time,111,16418.87,-0.93,0,0.0
+Standard Class,Oceania,Health and Beauty ,On Time,30,8791.2,-0.93,0,0.0
+Standard Class,West Africa,Outdoors,On Time,76,6630.96,-0.93,0,0.0
+Standard Class,West Asia,Apparel,On Time,603,94967.6,-0.93,0,0.0
+Standard Class,Caribbean,Fan Shop,On Time,1217,316069.53,-0.94,0,0.0
+Standard Class,Eastern Asia,Fitness,On Time,48,10570.12,-0.94,0,0.0
+Standard Class,Eastern Europe,Fitness,On Time,16,1538.71,-0.94,0,0.0
+Standard Class,North Africa,Apparel,On Time,312,49243.46,-0.94,0,0.0
+Standard Class,Oceania,Discs Shop,On Time,152,17940.34,-0.94,0,0.0
+Standard Class,Oceania,Footwear,On Time,285,78577.07,-0.94,0,0.0
+Standard Class,US Center ,Apparel,On Time,566,88128.6,-0.94,0,0.0
+Standard Class,US Center ,Footwear,On Time,144,38308.87,-0.94,0,0.0
+Standard Class,Western Europe,Book Shop,On Time,78,2424.24,-0.94,0,0.0
+Standard Class,Caribbean,Footwear,On Time,265,72697.95,-0.95,0,0.0
+Standard Class,East Africa,Apparel,On Time,187,29616.02,-0.95,0,0.0
+Standard Class,East Africa,Golf,On Time,115,14888.98,-0.95,0,0.0
+Standard Class,North Africa,Footwear,On Time,118,30093.14,-0.95,0,0.0
+Standard Class,Northern Europe,Footwear,On Time,300,91578.84,-0.95,0,0.0
+Standard Class,North Africa,Golf,On Time,212,29747.92,-0.96,0,0.0
+Standard Class,Oceania,Golf,On Time,587,81969.56,-0.96,0,0.0
+Standard Class,Oceania,Outdoors,On Time,203,35341.65,-0.96,0,0.0
+Standard Class,South America,Apparel,On Time,1447,225650.4,-0.96,0,0.0
+Standard Class,Southern Africa,Fan Shop,On Time,159,40645.54,-0.96,0,0.0
+Standard Class,West Africa,Fan Shop,On Time,532,136674.58,-0.96,0,0.0
+Standard Class,Caribbean,Apparel,On Time,886,141121.4,-0.97,0,0.0
+Standard Class,East of USA,Golf,On Time,497,68610.32,-0.97,0,0.0
+Standard Class,Eastern Europe,Fan Shop,On Time,500,129694.06,-0.97,0,0.0
+Standard Class,Southeast Asia,Footwear,On Time,229,61082.98,-0.97,0,0.0
+Standard Class,Southern Europe,Apparel,On Time,980,168970.7,-0.97,0,0.0
+Standard Class,Southern Europe,Footwear,On Time,259,76315.33,-0.97,0,0.0
+Standard Class,Western Europe,Discs Shop,On Time,68,7197.5,-0.97,0,0.0
+Standard Class,Western Europe,Fitness,On Time,119,23212.94,-0.97,0,0.0
+Standard Class,East of USA,Fan Shop,On Time,926,238703.73,-0.98,0,0.0
+Standard Class,Eastern Asia,Golf,On Time,440,59485.71,-0.98,0,0.0
+Standard Class,Eastern Asia,Pet Shop,On Time,48,4051.2,-0.98,0,0.0
+Standard Class,North Africa,Fan Shop,On Time,492,129366.02,-0.98,0,0.0
+Standard Class,West Asia,Fan Shop,On Time,795,203567.0,-0.98,0,0.0
+Standard Class,West of USA ,Golf,On Time,551,76104.17,-0.98,0,0.0
+Standard Class,East of USA,Apparel,On Time,625,99926.82,-0.99,0,0.0
+Standard Class,East of USA,Footwear,On Time,230,64745.82,-0.99,0,0.0
+Standard Class,Eastern Asia,Apparel,On Time,670,110270.38,-0.99,0,0.0
+Standard Class,Eastern Europe,Apparel,On Time,378,61031.88,-0.99,0,0.0
+Standard Class,Eastern Europe,Footwear,On Time,127,33786.66,-0.99,0,0.0
+Standard Class,Oceania,Apparel,On Time,982,166687.33,-0.99,0,0.0
+Standard Class,Southern Europe,Fan Shop,On Time,1255,328293.74,-0.99,0,0.0
+Standard Class,Canada,Outdoors,On Time,21,2045.44,-1.0,0,0.0
+Standard Class,Caribbean,Fitness,On Time,38,4310.35,-1.0,0,0.0
+Standard Class,Caribbean,Outdoors,On Time,166,17917.65,-1.0,0,0.0
+Standard Class,Central Africa,Apparel,On Time,148,22466.99,-1.0,0,0.0
+Standard Class,Central America,Apparel,On Time,2781,437982.24,-1.0,0,0.0
+Standard Class,Central America,Footwear,On Time,829,229894.74,-1.0,0,0.0
+Standard Class,Central America,Golf,On Time,1963,275474.86,-1.0,0,0.0
+Standard Class,East Africa,Fitness,On Time,3,359.9,-1.0,0,0.0
+Standard Class,East of USA,Outdoors,On Time,117,10847.59,-1.0,0,0.0
+Standard Class,Eastern Asia,Fan Shop,On Time,934,233853.11,-1.0,0,0.0
+Standard Class,North Africa,Fitness,On Time,14,1458.71,-1.0,0,0.0
+Standard Class,Northern Europe,Apparel,On Time,979,163770.36,-1.0,0,0.0
+Standard Class,Northern Europe,Discs Shop,On Time,33,3740.55,-1.0,0,0.0
+Standard Class,South Asia,Health and Beauty ,On Time,33,9670.32,-1.0,0,0.0
+Standard Class,Southeast Asia,Pet Shop,On Time,46,3882.4,-1.0,0,0.0
+Standard Class,Southern Africa,Fitness,On Time,7,974.8,-1.0,0,0.0
+Standard Class,Southern Europe,Discs Shop,On Time,23,1790.57,-1.0,0,0.0
+Standard Class,Southern Europe,Golf,On Time,630,87953.97,-1.0,0,0.0
+Standard Class,West of USA ,Apparel,On Time,819,129342.85,-1.0,0,0.0
+Standard Class,Western Europe,Footwear,On Time,805,232180.26,-1.0,0,0.0
+Standard Class,Western Europe,Outdoors,On Time,468,69482.46,-1.0,0,0.0
+Standard Class,Central America,Fan Shop,On Time,3949,1012983.82,-1.01,0,0.0
+Standard Class,East Africa,Fan Shop,On Time,262,68792.65,-1.01,0,0.0
+Standard Class,Eastern Asia,Discs Shop,On Time,162,18281.52,-1.01,0,0.0
+Standard Class,Northern Europe,Outdoors,On Time,160,22411.43,-1.01,0,0.0
+Standard Class,Northern Europe,Technology,On Time,106,79165.36,-1.01,0,0.0
+Standard Class,Oceania,Fan Shop,On Time,1281,319670.19,-1.01,0,0.0
+Standard Class,South Asia,Apparel,On Time,774,133576.15,-1.01,0,0.0
+Standard Class,South Asia,Outdoors,On Time,159,27964.94,-1.01,0,0.0
+Standard Class,South of  USA ,Golf,On Time,272,38152.35,-1.01,0,0.0
+Standard Class,Southern Europe,Technology,On Time,98,71807.68,-1.01,0,0.0
+Standard Class,West Asia,Footwear,On Time,168,44396.03,-1.01,0,0.0
+Standard Class,Western Europe,Fan Shop,On Time,3388,871487.21,-1.01,0,0.0
+Standard Class,East Africa,Footwear,On Time,52,16275.17,-1.02,0,0.0
+Standard Class,Eastern Asia,Outdoors,On Time,172,38636.91,-1.02,0,0.0
+Standard Class,South America,Fan Shop,On Time,2089,532797.41,-1.02,0,0.0
+Standard Class,South America,Fitness,On Time,55,7199.96,-1.02,0,0.0
+Standard Class,South Asia,Fan Shop,On Time,897,226959.28,-1.02,0,0.0
+Standard Class,West of USA ,Outdoors,On Time,141,12038.83,-1.02,0,0.0
+Standard Class,Western Europe,Technology,On Time,220,176618.48,-1.02,0,0.0
+Standard Class,Central Asia,Fan Shop,On Time,72,20197.84,-1.03,0,0.0
+Standard Class,South Asia,Footwear,On Time,199,54177.74,-1.03,0,0.0
+Standard Class,West of USA ,Fan Shop,On Time,1137,293748.05,-1.03,0,0.0
+Standard Class,Western Europe,Golf,On Time,1739,242067.06,-1.03,0,0.0
+Standard Class,Central America,Outdoors,On Time,549,59275.95,-1.04,0,0.0
+Standard Class,South America,Golf,On Time,1059,149204.55,-1.04,0,0.0
+Standard Class,South Asia,Golf,On Time,422,60570.55,-1.04,0,0.0
+Standard Class,Southeast Asia,Apparel,On Time,859,149739.79,-1.04,0,0.0
+Standard Class,Southeast Asia,Fan Shop,On Time,1200,291441.13,-1.04,0,0.0
+Standard Class,West Asia,Golf,On Time,435,57621.28,-1.04,0,0.0
+Standard Class,Western Europe,Apparel,On Time,2571,433172.33,-1.04,0,0.0
+Standard Class,Canada,Footwear,On Time,43,12634.49,-1.05,0,0.0
+Standard Class,Central America,Fitness,On Time,131,16925.27,-1.05,0,0.0
+Standard Class,Oceania,Technology,On Time,21,12793.2,-1.05,0,0.0
+Standard Class,South of  USA ,Fan Shop,On Time,537,138584.8,-1.05,0,0.0
+Standard Class,Canada,Fan Shop,On Time,134,33605.83,-1.06,0,0.0
+Standard Class,Eastern Asia,Footwear,On Time,185,48624.25,-1.06,0,0.0
+Standard Class,Northern Europe,Fan Shop,On Time,1293,339349.18,-1.06,0,0.0
+Standard Class,South of  USA ,Footwear,On Time,106,27755.79,-1.06,0,0.0
+Standard Class,West Africa,Fitness,On Time,18,2032.66,-1.06,0,0.0
+Standard Class,Canada,Golf,On Time,82,12184.14,-1.07,0,0.0
+Standard Class,Central Africa,Fan Shop,On Time,213,54863.14,-1.07,0,0.0
+Standard Class,Central Africa,Footwear,On Time,43,12176.71,-1.07,0,0.0
+Standard Class,South America,Outdoors,On Time,324,37665.12,-1.07,0,0.0
+Standard Class,Southeast Asia,Discs Shop,On Time,178,18770.61,-1.07,0,0.0
+Standard Class,Northern Europe,Golf,On Time,635,88384.59,-1.08,0,0.0
+Standard Class,South America,Footwear,On Time,444,122762.05,-1.08,0,0.0
+Standard Class,South of  USA ,Apparel,On Time,400,61352.13,-1.08,0,0.0
+Standard Class,Southeast Asia,Golf,On Time,517,71790.24,-1.08,0,0.0
+Standard Class,Southeast Asia,Health and Beauty ,On Time,39,11428.56,-1.08,0,0.0
+Standard Class,US Center ,Fitness,On Time,39,4231.2,-1.08,0,0.0
+Standard Class,West of USA ,Footwear,On Time,249,69272.39,-1.08,0,0.0
+Standard Class,Central Africa,Fitness,On Time,11,1236.83,-1.09,0,0.0
+Standard Class,Canada,Apparel,On Time,119,19167.4,-1.1,0,0.0
+Standard Class,Eastern Europe,Golf,On Time,272,36612.43,-1.1,0,0.0
+Standard Class,Southern Africa,Outdoors,On Time,29,2601.1,-1.1,0,0.0
+Standard Class,Eastern Asia,Technology,On Time,19,23511.52,-1.11,0,0.0
+Standard Class,South Asia,Pet Shop,On Time,19,1603.6,-1.11,0,0.0
+Standard Class,Southern Africa,Footwear,On Time,35,10090.96,-1.11,0,0.0
+Standard Class,Southern Africa,Golf,On Time,84,11819.08,-1.11,0,0.0
+Standard Class,Central Asia,Apparel,On Time,59,8758.89,-1.12,0,0.0
+Standard Class,Southeast Asia,Fitness,On Time,65,15350.12,-1.12,0,0.0
+Standard Class,Southern Europe,Outdoors,On Time,179,25731.06,-1.15,0,0.0
+Standard Class,Southeast Asia,Outdoors,On Time,196,39980.24,-1.16,0,0.0
+Standard Class,Southern Europe,Fitness,On Time,51,8682.14,-1.16,0,0.0
+Standard Class,South of  USA ,Fitness,On Time,24,2519.52,-1.17,0,0.0
+Standard Class,Eastern Europe,Outdoors,On Time,71,6137.94,-1.18,0,0.0
+Standard Class,Oceania,Book Shop,On Time,10,310.8,-1.2,0,0.0
+Standard Class,South Asia,Book Shop,On Time,5,155.4,-1.2,0,0.0
+Standard Class,South of  USA ,Outdoors,On Time,75,6859.7,-1.24,0,0.0
+Standard Class,South Asia,Technology,On Time,20,10245.24,-1.3,0,0.0
+Standard Class,Southern Europe,Book Shop,On Time,13,404.04,-1.31,0,0.0
+Standard Class,West Asia,Fitness,On Time,30,2989.46,-1.37,0,0.0
