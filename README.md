@@ -20,3 +20,19 @@ Built using real-world datasets from Kaggle and Python-based tools.
 
 ## Tech Stack
 Python | Pandas | NumPy | Matplotlib | Seaborn | Streamlit | Plotly | Scipy | Kaggle API
+
+---
+
+## Certification Project
+
+| Project | Tools | Key Skills |
+|---------|-------|------------|
+| [Automatidata × NYC TLC — Taxi Fare Prediction](https://github.com/Zolow-kuni/automatidata-nyc-tlc) | Python · Pandas · Matplotlib · Seaborn | EDA, PACE workflow, outlier analysis, regression prep, executive summary |
+
+*Completed as part of the [Google Advanced Data Analytics Certificate](https://www.coursera.org/professional-certificates/google-advanced-data-analytics).*
+
+---
+
+## More Projects
+
+Projects 5–8 (SQL, Power BI, R, Python Automation) are in [data-portfolio-2](https://github.com/Zolow-kuni/data-portfolio-2).
